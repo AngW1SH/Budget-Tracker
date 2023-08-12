@@ -1,5 +1,7 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import { Container } from "@/shared/ui";
+</script>
 
 <template>
-  <div>Home</div>
+  <Container>123</Container>
 </template>
