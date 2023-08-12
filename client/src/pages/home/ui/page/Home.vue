@@ -1,7 +1,7 @@
 <script setup lang="ts">
-import { Container } from "@/shared/ui";
+import { Header } from "@/widgets/header";
 </script>
 
 <template>
-  <Container>123</Container>
+  <Header />
 </template>
