@@ -1,0 +1,22 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`ProgressBar shared UI-component > snapshot UI 1`] = `
+<div
+  class="flex justify-between items-center"
+>
+  <div
+    class="relative mt-px w-full h-2 bg-[#F4EBFF] rounded-lg"
+  >
+    <div
+      class="relative h-full bg-[#7F56D9] rounded-lg"
+      style="width: 20%;"
+    />
+    <!--v-if-->
+  </div>
+  <div
+    class="w-max ml-[0.625rem] text-sm text-[#344054] font-medium"
+  >
+    20%
+  </div>
+</div>
+`;

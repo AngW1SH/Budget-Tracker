@@ -2,10 +2,10 @@
 
 exports[`Header Widget UI > snapshot UI testing 1`] = `
 <div
-  class="py-6 shadow-md"
+  class="py-6 shadow-center-md"
 >
   <div
-    class="w-8/12 mx-auto flex items-center"
+    class="w-9/12 mx-auto flex items-center"
   >
     
     <router-link
