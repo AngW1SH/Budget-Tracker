@@ -1,9 +1,9 @@
 import { describe, expect, test } from "vitest";
 import { mount } from "@vue/test-utils";
-import Header from "../header/ui/Header/Header.vue";
-import Logo from "../header/ui/Logo/Logo.vue";
-import Menu from "../header/ui/Menu/Menu.vue";
-import User from "../header/ui/User/User.vue";
+import Header from "../ui/Header/Header.vue";
+import Logo from "../ui/Logo/Logo.vue";
+import Menu from "../ui/Menu/Menu.vue";
+import User from "../ui/User/User.vue";
 
 describe("Header Widget UI", () => {
   test("contains UI-elements", () => {

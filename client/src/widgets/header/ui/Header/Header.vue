@@ -6,7 +6,7 @@ import User from "../User/User.vue";
 </script>
 
 <template>
-  <div class="py-6 shadow-md">
+  <div class="py-6 shadow-center-md">
     <Container class="flex items-center">
       <Logo class="mr-14" />
       <Menu class="mt-[0.4rem]" />
