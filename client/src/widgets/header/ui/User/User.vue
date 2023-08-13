@@ -4,7 +4,7 @@ import { SignupButton, LoginButton } from "@/features/auth";
 
 <template>
   <div>
-    <LoginButton class="mr-6" />
-    <SignupButton />
+    <router-link to="/login"><LoginButton class="mr-6" /></router-link>
+    <router-link to="/login"><SignupButton /></router-link>
   </div>
 </template>
