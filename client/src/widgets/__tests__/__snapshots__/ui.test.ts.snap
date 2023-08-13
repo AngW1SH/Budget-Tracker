@@ -1,0 +1,84 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Header Widget UI > snapshot UI testing 1`] = `
+<div
+  class="py-6 shadow-md"
+>
+  <div
+    class="w-8/12 mx-auto flex items-center"
+  >
+    
+    <router-link
+      class="mr-14"
+      to="/"
+    >
+      <div
+        class="flex items-center"
+      >
+        <div
+          class="h-4 w-4 rounded-full bg-purple-800 mr-3 mt-[3px]"
+        />
+        <h1
+          class="text-2xl font-medium"
+        >
+          Budget Tracker
+        </h1>
+      </div>
+    </router-link>
+    <ul
+      class="flex text-gray-500 font-semibold mt-[0.4rem]"
+    >
+      <li
+        class="mr-12"
+      >
+        <router-link
+          to="/categories"
+        >
+          Categories
+        </router-link>
+      </li>
+      <li
+        class="mr-12"
+      >
+        <router-link
+          to="/about"
+        >
+          About
+        </router-link>
+      </li>
+      <li>
+        <router-link
+          to="/pricing"
+        >
+          Pricing
+        </router-link>
+      </li>
+    </ul>
+    <div
+      class="ml-auto"
+    >
+      <router-link
+        to="/login"
+      >
+        <button
+          class="text-gray-500 font-semibold mr-6"
+        >
+          Login
+        </button>
+      </router-link>
+      <router-link
+        to="/login"
+      >
+        <button
+          class="text-center text-white font-semibold bg-purple-800 py-[0.675rem] px-5 rounded-md"
+        >
+          
+          Sign Up
+          
+        </button>
+      </router-link>
+    </div>
+    
+  </div>
+</div>
+`;
