@@ -48,3 +48,13 @@ export const monthNames = [
   "November",
   "December",
 ];
+
+export const shortWeekDayNames = [
+  "MON",
+  "TUE",
+  "WED",
+  "THU",
+  "FRI",
+  "SAT",
+  "SUN",
+];

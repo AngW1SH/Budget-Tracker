@@ -5,7 +5,7 @@ import { createPinia } from "pinia";
 import { Home } from "@/pages/home";
 import { createRouter, createWebHistory } from "vue-router";
 
-const routes = [{ path: "/", component: Home }];
+export const routes = [{ path: "/", component: Home }];
 
 const router = createRouter({ routes, history: createWebHistory() });
 

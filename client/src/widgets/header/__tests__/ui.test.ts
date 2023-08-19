@@ -4,16 +4,34 @@ import Header from "../ui/Header/Header.vue";
 import Logo from "../ui/Logo/Logo.vue";
 import Menu from "../ui/Menu/Menu.vue";
 import User from "../ui/User/User.vue";
+import { routes } from "@/app/main";
+import { createMemoryHistory, createRouter } from "vue-router";
 
 describe("Header Widget UI", () => {
   test("contains UI-elements", () => {
-    const header = mount(Header);
+    const router = createRouter({
+      history: createMemoryHistory(),
+      routes,
+    });
+    const header = mount(Header, {
+      global: {
+        plugins: [router],
+      },
+    });
     expect(header.findComponent(Logo).exists()).toBe(true);
     expect(header.findComponent(Menu).exists()).toBe(true);
     expect(header.findComponent(User).exists()).toBe(true);
   });
   test("snapshot UI testing", () => {
-    const header = mount(Header);
+    const router = createRouter({
+      history: createMemoryHistory(),
+      routes,
+    });
+    const header = mount(Header, {
+      global: {
+        plugins: [router],
+      },
+    });
     expect(header.element).toMatchSnapshot();
   });
 });

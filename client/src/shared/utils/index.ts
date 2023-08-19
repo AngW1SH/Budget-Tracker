@@ -1,3 +1,7 @@
-import { generateMonth } from "./Calendar/calendar";
+import {
+  generateMonth,
+  shortWeekDayNames,
+  monthNames,
+} from "./Calendar/calendar";
 
-export { generateMonth };
+export { generateMonth, shortWeekDayNames, monthNames };

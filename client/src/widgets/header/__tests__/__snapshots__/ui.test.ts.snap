@@ -8,9 +8,9 @@ exports[`Header Widget UI > snapshot UI testing 1`] = `
     class="w-9/12 mx-auto flex items-center"
   >
     
-    <router-link
+    <a
       class="mr-14"
-      to="/"
+      href="/"
     >
       <div
         class="flex items-center"
@@ -24,50 +24,55 @@ exports[`Header Widget UI > snapshot UI testing 1`] = `
           Budget Tracker
         </h1>
       </div>
-    </router-link>
+    </a>
     <ul
       class="flex text-gray-500 font-semibold mt-[0.4rem]"
     >
       <li
         class="mr-12"
       >
-        <router-link
-          to="/categories"
+        <a
+          class=""
+          href="/categories"
         >
           Categories
-        </router-link>
+        </a>
       </li>
       <li
         class="mr-12"
       >
-        <router-link
-          to="/about"
+        <a
+          class=""
+          href="/about"
         >
           About
-        </router-link>
+        </a>
       </li>
       <li>
-        <router-link
-          to="/pricing"
+        <a
+          class=""
+          href="/pricing"
         >
           Pricing
-        </router-link>
+        </a>
       </li>
     </ul>
     <div
       class="ml-auto"
     >
-      <router-link
-        to="/login"
+      <a
+        class=""
+        href="/login"
       >
         <button
           class="text-gray-500 font-semibold mr-6"
         >
           Login
         </button>
-      </router-link>
-      <router-link
-        to="/login"
+      </a>
+      <a
+        class=""
+        href="/login"
       >
         <button
           class="text-center text-white font-semibold bg-purple-800 py-[0.675rem] px-5 rounded-md"
@@ -76,7 +81,7 @@ exports[`Header Widget UI > snapshot UI testing 1`] = `
           Sign Up
           
         </button>
-      </router-link>
+      </a>
     </div>
     
   </div>
