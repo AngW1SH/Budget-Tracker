@@ -6,6 +6,7 @@ import { UserMonthCalendar } from "@/widgets/UserMonthCalendar";
 import { UserMonthCashFlow } from "@/widgets/UserMonthCashFlow";
 import { TodayBlock } from "@/widgets/TodayBlock";
 import { CashFlowGraph } from "@/widgets/CashFlowGraph";
+import { Footer } from "@/widgets/Footer";
 import { Container } from "@/shared/ui";
 </script>
 
@@ -19,4 +20,5 @@ import { Container } from "@/shared/ui";
     <TodayBlock class="col-span-6" />
     <CashFlowGraph class="col-span-6" />
   </Container>
+  <Footer class="mt-9" />
 </template>
