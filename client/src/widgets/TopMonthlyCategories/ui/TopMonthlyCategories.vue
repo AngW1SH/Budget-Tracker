@@ -6,7 +6,7 @@ import { LearnMoreButton } from "@/shared/ui";
 
 <template>
   <Block class="relative">
-    <h2 class="text-xl text-[#101828] font-medium mb-6">
+    <h2 class="text-xl text-title-900 font-medium mb-6">
       Top monthly categories
     </h2>
     <CategoryList />

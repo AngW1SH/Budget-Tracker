@@ -5,7 +5,7 @@ import { OverallBudgetProgress } from "@/entities/UserMonth";
 
 <template>
   <Block>
-    <h2 class="text-xl text-[#101828] font-medium mb-6">
+    <h2 class="text-xl text--900 font-medium mb-6">
       Overall budget left for the current month
     </h2>
     <OverallBudgetProgress />

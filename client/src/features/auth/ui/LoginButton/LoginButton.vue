@@ -1,5 +1,5 @@
 <script setup lang="ts"></script>
 
 <template>
-  <button class="text-gray-500 font-semibold">Login</button>
+  <button class="text-title-400 font-semibold">Log in</button>
 </template>

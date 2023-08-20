@@ -32,7 +32,7 @@ const incrementMonth = () => {
           @click="decrementMonth"
         />
       </div>
-      <h3 class="font-semibold text-xl">
+      <h3 class="font-semibold text-xl text-title-900">
         {{ monthNames[date.getMonth()] }} {{ date.getFullYear() }}
       </h3>
       <div class="mr-6 w-[0.6rem]">
@@ -46,7 +46,7 @@ const incrementMonth = () => {
     </div>
     <ul class="flex my-3 mt-5">
       <li
-        class="w-full text-center text-xs font-medium"
+        class="w-full text-center text-xs font-medium text-title-900"
         v-for="day in shortWeekDayNames"
         :key="day"
       >
@@ -60,7 +60,7 @@ const incrementMonth = () => {
         :key="date.toString() + 'week' + weekindex"
       >
         <div
-          class="w-full flex justify-center items-center text-lg font-medium cursor-pointer"
+          class="w-full flex justify-center items-center text-lg text-title-900 font-medium cursor-pointer"
           v-for="(day, dayindex) in week"
           :key="date.toString() + 'day' + dayindex"
         >

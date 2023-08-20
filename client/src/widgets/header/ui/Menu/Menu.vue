@@ -1,7 +1,7 @@
 <script setup lang="ts"></script>
 
 <template>
-  <ul class="flex text-gray-500 font-semibold">
+  <ul class="flex text-title-400 font-semibold">
     <li class="mr-12">
       <router-link to="/categories">Categories</router-link>
     </li>

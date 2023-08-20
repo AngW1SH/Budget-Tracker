@@ -4,7 +4,7 @@ import { Container } from "@/shared/ui";
 
 <template>
   <footer class="bg-white shadow-center-md">
-    <Container class="py-7 text-right text-[#98A2B3]">
+    <Container class="py-7 text-right text-title-100">
       © 2023 Budget Tracker. All rights reserved
     </Container>
   </footer>
