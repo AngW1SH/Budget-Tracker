@@ -4,8 +4,12 @@ import App from "./App.vue";
 import { createPinia } from "pinia";
 import { Home } from "@/pages/home";
 import { createRouter, createWebHistory } from "vue-router";
+import { LogInPage } from "@/pages/signin";
 
-export const routes = [{ path: "/", component: Home }];
+export const routes = [
+  { path: "/", component: Home },
+  { path: "/signin", component: LogInPage },
+];
 
 const router = createRouter({ routes, history: createWebHistory() });
 

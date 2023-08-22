@@ -21,9 +21,11 @@ export default {
         200: "#757575",
         400: "#667085",
         600: "#344054",
+        700: "#4D4D4D",
         900: "#101828",
       },
-      white: "#FFFFFF"
+      white: "#FFFFFF",
+      black: "#000000"
     },
     plugins: [],
   }
