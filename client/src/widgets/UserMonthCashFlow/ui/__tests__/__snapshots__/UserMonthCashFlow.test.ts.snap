@@ -22,12 +22,12 @@ VueWrapper {
             class="w-full border-r border-[#CFCFCF] text-right pr-9 box-border"
           >
             <h2
-              class="font-medium mt-2 text-xl text-[#101828]"
+              class="font-medium mt-2 text-xl text-title-900"
             >
               July cash flow
             </h2>
             <h2
-              class="mt-4 font-bold text-5xl text-[#7F56D9]"
+              class="mt-4 font-bold text-5xl text-main-800"
             >
               +$2,150
             </h2>
@@ -43,12 +43,12 @@ VueWrapper {
               >
                 <div>
                   <p
-                    class="font-medium text-[#101828]"
+                    class="font-medium text-title-900"
                   >
                     Spent
                   </p>
                   <p
-                    class="font-medium text-[#7F56D9] text-2xl"
+                    class="font-medium text-main-800 text-2xl"
                   >
                     $1,150
                   </p>
@@ -57,22 +57,22 @@ VueWrapper {
                   class="mt-auto"
                 >
                   <p
-                    class="font-medium text-[#101828]"
+                    class="font-medium text-title-900"
                   >
                     Earned
                   </p>
                   <p
-                    class="font-medium text-[#7F56D9] text-2xl"
+                    class="font-medium text-main-800 text-2xl"
                   >
                     $2,300
                   </p>
                 </div>
               </div>
               <div
-                class="w-[0.625rem] bg-[#B692F6] relative rounded-md overflow-hidden"
+                class="w-[0.625rem] bg-main-500 relative rounded-md overflow-hidden"
               >
                 <div
-                  class="bg-[#7F56D9] absolute bottom-0 left-0 right-0"
+                  class="bg-main-800 absolute bottom-0 left-0 right-0"
                   style="height: 66.66666666666666%;"
                 />
               </div>
@@ -564,14 +564,14 @@ VueWrapper {
                                 "dynamicChildren": null,
                                 "dynamicProps": null,
                                 "el": <h2
-                                  class="font-medium mt-2 text-xl text-[#101828]"
+                                  class="font-medium mt-2 text-xl text-title-900"
                                 >
                                   July cash flow
                                 </h2>,
                                 "key": null,
                                 "patchFlag": 0,
                                 "props": {
-                                  "class": "font-medium mt-2 text-xl text-[#101828]",
+                                  "class": "font-medium mt-2 text-xl text-title-900",
                                 },
                                 "ref": null,
                                 "scopeId": null,
@@ -599,14 +599,14 @@ VueWrapper {
                                 "dynamicChildren": null,
                                 "dynamicProps": null,
                                 "el": <h2
-                                  class="mt-4 font-bold text-5xl text-[#7F56D9]"
+                                  class="mt-4 font-bold text-5xl text-main-800"
                                 >
                                   +$2,150
                                 </h2>,
                                 "key": null,
                                 "patchFlag": 0,
                                 "props": {
-                                  "class": "mt-4 font-bold text-5xl text-[#7F56D9]",
+                                  "class": "mt-4 font-bold text-5xl text-main-800",
                                 },
                                 "ref": null,
                                 "scopeId": null,
@@ -631,12 +631,12 @@ VueWrapper {
                               class="w-full border-r border-[#CFCFCF] text-right pr-9 box-border"
                             >
                               <h2
-                                class="font-medium mt-2 text-xl text-[#101828]"
+                                class="font-medium mt-2 text-xl text-title-900"
                               >
                                 July cash flow
                               </h2>
                               <h2
-                                class="mt-4 font-bold text-5xl text-[#7F56D9]"
+                                class="mt-4 font-bold text-5xl text-main-800"
                               >
                                 +$2,150
                               </h2>
@@ -838,12 +838,12 @@ VueWrapper {
                                         >
                                           <div>
                                             <p
-                                              class="font-medium text-[#101828]"
+                                              class="font-medium text-title-900"
                                             >
                                               Spent
                                             </p>
                                             <p
-                                              class="font-medium text-[#7F56D9] text-2xl"
+                                              class="font-medium text-main-800 text-2xl"
                                             >
                                               $1,150
                                             </p>
@@ -852,19 +852,19 @@ VueWrapper {
                                             class="mt-auto"
                                           >
                                             <p
-                                              class="font-medium text-[#101828]"
+                                              class="font-medium text-title-900"
                                             >
                                               Earned
                                             </p>
                                             <p
-                                              class="font-medium text-[#7F56D9] text-2xl"
+                                              class="font-medium text-main-800 text-2xl"
                                             >
                                               $2,300
                                             </p>
                                           </div>
                                         </div>,
                                         "appContext": null,
-                                        "children": "<div class=\\"flex flex-col\\"><div><p class=\\"font-medium text-[#101828]\\">Spent</p><p class=\\"font-medium text-[#7F56D9] text-2xl\\">$1,150</p></div><div class=\\"mt-auto\\"><p class=\\"font-medium text-[#101828]\\">Earned</p><p class=\\"font-medium text-[#7F56D9] text-2xl\\">$2,300</p></div></div>",
+                                        "children": "<div class=\\"flex flex-col\\"><div><p class=\\"font-medium text-title-900\\">Spent</p><p class=\\"font-medium text-main-800 text-2xl\\">$1,150</p></div><div class=\\"mt-auto\\"><p class=\\"font-medium text-title-900\\">Earned</p><p class=\\"font-medium text-main-800 text-2xl\\">$2,300</p></div></div>",
                                         "component": null,
                                         "ctx": null,
                                         "dirs": null,
@@ -875,12 +875,12 @@ VueWrapper {
                                         >
                                           <div>
                                             <p
-                                              class="font-medium text-[#101828]"
+                                              class="font-medium text-title-900"
                                             >
                                               Spent
                                             </p>
                                             <p
-                                              class="font-medium text-[#7F56D9] text-2xl"
+                                              class="font-medium text-main-800 text-2xl"
                                             >
                                               $1,150
                                             </p>
@@ -889,12 +889,12 @@ VueWrapper {
                                             class="mt-auto"
                                           >
                                             <p
-                                              class="font-medium text-[#101828]"
+                                              class="font-medium text-title-900"
                                             >
                                               Earned
                                             </p>
                                             <p
-                                              class="font-medium text-[#7F56D9] text-2xl"
+                                              class="font-medium text-main-800 text-2xl"
                                             >
                                               $2,300
                                             </p>
@@ -1090,13 +1090,13 @@ VueWrapper {
                                                 "dynamicChildren": null,
                                                 "dynamicProps": null,
                                                 "el": <div
-                                                  class="bg-[#7F56D9] absolute bottom-0 left-0 right-0"
+                                                  class="bg-main-800 absolute bottom-0 left-0 right-0"
                                                   style="height: 66.66666666666666%;"
                                                 />,
                                                 "key": null,
                                                 "patchFlag": 4,
                                                 "props": {
-                                                  "class": "bg-[#7F56D9] absolute bottom-0 left-0 right-0",
+                                                  "class": "bg-main-800 absolute bottom-0 left-0 right-0",
                                                   "style": {
                                                     "height": "66.66666666666666%",
                                                   },
@@ -1131,13 +1131,13 @@ VueWrapper {
                                                 "dynamicChildren": null,
                                                 "dynamicProps": null,
                                                 "el": <div
-                                                  class="bg-[#7F56D9] absolute bottom-0 left-0 right-0"
+                                                  class="bg-main-800 absolute bottom-0 left-0 right-0"
                                                   style="height: 66.66666666666666%;"
                                                 />,
                                                 "key": null,
                                                 "patchFlag": 4,
                                                 "props": {
-                                                  "class": "bg-[#7F56D9] absolute bottom-0 left-0 right-0",
+                                                  "class": "bg-main-800 absolute bottom-0 left-0 right-0",
                                                   "style": {
                                                     "height": "66.66666666666666%",
                                                   },
@@ -1158,17 +1158,17 @@ VueWrapper {
                                             ],
                                             "dynamicProps": null,
                                             "el": <div
-                                              class="w-[0.625rem] bg-[#B692F6] relative rounded-md overflow-hidden"
+                                              class="w-[0.625rem] bg-main-500 relative rounded-md overflow-hidden"
                                             >
                                               <div
-                                                class="bg-[#7F56D9] absolute bottom-0 left-0 right-0"
+                                                class="bg-main-800 absolute bottom-0 left-0 right-0"
                                                 style="height: 66.66666666666666%;"
                                               />
                                             </div>,
                                             "key": null,
                                             "patchFlag": 0,
                                             "props": {
-                                              "class": "w-[0.625rem] bg-[#B692F6] relative rounded-md overflow-hidden",
+                                              "class": "w-[0.625rem] bg-main-500 relative rounded-md overflow-hidden",
                                             },
                                             "ref": null,
                                             "scopeId": null,
@@ -1213,10 +1213,10 @@ VueWrapper {
                                         "dynamicChildren": null,
                                         "dynamicProps": null,
                                         "el": <div
-                                          class="w-[0.625rem] bg-[#B692F6] relative rounded-md overflow-hidden"
+                                          class="w-[0.625rem] bg-main-500 relative rounded-md overflow-hidden"
                                         >
                                           <div
-                                            class="bg-[#7F56D9] absolute bottom-0 left-0 right-0"
+                                            class="bg-main-800 absolute bottom-0 left-0 right-0"
                                             style="height: 66.66666666666666%;"
                                           />
                                         </div>,
@@ -1444,13 +1444,13 @@ VueWrapper {
                                                 "dynamicChildren": null,
                                                 "dynamicProps": null,
                                                 "el": <div
-                                                  class="bg-[#7F56D9] absolute bottom-0 left-0 right-0"
+                                                  class="bg-main-800 absolute bottom-0 left-0 right-0"
                                                   style="height: 66.66666666666666%;"
                                                 />,
                                                 "key": null,
                                                 "patchFlag": 4,
                                                 "props": {
-                                                  "class": "bg-[#7F56D9] absolute bottom-0 left-0 right-0",
+                                                  "class": "bg-main-800 absolute bottom-0 left-0 right-0",
                                                   "style": {
                                                     "height": "66.66666666666666%",
                                                   },
@@ -1485,13 +1485,13 @@ VueWrapper {
                                                 "dynamicChildren": null,
                                                 "dynamicProps": null,
                                                 "el": <div
-                                                  class="bg-[#7F56D9] absolute bottom-0 left-0 right-0"
+                                                  class="bg-main-800 absolute bottom-0 left-0 right-0"
                                                   style="height: 66.66666666666666%;"
                                                 />,
                                                 "key": null,
                                                 "patchFlag": 4,
                                                 "props": {
-                                                  "class": "bg-[#7F56D9] absolute bottom-0 left-0 right-0",
+                                                  "class": "bg-main-800 absolute bottom-0 left-0 right-0",
                                                   "style": {
                                                     "height": "66.66666666666666%",
                                                   },
@@ -1512,17 +1512,17 @@ VueWrapper {
                                             ],
                                             "dynamicProps": null,
                                             "el": <div
-                                              class="w-[0.625rem] bg-[#B692F6] relative rounded-md overflow-hidden"
+                                              class="w-[0.625rem] bg-main-500 relative rounded-md overflow-hidden"
                                             >
                                               <div
-                                                class="bg-[#7F56D9] absolute bottom-0 left-0 right-0"
+                                                class="bg-main-800 absolute bottom-0 left-0 right-0"
                                                 style="height: 66.66666666666666%;"
                                               />
                                             </div>,
                                             "key": null,
                                             "patchFlag": 0,
                                             "props": {
-                                              "class": "w-[0.625rem] bg-[#B692F6] relative rounded-md overflow-hidden",
+                                              "class": "w-[0.625rem] bg-main-500 relative rounded-md overflow-hidden",
                                             },
                                             "ref": null,
                                             "scopeId": null,
@@ -1567,10 +1567,10 @@ VueWrapper {
                                         "dynamicChildren": null,
                                         "dynamicProps": null,
                                         "el": <div
-                                          class="w-[0.625rem] bg-[#B692F6] relative rounded-md overflow-hidden"
+                                          class="w-[0.625rem] bg-main-500 relative rounded-md overflow-hidden"
                                         >
                                           <div
-                                            class="bg-[#7F56D9] absolute bottom-0 left-0 right-0"
+                                            class="bg-main-800 absolute bottom-0 left-0 right-0"
                                             style="height: 66.66666666666666%;"
                                           />
                                         </div>,
@@ -1618,12 +1618,12 @@ VueWrapper {
                                       >
                                         <div>
                                           <p
-                                            class="font-medium text-[#101828]"
+                                            class="font-medium text-title-900"
                                           >
                                             Spent
                                           </p>
                                           <p
-                                            class="font-medium text-[#7F56D9] text-2xl"
+                                            class="font-medium text-main-800 text-2xl"
                                           >
                                             $1,150
                                           </p>
@@ -1632,22 +1632,22 @@ VueWrapper {
                                           class="mt-auto"
                                         >
                                           <p
-                                            class="font-medium text-[#101828]"
+                                            class="font-medium text-title-900"
                                           >
                                             Earned
                                           </p>
                                           <p
-                                            class="font-medium text-[#7F56D9] text-2xl"
+                                            class="font-medium text-main-800 text-2xl"
                                           >
                                             $2,300
                                           </p>
                                         </div>
                                       </div>
                                       <div
-                                        class="w-[0.625rem] bg-[#B692F6] relative rounded-md overflow-hidden"
+                                        class="w-[0.625rem] bg-main-500 relative rounded-md overflow-hidden"
                                       >
                                         <div
-                                          class="bg-[#7F56D9] absolute bottom-0 left-0 right-0"
+                                          class="bg-main-800 absolute bottom-0 left-0 right-0"
                                           style="height: 66.66666666666666%;"
                                         />
                                       </div>
@@ -1697,12 +1697,12 @@ VueWrapper {
                                   >
                                     <div>
                                       <p
-                                        class="font-medium text-[#101828]"
+                                        class="font-medium text-title-900"
                                       >
                                         Spent
                                       </p>
                                       <p
-                                        class="font-medium text-[#7F56D9] text-2xl"
+                                        class="font-medium text-main-800 text-2xl"
                                       >
                                         $1,150
                                       </p>
@@ -1711,22 +1711,22 @@ VueWrapper {
                                       class="mt-auto"
                                     >
                                       <p
-                                        class="font-medium text-[#101828]"
+                                        class="font-medium text-title-900"
                                       >
                                         Earned
                                       </p>
                                       <p
-                                        class="font-medium text-[#7F56D9] text-2xl"
+                                        class="font-medium text-main-800 text-2xl"
                                       >
                                         $2,300
                                       </p>
                                     </div>
                                   </div>
                                   <div
-                                    class="w-[0.625rem] bg-[#B692F6] relative rounded-md overflow-hidden"
+                                    class="w-[0.625rem] bg-main-500 relative rounded-md overflow-hidden"
                                   >
                                     <div
-                                      class="bg-[#7F56D9] absolute bottom-0 left-0 right-0"
+                                      class="bg-main-800 absolute bottom-0 left-0 right-0"
                                       style="height: 66.66666666666666%;"
                                     />
                                   </div>
@@ -1771,12 +1771,12 @@ VueWrapper {
                                 >
                                   <div>
                                     <p
-                                      class="font-medium text-[#101828]"
+                                      class="font-medium text-title-900"
                                     >
                                       Spent
                                     </p>
                                     <p
-                                      class="font-medium text-[#7F56D9] text-2xl"
+                                      class="font-medium text-main-800 text-2xl"
                                     >
                                       $1,150
                                     </p>
@@ -1785,22 +1785,22 @@ VueWrapper {
                                     class="mt-auto"
                                   >
                                     <p
-                                      class="font-medium text-[#101828]"
+                                      class="font-medium text-title-900"
                                     >
                                       Earned
                                     </p>
                                     <p
-                                      class="font-medium text-[#7F56D9] text-2xl"
+                                      class="font-medium text-main-800 text-2xl"
                                     >
                                       $2,300
                                     </p>
                                   </div>
                                 </div>
                                 <div
-                                  class="w-[0.625rem] bg-[#B692F6] relative rounded-md overflow-hidden"
+                                  class="w-[0.625rem] bg-main-500 relative rounded-md overflow-hidden"
                                 >
                                   <div
-                                    class="bg-[#7F56D9] absolute bottom-0 left-0 right-0"
+                                    class="bg-main-800 absolute bottom-0 left-0 right-0"
                                     style="height: 66.66666666666666%;"
                                   />
                                 </div>
@@ -1837,12 +1837,12 @@ VueWrapper {
                             class="w-full border-r border-[#CFCFCF] text-right pr-9 box-border"
                           >
                             <h2
-                              class="font-medium mt-2 text-xl text-[#101828]"
+                              class="font-medium mt-2 text-xl text-title-900"
                             >
                               July cash flow
                             </h2>
                             <h2
-                              class="mt-4 font-bold text-5xl text-[#7F56D9]"
+                              class="mt-4 font-bold text-5xl text-main-800"
                             >
                               +$2,150
                             </h2>
@@ -1858,12 +1858,12 @@ VueWrapper {
                               >
                                 <div>
                                   <p
-                                    class="font-medium text-[#101828]"
+                                    class="font-medium text-title-900"
                                   >
                                     Spent
                                   </p>
                                   <p
-                                    class="font-medium text-[#7F56D9] text-2xl"
+                                    class="font-medium text-main-800 text-2xl"
                                   >
                                     $1,150
                                   </p>
@@ -1872,22 +1872,22 @@ VueWrapper {
                                   class="mt-auto"
                                 >
                                   <p
-                                    class="font-medium text-[#101828]"
+                                    class="font-medium text-title-900"
                                   >
                                     Earned
                                   </p>
                                   <p
-                                    class="font-medium text-[#7F56D9] text-2xl"
+                                    class="font-medium text-main-800 text-2xl"
                                   >
                                     $2,300
                                   </p>
                                 </div>
                               </div>
                               <div
-                                class="w-[0.625rem] bg-[#B692F6] relative rounded-md overflow-hidden"
+                                class="w-[0.625rem] bg-main-500 relative rounded-md overflow-hidden"
                               >
                                 <div
-                                  class="bg-[#7F56D9] absolute bottom-0 left-0 right-0"
+                                  class="bg-main-800 absolute bottom-0 left-0 right-0"
                                   style="height: 66.66666666666666%;"
                                 />
                               </div>
@@ -2101,12 +2101,12 @@ VueWrapper {
                                 >
                                   <div>
                                     <p
-                                      class="font-medium text-[#101828]"
+                                      class="font-medium text-title-900"
                                     >
                                       Spent
                                     </p>
                                     <p
-                                      class="font-medium text-[#7F56D9] text-2xl"
+                                      class="font-medium text-main-800 text-2xl"
                                     >
                                       $1,150
                                     </p>
@@ -2115,19 +2115,19 @@ VueWrapper {
                                     class="mt-auto"
                                   >
                                     <p
-                                      class="font-medium text-[#101828]"
+                                      class="font-medium text-title-900"
                                     >
                                       Earned
                                     </p>
                                     <p
-                                      class="font-medium text-[#7F56D9] text-2xl"
+                                      class="font-medium text-main-800 text-2xl"
                                     >
                                       $2,300
                                     </p>
                                   </div>
                                 </div>,
                                 "appContext": null,
-                                "children": "<div class=\\"flex flex-col\\"><div><p class=\\"font-medium text-[#101828]\\">Spent</p><p class=\\"font-medium text-[#7F56D9] text-2xl\\">$1,150</p></div><div class=\\"mt-auto\\"><p class=\\"font-medium text-[#101828]\\">Earned</p><p class=\\"font-medium text-[#7F56D9] text-2xl\\">$2,300</p></div></div>",
+                                "children": "<div class=\\"flex flex-col\\"><div><p class=\\"font-medium text-title-900\\">Spent</p><p class=\\"font-medium text-main-800 text-2xl\\">$1,150</p></div><div class=\\"mt-auto\\"><p class=\\"font-medium text-title-900\\">Earned</p><p class=\\"font-medium text-main-800 text-2xl\\">$2,300</p></div></div>",
                                 "component": null,
                                 "ctx": null,
                                 "dirs": null,
@@ -2138,12 +2138,12 @@ VueWrapper {
                                 >
                                   <div>
                                     <p
-                                      class="font-medium text-[#101828]"
+                                      class="font-medium text-title-900"
                                     >
                                       Spent
                                     </p>
                                     <p
-                                      class="font-medium text-[#7F56D9] text-2xl"
+                                      class="font-medium text-main-800 text-2xl"
                                     >
                                       $1,150
                                     </p>
@@ -2152,12 +2152,12 @@ VueWrapper {
                                     class="mt-auto"
                                   >
                                     <p
-                                      class="font-medium text-[#101828]"
+                                      class="font-medium text-title-900"
                                     >
                                       Earned
                                     </p>
                                     <p
-                                      class="font-medium text-[#7F56D9] text-2xl"
+                                      class="font-medium text-main-800 text-2xl"
                                     >
                                       $2,300
                                     </p>
@@ -2364,13 +2364,13 @@ VueWrapper {
                                         "dynamicChildren": null,
                                         "dynamicProps": null,
                                         "el": <div
-                                          class="bg-[#7F56D9] absolute bottom-0 left-0 right-0"
+                                          class="bg-main-800 absolute bottom-0 left-0 right-0"
                                           style="height: 66.66666666666666%;"
                                         />,
                                         "key": null,
                                         "patchFlag": 4,
                                         "props": {
-                                          "class": "bg-[#7F56D9] absolute bottom-0 left-0 right-0",
+                                          "class": "bg-main-800 absolute bottom-0 left-0 right-0",
                                           "style": {
                                             "height": "66.66666666666666%",
                                           },
@@ -2405,13 +2405,13 @@ VueWrapper {
                                         "dynamicChildren": null,
                                         "dynamicProps": null,
                                         "el": <div
-                                          class="bg-[#7F56D9] absolute bottom-0 left-0 right-0"
+                                          class="bg-main-800 absolute bottom-0 left-0 right-0"
                                           style="height: 66.66666666666666%;"
                                         />,
                                         "key": null,
                                         "patchFlag": 4,
                                         "props": {
-                                          "class": "bg-[#7F56D9] absolute bottom-0 left-0 right-0",
+                                          "class": "bg-main-800 absolute bottom-0 left-0 right-0",
                                           "style": {
                                             "height": "66.66666666666666%",
                                           },
@@ -2432,17 +2432,17 @@ VueWrapper {
                                     ],
                                     "dynamicProps": null,
                                     "el": <div
-                                      class="w-[0.625rem] bg-[#B692F6] relative rounded-md overflow-hidden"
+                                      class="w-[0.625rem] bg-main-500 relative rounded-md overflow-hidden"
                                     >
                                       <div
-                                        class="bg-[#7F56D9] absolute bottom-0 left-0 right-0"
+                                        class="bg-main-800 absolute bottom-0 left-0 right-0"
                                         style="height: 66.66666666666666%;"
                                       />
                                     </div>,
                                     "key": null,
                                     "patchFlag": 0,
                                     "props": {
-                                      "class": "w-[0.625rem] bg-[#B692F6] relative rounded-md overflow-hidden",
+                                      "class": "w-[0.625rem] bg-main-500 relative rounded-md overflow-hidden",
                                     },
                                     "ref": null,
                                     "scopeId": null,
@@ -2487,10 +2487,10 @@ VueWrapper {
                                 "dynamicChildren": null,
                                 "dynamicProps": null,
                                 "el": <div
-                                  class="w-[0.625rem] bg-[#B692F6] relative rounded-md overflow-hidden"
+                                  class="w-[0.625rem] bg-main-500 relative rounded-md overflow-hidden"
                                 >
                                   <div
-                                    class="bg-[#7F56D9] absolute bottom-0 left-0 right-0"
+                                    class="bg-main-800 absolute bottom-0 left-0 right-0"
                                     style="height: 66.66666666666666%;"
                                   />
                                 </div>,
@@ -2718,13 +2718,13 @@ VueWrapper {
                                         "dynamicChildren": null,
                                         "dynamicProps": null,
                                         "el": <div
-                                          class="bg-[#7F56D9] absolute bottom-0 left-0 right-0"
+                                          class="bg-main-800 absolute bottom-0 left-0 right-0"
                                           style="height: 66.66666666666666%;"
                                         />,
                                         "key": null,
                                         "patchFlag": 4,
                                         "props": {
-                                          "class": "bg-[#7F56D9] absolute bottom-0 left-0 right-0",
+                                          "class": "bg-main-800 absolute bottom-0 left-0 right-0",
                                           "style": {
                                             "height": "66.66666666666666%",
                                           },
@@ -2759,13 +2759,13 @@ VueWrapper {
                                         "dynamicChildren": null,
                                         "dynamicProps": null,
                                         "el": <div
-                                          class="bg-[#7F56D9] absolute bottom-0 left-0 right-0"
+                                          class="bg-main-800 absolute bottom-0 left-0 right-0"
                                           style="height: 66.66666666666666%;"
                                         />,
                                         "key": null,
                                         "patchFlag": 4,
                                         "props": {
-                                          "class": "bg-[#7F56D9] absolute bottom-0 left-0 right-0",
+                                          "class": "bg-main-800 absolute bottom-0 left-0 right-0",
                                           "style": {
                                             "height": "66.66666666666666%",
                                           },
@@ -2786,17 +2786,17 @@ VueWrapper {
                                     ],
                                     "dynamicProps": null,
                                     "el": <div
-                                      class="w-[0.625rem] bg-[#B692F6] relative rounded-md overflow-hidden"
+                                      class="w-[0.625rem] bg-main-500 relative rounded-md overflow-hidden"
                                     >
                                       <div
-                                        class="bg-[#7F56D9] absolute bottom-0 left-0 right-0"
+                                        class="bg-main-800 absolute bottom-0 left-0 right-0"
                                         style="height: 66.66666666666666%;"
                                       />
                                     </div>,
                                     "key": null,
                                     "patchFlag": 0,
                                     "props": {
-                                      "class": "w-[0.625rem] bg-[#B692F6] relative rounded-md overflow-hidden",
+                                      "class": "w-[0.625rem] bg-main-500 relative rounded-md overflow-hidden",
                                     },
                                     "ref": null,
                                     "scopeId": null,
@@ -2841,10 +2841,10 @@ VueWrapper {
                                 "dynamicChildren": null,
                                 "dynamicProps": null,
                                 "el": <div
-                                  class="w-[0.625rem] bg-[#B692F6] relative rounded-md overflow-hidden"
+                                  class="w-[0.625rem] bg-main-500 relative rounded-md overflow-hidden"
                                 >
                                   <div
-                                    class="bg-[#7F56D9] absolute bottom-0 left-0 right-0"
+                                    class="bg-main-800 absolute bottom-0 left-0 right-0"
                                     style="height: 66.66666666666666%;"
                                   />
                                 </div>,
@@ -2892,12 +2892,12 @@ VueWrapper {
                               >
                                 <div>
                                   <p
-                                    class="font-medium text-[#101828]"
+                                    class="font-medium text-title-900"
                                   >
                                     Spent
                                   </p>
                                   <p
-                                    class="font-medium text-[#7F56D9] text-2xl"
+                                    class="font-medium text-main-800 text-2xl"
                                   >
                                     $1,150
                                   </p>
@@ -2906,22 +2906,22 @@ VueWrapper {
                                   class="mt-auto"
                                 >
                                   <p
-                                    class="font-medium text-[#101828]"
+                                    class="font-medium text-title-900"
                                   >
                                     Earned
                                   </p>
                                   <p
-                                    class="font-medium text-[#7F56D9] text-2xl"
+                                    class="font-medium text-main-800 text-2xl"
                                   >
                                     $2,300
                                   </p>
                                 </div>
                               </div>
                               <div
-                                class="w-[0.625rem] bg-[#B692F6] relative rounded-md overflow-hidden"
+                                class="w-[0.625rem] bg-main-500 relative rounded-md overflow-hidden"
                               >
                                 <div
-                                  class="bg-[#7F56D9] absolute bottom-0 left-0 right-0"
+                                  class="bg-main-800 absolute bottom-0 left-0 right-0"
                                   style="height: 66.66666666666666%;"
                                 />
                               </div>
@@ -2971,12 +2971,12 @@ VueWrapper {
                           >
                             <div>
                               <p
-                                class="font-medium text-[#101828]"
+                                class="font-medium text-title-900"
                               >
                                 Spent
                               </p>
                               <p
-                                class="font-medium text-[#7F56D9] text-2xl"
+                                class="font-medium text-main-800 text-2xl"
                               >
                                 $1,150
                               </p>
@@ -2985,22 +2985,22 @@ VueWrapper {
                               class="mt-auto"
                             >
                               <p
-                                class="font-medium text-[#101828]"
+                                class="font-medium text-title-900"
                               >
                                 Earned
                               </p>
                               <p
-                                class="font-medium text-[#7F56D9] text-2xl"
+                                class="font-medium text-main-800 text-2xl"
                               >
                                 $2,300
                               </p>
                             </div>
                           </div>
                           <div
-                            class="w-[0.625rem] bg-[#B692F6] relative rounded-md overflow-hidden"
+                            class="w-[0.625rem] bg-main-500 relative rounded-md overflow-hidden"
                           >
                             <div
-                              class="bg-[#7F56D9] absolute bottom-0 left-0 right-0"
+                              class="bg-main-800 absolute bottom-0 left-0 right-0"
                               style="height: 66.66666666666666%;"
                             />
                           </div>
@@ -3086,14 +3086,14 @@ VueWrapper {
                                 "dynamicChildren": null,
                                 "dynamicProps": null,
                                 "el": <h2
-                                  class="font-medium mt-2 text-xl text-[#101828]"
+                                  class="font-medium mt-2 text-xl text-title-900"
                                 >
                                   July cash flow
                                 </h2>,
                                 "key": null,
                                 "patchFlag": 0,
                                 "props": {
-                                  "class": "font-medium mt-2 text-xl text-[#101828]",
+                                  "class": "font-medium mt-2 text-xl text-title-900",
                                 },
                                 "ref": null,
                                 "scopeId": null,
@@ -3121,14 +3121,14 @@ VueWrapper {
                                 "dynamicChildren": null,
                                 "dynamicProps": null,
                                 "el": <h2
-                                  class="mt-4 font-bold text-5xl text-[#7F56D9]"
+                                  class="mt-4 font-bold text-5xl text-main-800"
                                 >
                                   +$2,150
                                 </h2>,
                                 "key": null,
                                 "patchFlag": 0,
                                 "props": {
-                                  "class": "mt-4 font-bold text-5xl text-[#7F56D9]",
+                                  "class": "mt-4 font-bold text-5xl text-main-800",
                                 },
                                 "ref": null,
                                 "scopeId": null,
@@ -3153,12 +3153,12 @@ VueWrapper {
                               class="w-full border-r border-[#CFCFCF] text-right pr-9 box-border"
                             >
                               <h2
-                                class="font-medium mt-2 text-xl text-[#101828]"
+                                class="font-medium mt-2 text-xl text-title-900"
                               >
                                 July cash flow
                               </h2>
                               <h2
-                                class="mt-4 font-bold text-5xl text-[#7F56D9]"
+                                class="mt-4 font-bold text-5xl text-main-800"
                               >
                                 +$2,150
                               </h2>
@@ -3371,12 +3371,12 @@ VueWrapper {
                                         >
                                           <div>
                                             <p
-                                              class="font-medium text-[#101828]"
+                                              class="font-medium text-title-900"
                                             >
                                               Spent
                                             </p>
                                             <p
-                                              class="font-medium text-[#7F56D9] text-2xl"
+                                              class="font-medium text-main-800 text-2xl"
                                             >
                                               $1,150
                                             </p>
@@ -3385,19 +3385,19 @@ VueWrapper {
                                             class="mt-auto"
                                           >
                                             <p
-                                              class="font-medium text-[#101828]"
+                                              class="font-medium text-title-900"
                                             >
                                               Earned
                                             </p>
                                             <p
-                                              class="font-medium text-[#7F56D9] text-2xl"
+                                              class="font-medium text-main-800 text-2xl"
                                             >
                                               $2,300
                                             </p>
                                           </div>
                                         </div>,
                                         "appContext": null,
-                                        "children": "<div class=\\"flex flex-col\\"><div><p class=\\"font-medium text-[#101828]\\">Spent</p><p class=\\"font-medium text-[#7F56D9] text-2xl\\">$1,150</p></div><div class=\\"mt-auto\\"><p class=\\"font-medium text-[#101828]\\">Earned</p><p class=\\"font-medium text-[#7F56D9] text-2xl\\">$2,300</p></div></div>",
+                                        "children": "<div class=\\"flex flex-col\\"><div><p class=\\"font-medium text-title-900\\">Spent</p><p class=\\"font-medium text-main-800 text-2xl\\">$1,150</p></div><div class=\\"mt-auto\\"><p class=\\"font-medium text-title-900\\">Earned</p><p class=\\"font-medium text-main-800 text-2xl\\">$2,300</p></div></div>",
                                         "component": null,
                                         "ctx": null,
                                         "dirs": null,
@@ -3408,12 +3408,12 @@ VueWrapper {
                                         >
                                           <div>
                                             <p
-                                              class="font-medium text-[#101828]"
+                                              class="font-medium text-title-900"
                                             >
                                               Spent
                                             </p>
                                             <p
-                                              class="font-medium text-[#7F56D9] text-2xl"
+                                              class="font-medium text-main-800 text-2xl"
                                             >
                                               $1,150
                                             </p>
@@ -3422,12 +3422,12 @@ VueWrapper {
                                             class="mt-auto"
                                           >
                                             <p
-                                              class="font-medium text-[#101828]"
+                                              class="font-medium text-title-900"
                                             >
                                               Earned
                                             </p>
                                             <p
-                                              class="font-medium text-[#7F56D9] text-2xl"
+                                              class="font-medium text-main-800 text-2xl"
                                             >
                                               $2,300
                                             </p>
@@ -3634,13 +3634,13 @@ VueWrapper {
                                                 "dynamicChildren": null,
                                                 "dynamicProps": null,
                                                 "el": <div
-                                                  class="bg-[#7F56D9] absolute bottom-0 left-0 right-0"
+                                                  class="bg-main-800 absolute bottom-0 left-0 right-0"
                                                   style="height: 66.66666666666666%;"
                                                 />,
                                                 "key": null,
                                                 "patchFlag": 4,
                                                 "props": {
-                                                  "class": "bg-[#7F56D9] absolute bottom-0 left-0 right-0",
+                                                  "class": "bg-main-800 absolute bottom-0 left-0 right-0",
                                                   "style": {
                                                     "height": "66.66666666666666%",
                                                   },
@@ -3675,13 +3675,13 @@ VueWrapper {
                                                 "dynamicChildren": null,
                                                 "dynamicProps": null,
                                                 "el": <div
-                                                  class="bg-[#7F56D9] absolute bottom-0 left-0 right-0"
+                                                  class="bg-main-800 absolute bottom-0 left-0 right-0"
                                                   style="height: 66.66666666666666%;"
                                                 />,
                                                 "key": null,
                                                 "patchFlag": 4,
                                                 "props": {
-                                                  "class": "bg-[#7F56D9] absolute bottom-0 left-0 right-0",
+                                                  "class": "bg-main-800 absolute bottom-0 left-0 right-0",
                                                   "style": {
                                                     "height": "66.66666666666666%",
                                                   },
@@ -3702,17 +3702,17 @@ VueWrapper {
                                             ],
                                             "dynamicProps": null,
                                             "el": <div
-                                              class="w-[0.625rem] bg-[#B692F6] relative rounded-md overflow-hidden"
+                                              class="w-[0.625rem] bg-main-500 relative rounded-md overflow-hidden"
                                             >
                                               <div
-                                                class="bg-[#7F56D9] absolute bottom-0 left-0 right-0"
+                                                class="bg-main-800 absolute bottom-0 left-0 right-0"
                                                 style="height: 66.66666666666666%;"
                                               />
                                             </div>,
                                             "key": null,
                                             "patchFlag": 0,
                                             "props": {
-                                              "class": "w-[0.625rem] bg-[#B692F6] relative rounded-md overflow-hidden",
+                                              "class": "w-[0.625rem] bg-main-500 relative rounded-md overflow-hidden",
                                             },
                                             "ref": null,
                                             "scopeId": null,
@@ -3757,10 +3757,10 @@ VueWrapper {
                                         "dynamicChildren": null,
                                         "dynamicProps": null,
                                         "el": <div
-                                          class="w-[0.625rem] bg-[#B692F6] relative rounded-md overflow-hidden"
+                                          class="w-[0.625rem] bg-main-500 relative rounded-md overflow-hidden"
                                         >
                                           <div
-                                            class="bg-[#7F56D9] absolute bottom-0 left-0 right-0"
+                                            class="bg-main-800 absolute bottom-0 left-0 right-0"
                                             style="height: 66.66666666666666%;"
                                           />
                                         </div>,
@@ -3988,13 +3988,13 @@ VueWrapper {
                                                 "dynamicChildren": null,
                                                 "dynamicProps": null,
                                                 "el": <div
-                                                  class="bg-[#7F56D9] absolute bottom-0 left-0 right-0"
+                                                  class="bg-main-800 absolute bottom-0 left-0 right-0"
                                                   style="height: 66.66666666666666%;"
                                                 />,
                                                 "key": null,
                                                 "patchFlag": 4,
                                                 "props": {
-                                                  "class": "bg-[#7F56D9] absolute bottom-0 left-0 right-0",
+                                                  "class": "bg-main-800 absolute bottom-0 left-0 right-0",
                                                   "style": {
                                                     "height": "66.66666666666666%",
                                                   },
@@ -4029,13 +4029,13 @@ VueWrapper {
                                                 "dynamicChildren": null,
                                                 "dynamicProps": null,
                                                 "el": <div
-                                                  class="bg-[#7F56D9] absolute bottom-0 left-0 right-0"
+                                                  class="bg-main-800 absolute bottom-0 left-0 right-0"
                                                   style="height: 66.66666666666666%;"
                                                 />,
                                                 "key": null,
                                                 "patchFlag": 4,
                                                 "props": {
-                                                  "class": "bg-[#7F56D9] absolute bottom-0 left-0 right-0",
+                                                  "class": "bg-main-800 absolute bottom-0 left-0 right-0",
                                                   "style": {
                                                     "height": "66.66666666666666%",
                                                   },
@@ -4056,17 +4056,17 @@ VueWrapper {
                                             ],
                                             "dynamicProps": null,
                                             "el": <div
-                                              class="w-[0.625rem] bg-[#B692F6] relative rounded-md overflow-hidden"
+                                              class="w-[0.625rem] bg-main-500 relative rounded-md overflow-hidden"
                                             >
                                               <div
-                                                class="bg-[#7F56D9] absolute bottom-0 left-0 right-0"
+                                                class="bg-main-800 absolute bottom-0 left-0 right-0"
                                                 style="height: 66.66666666666666%;"
                                               />
                                             </div>,
                                             "key": null,
                                             "patchFlag": 0,
                                             "props": {
-                                              "class": "w-[0.625rem] bg-[#B692F6] relative rounded-md overflow-hidden",
+                                              "class": "w-[0.625rem] bg-main-500 relative rounded-md overflow-hidden",
                                             },
                                             "ref": null,
                                             "scopeId": null,
@@ -4111,10 +4111,10 @@ VueWrapper {
                                         "dynamicChildren": null,
                                         "dynamicProps": null,
                                         "el": <div
-                                          class="w-[0.625rem] bg-[#B692F6] relative rounded-md overflow-hidden"
+                                          class="w-[0.625rem] bg-main-500 relative rounded-md overflow-hidden"
                                         >
                                           <div
-                                            class="bg-[#7F56D9] absolute bottom-0 left-0 right-0"
+                                            class="bg-main-800 absolute bottom-0 left-0 right-0"
                                             style="height: 66.66666666666666%;"
                                           />
                                         </div>,
@@ -4162,12 +4162,12 @@ VueWrapper {
                                       >
                                         <div>
                                           <p
-                                            class="font-medium text-[#101828]"
+                                            class="font-medium text-title-900"
                                           >
                                             Spent
                                           </p>
                                           <p
-                                            class="font-medium text-[#7F56D9] text-2xl"
+                                            class="font-medium text-main-800 text-2xl"
                                           >
                                             $1,150
                                           </p>
@@ -4176,22 +4176,22 @@ VueWrapper {
                                           class="mt-auto"
                                         >
                                           <p
-                                            class="font-medium text-[#101828]"
+                                            class="font-medium text-title-900"
                                           >
                                             Earned
                                           </p>
                                           <p
-                                            class="font-medium text-[#7F56D9] text-2xl"
+                                            class="font-medium text-main-800 text-2xl"
                                           >
                                             $2,300
                                           </p>
                                         </div>
                                       </div>
                                       <div
-                                        class="w-[0.625rem] bg-[#B692F6] relative rounded-md overflow-hidden"
+                                        class="w-[0.625rem] bg-main-500 relative rounded-md overflow-hidden"
                                       >
                                         <div
-                                          class="bg-[#7F56D9] absolute bottom-0 left-0 right-0"
+                                          class="bg-main-800 absolute bottom-0 left-0 right-0"
                                           style="height: 66.66666666666666%;"
                                         />
                                       </div>
@@ -4241,12 +4241,12 @@ VueWrapper {
                                   >
                                     <div>
                                       <p
-                                        class="font-medium text-[#101828]"
+                                        class="font-medium text-title-900"
                                       >
                                         Spent
                                       </p>
                                       <p
-                                        class="font-medium text-[#7F56D9] text-2xl"
+                                        class="font-medium text-main-800 text-2xl"
                                       >
                                         $1,150
                                       </p>
@@ -4255,22 +4255,22 @@ VueWrapper {
                                       class="mt-auto"
                                     >
                                       <p
-                                        class="font-medium text-[#101828]"
+                                        class="font-medium text-title-900"
                                       >
                                         Earned
                                       </p>
                                       <p
-                                        class="font-medium text-[#7F56D9] text-2xl"
+                                        class="font-medium text-main-800 text-2xl"
                                       >
                                         $2,300
                                       </p>
                                     </div>
                                   </div>
                                   <div
-                                    class="w-[0.625rem] bg-[#B692F6] relative rounded-md overflow-hidden"
+                                    class="w-[0.625rem] bg-main-500 relative rounded-md overflow-hidden"
                                   >
                                     <div
-                                      class="bg-[#7F56D9] absolute bottom-0 left-0 right-0"
+                                      class="bg-main-800 absolute bottom-0 left-0 right-0"
                                       style="height: 66.66666666666666%;"
                                     />
                                   </div>
@@ -4315,12 +4315,12 @@ VueWrapper {
                                 >
                                   <div>
                                     <p
-                                      class="font-medium text-[#101828]"
+                                      class="font-medium text-title-900"
                                     >
                                       Spent
                                     </p>
                                     <p
-                                      class="font-medium text-[#7F56D9] text-2xl"
+                                      class="font-medium text-main-800 text-2xl"
                                     >
                                       $1,150
                                     </p>
@@ -4329,22 +4329,22 @@ VueWrapper {
                                     class="mt-auto"
                                   >
                                     <p
-                                      class="font-medium text-[#101828]"
+                                      class="font-medium text-title-900"
                                     >
                                       Earned
                                     </p>
                                     <p
-                                      class="font-medium text-[#7F56D9] text-2xl"
+                                      class="font-medium text-main-800 text-2xl"
                                     >
                                       $2,300
                                     </p>
                                   </div>
                                 </div>
                                 <div
-                                  class="w-[0.625rem] bg-[#B692F6] relative rounded-md overflow-hidden"
+                                  class="w-[0.625rem] bg-main-500 relative rounded-md overflow-hidden"
                                 >
                                   <div
-                                    class="bg-[#7F56D9] absolute bottom-0 left-0 right-0"
+                                    class="bg-main-800 absolute bottom-0 left-0 right-0"
                                     style="height: 66.66666666666666%;"
                                   />
                                 </div>
@@ -4381,12 +4381,12 @@ VueWrapper {
                             class="w-full border-r border-[#CFCFCF] text-right pr-9 box-border"
                           >
                             <h2
-                              class="font-medium mt-2 text-xl text-[#101828]"
+                              class="font-medium mt-2 text-xl text-title-900"
                             >
                               July cash flow
                             </h2>
                             <h2
-                              class="mt-4 font-bold text-5xl text-[#7F56D9]"
+                              class="mt-4 font-bold text-5xl text-main-800"
                             >
                               +$2,150
                             </h2>
@@ -4402,12 +4402,12 @@ VueWrapper {
                               >
                                 <div>
                                   <p
-                                    class="font-medium text-[#101828]"
+                                    class="font-medium text-title-900"
                                   >
                                     Spent
                                   </p>
                                   <p
-                                    class="font-medium text-[#7F56D9] text-2xl"
+                                    class="font-medium text-main-800 text-2xl"
                                   >
                                     $1,150
                                   </p>
@@ -4416,22 +4416,22 @@ VueWrapper {
                                   class="mt-auto"
                                 >
                                   <p
-                                    class="font-medium text-[#101828]"
+                                    class="font-medium text-title-900"
                                   >
                                     Earned
                                   </p>
                                   <p
-                                    class="font-medium text-[#7F56D9] text-2xl"
+                                    class="font-medium text-main-800 text-2xl"
                                   >
                                     $2,300
                                   </p>
                                 </div>
                               </div>
                               <div
-                                class="w-[0.625rem] bg-[#B692F6] relative rounded-md overflow-hidden"
+                                class="w-[0.625rem] bg-main-500 relative rounded-md overflow-hidden"
                               >
                                 <div
-                                  class="bg-[#7F56D9] absolute bottom-0 left-0 right-0"
+                                  class="bg-main-800 absolute bottom-0 left-0 right-0"
                                   style="height: 66.66666666666666%;"
                                 />
                               </div>
@@ -4645,12 +4645,12 @@ VueWrapper {
                                 >
                                   <div>
                                     <p
-                                      class="font-medium text-[#101828]"
+                                      class="font-medium text-title-900"
                                     >
                                       Spent
                                     </p>
                                     <p
-                                      class="font-medium text-[#7F56D9] text-2xl"
+                                      class="font-medium text-main-800 text-2xl"
                                     >
                                       $1,150
                                     </p>
@@ -4659,19 +4659,19 @@ VueWrapper {
                                     class="mt-auto"
                                   >
                                     <p
-                                      class="font-medium text-[#101828]"
+                                      class="font-medium text-title-900"
                                     >
                                       Earned
                                     </p>
                                     <p
-                                      class="font-medium text-[#7F56D9] text-2xl"
+                                      class="font-medium text-main-800 text-2xl"
                                     >
                                       $2,300
                                     </p>
                                   </div>
                                 </div>,
                                 "appContext": null,
-                                "children": "<div class=\\"flex flex-col\\"><div><p class=\\"font-medium text-[#101828]\\">Spent</p><p class=\\"font-medium text-[#7F56D9] text-2xl\\">$1,150</p></div><div class=\\"mt-auto\\"><p class=\\"font-medium text-[#101828]\\">Earned</p><p class=\\"font-medium text-[#7F56D9] text-2xl\\">$2,300</p></div></div>",
+                                "children": "<div class=\\"flex flex-col\\"><div><p class=\\"font-medium text-title-900\\">Spent</p><p class=\\"font-medium text-main-800 text-2xl\\">$1,150</p></div><div class=\\"mt-auto\\"><p class=\\"font-medium text-title-900\\">Earned</p><p class=\\"font-medium text-main-800 text-2xl\\">$2,300</p></div></div>",
                                 "component": null,
                                 "ctx": null,
                                 "dirs": null,
@@ -4682,12 +4682,12 @@ VueWrapper {
                                 >
                                   <div>
                                     <p
-                                      class="font-medium text-[#101828]"
+                                      class="font-medium text-title-900"
                                     >
                                       Spent
                                     </p>
                                     <p
-                                      class="font-medium text-[#7F56D9] text-2xl"
+                                      class="font-medium text-main-800 text-2xl"
                                     >
                                       $1,150
                                     </p>
@@ -4696,12 +4696,12 @@ VueWrapper {
                                     class="mt-auto"
                                   >
                                     <p
-                                      class="font-medium text-[#101828]"
+                                      class="font-medium text-title-900"
                                     >
                                       Earned
                                     </p>
                                     <p
-                                      class="font-medium text-[#7F56D9] text-2xl"
+                                      class="font-medium text-main-800 text-2xl"
                                     >
                                       $2,300
                                     </p>
@@ -4908,13 +4908,13 @@ VueWrapper {
                                         "dynamicChildren": null,
                                         "dynamicProps": null,
                                         "el": <div
-                                          class="bg-[#7F56D9] absolute bottom-0 left-0 right-0"
+                                          class="bg-main-800 absolute bottom-0 left-0 right-0"
                                           style="height: 66.66666666666666%;"
                                         />,
                                         "key": null,
                                         "patchFlag": 4,
                                         "props": {
-                                          "class": "bg-[#7F56D9] absolute bottom-0 left-0 right-0",
+                                          "class": "bg-main-800 absolute bottom-0 left-0 right-0",
                                           "style": {
                                             "height": "66.66666666666666%",
                                           },
@@ -4949,13 +4949,13 @@ VueWrapper {
                                         "dynamicChildren": null,
                                         "dynamicProps": null,
                                         "el": <div
-                                          class="bg-[#7F56D9] absolute bottom-0 left-0 right-0"
+                                          class="bg-main-800 absolute bottom-0 left-0 right-0"
                                           style="height: 66.66666666666666%;"
                                         />,
                                         "key": null,
                                         "patchFlag": 4,
                                         "props": {
-                                          "class": "bg-[#7F56D9] absolute bottom-0 left-0 right-0",
+                                          "class": "bg-main-800 absolute bottom-0 left-0 right-0",
                                           "style": {
                                             "height": "66.66666666666666%",
                                           },
@@ -4976,17 +4976,17 @@ VueWrapper {
                                     ],
                                     "dynamicProps": null,
                                     "el": <div
-                                      class="w-[0.625rem] bg-[#B692F6] relative rounded-md overflow-hidden"
+                                      class="w-[0.625rem] bg-main-500 relative rounded-md overflow-hidden"
                                     >
                                       <div
-                                        class="bg-[#7F56D9] absolute bottom-0 left-0 right-0"
+                                        class="bg-main-800 absolute bottom-0 left-0 right-0"
                                         style="height: 66.66666666666666%;"
                                       />
                                     </div>,
                                     "key": null,
                                     "patchFlag": 0,
                                     "props": {
-                                      "class": "w-[0.625rem] bg-[#B692F6] relative rounded-md overflow-hidden",
+                                      "class": "w-[0.625rem] bg-main-500 relative rounded-md overflow-hidden",
                                     },
                                     "ref": null,
                                     "scopeId": null,
@@ -5031,10 +5031,10 @@ VueWrapper {
                                 "dynamicChildren": null,
                                 "dynamicProps": null,
                                 "el": <div
-                                  class="w-[0.625rem] bg-[#B692F6] relative rounded-md overflow-hidden"
+                                  class="w-[0.625rem] bg-main-500 relative rounded-md overflow-hidden"
                                 >
                                   <div
-                                    class="bg-[#7F56D9] absolute bottom-0 left-0 right-0"
+                                    class="bg-main-800 absolute bottom-0 left-0 right-0"
                                     style="height: 66.66666666666666%;"
                                   />
                                 </div>,
@@ -5262,13 +5262,13 @@ VueWrapper {
                                         "dynamicChildren": null,
                                         "dynamicProps": null,
                                         "el": <div
-                                          class="bg-[#7F56D9] absolute bottom-0 left-0 right-0"
+                                          class="bg-main-800 absolute bottom-0 left-0 right-0"
                                           style="height: 66.66666666666666%;"
                                         />,
                                         "key": null,
                                         "patchFlag": 4,
                                         "props": {
-                                          "class": "bg-[#7F56D9] absolute bottom-0 left-0 right-0",
+                                          "class": "bg-main-800 absolute bottom-0 left-0 right-0",
                                           "style": {
                                             "height": "66.66666666666666%",
                                           },
@@ -5303,13 +5303,13 @@ VueWrapper {
                                         "dynamicChildren": null,
                                         "dynamicProps": null,
                                         "el": <div
-                                          class="bg-[#7F56D9] absolute bottom-0 left-0 right-0"
+                                          class="bg-main-800 absolute bottom-0 left-0 right-0"
                                           style="height: 66.66666666666666%;"
                                         />,
                                         "key": null,
                                         "patchFlag": 4,
                                         "props": {
-                                          "class": "bg-[#7F56D9] absolute bottom-0 left-0 right-0",
+                                          "class": "bg-main-800 absolute bottom-0 left-0 right-0",
                                           "style": {
                                             "height": "66.66666666666666%",
                                           },
@@ -5330,17 +5330,17 @@ VueWrapper {
                                     ],
                                     "dynamicProps": null,
                                     "el": <div
-                                      class="w-[0.625rem] bg-[#B692F6] relative rounded-md overflow-hidden"
+                                      class="w-[0.625rem] bg-main-500 relative rounded-md overflow-hidden"
                                     >
                                       <div
-                                        class="bg-[#7F56D9] absolute bottom-0 left-0 right-0"
+                                        class="bg-main-800 absolute bottom-0 left-0 right-0"
                                         style="height: 66.66666666666666%;"
                                       />
                                     </div>,
                                     "key": null,
                                     "patchFlag": 0,
                                     "props": {
-                                      "class": "w-[0.625rem] bg-[#B692F6] relative rounded-md overflow-hidden",
+                                      "class": "w-[0.625rem] bg-main-500 relative rounded-md overflow-hidden",
                                     },
                                     "ref": null,
                                     "scopeId": null,
@@ -5385,10 +5385,10 @@ VueWrapper {
                                 "dynamicChildren": null,
                                 "dynamicProps": null,
                                 "el": <div
-                                  class="w-[0.625rem] bg-[#B692F6] relative rounded-md overflow-hidden"
+                                  class="w-[0.625rem] bg-main-500 relative rounded-md overflow-hidden"
                                 >
                                   <div
-                                    class="bg-[#7F56D9] absolute bottom-0 left-0 right-0"
+                                    class="bg-main-800 absolute bottom-0 left-0 right-0"
                                     style="height: 66.66666666666666%;"
                                   />
                                 </div>,
@@ -5436,12 +5436,12 @@ VueWrapper {
                               >
                                 <div>
                                   <p
-                                    class="font-medium text-[#101828]"
+                                    class="font-medium text-title-900"
                                   >
                                     Spent
                                   </p>
                                   <p
-                                    class="font-medium text-[#7F56D9] text-2xl"
+                                    class="font-medium text-main-800 text-2xl"
                                   >
                                     $1,150
                                   </p>
@@ -5450,22 +5450,22 @@ VueWrapper {
                                   class="mt-auto"
                                 >
                                   <p
-                                    class="font-medium text-[#101828]"
+                                    class="font-medium text-title-900"
                                   >
                                     Earned
                                   </p>
                                   <p
-                                    class="font-medium text-[#7F56D9] text-2xl"
+                                    class="font-medium text-main-800 text-2xl"
                                   >
                                     $2,300
                                   </p>
                                 </div>
                               </div>
                               <div
-                                class="w-[0.625rem] bg-[#B692F6] relative rounded-md overflow-hidden"
+                                class="w-[0.625rem] bg-main-500 relative rounded-md overflow-hidden"
                               >
                                 <div
-                                  class="bg-[#7F56D9] absolute bottom-0 left-0 right-0"
+                                  class="bg-main-800 absolute bottom-0 left-0 right-0"
                                   style="height: 66.66666666666666%;"
                                 />
                               </div>
@@ -5515,12 +5515,12 @@ VueWrapper {
                           >
                             <div>
                               <p
-                                class="font-medium text-[#101828]"
+                                class="font-medium text-title-900"
                               >
                                 Spent
                               </p>
                               <p
-                                class="font-medium text-[#7F56D9] text-2xl"
+                                class="font-medium text-main-800 text-2xl"
                               >
                                 $1,150
                               </p>
@@ -5529,22 +5529,22 @@ VueWrapper {
                               class="mt-auto"
                             >
                               <p
-                                class="font-medium text-[#101828]"
+                                class="font-medium text-title-900"
                               >
                                 Earned
                               </p>
                               <p
-                                class="font-medium text-[#7F56D9] text-2xl"
+                                class="font-medium text-main-800 text-2xl"
                               >
                                 $2,300
                               </p>
                             </div>
                           </div>
                           <div
-                            class="w-[0.625rem] bg-[#B692F6] relative rounded-md overflow-hidden"
+                            class="w-[0.625rem] bg-main-500 relative rounded-md overflow-hidden"
                           >
                             <div
-                              class="bg-[#7F56D9] absolute bottom-0 left-0 right-0"
+                              class="bg-main-800 absolute bottom-0 left-0 right-0"
                               style="height: 66.66666666666666%;"
                             />
                           </div>
@@ -5606,12 +5606,12 @@ VueWrapper {
                       class="w-full border-r border-[#CFCFCF] text-right pr-9 box-border"
                     >
                       <h2
-                        class="font-medium mt-2 text-xl text-[#101828]"
+                        class="font-medium mt-2 text-xl text-title-900"
                       >
                         July cash flow
                       </h2>
                       <h2
-                        class="mt-4 font-bold text-5xl text-[#7F56D9]"
+                        class="mt-4 font-bold text-5xl text-main-800"
                       >
                         +$2,150
                       </h2>
@@ -5627,12 +5627,12 @@ VueWrapper {
                         >
                           <div>
                             <p
-                              class="font-medium text-[#101828]"
+                              class="font-medium text-title-900"
                             >
                               Spent
                             </p>
                             <p
-                              class="font-medium text-[#7F56D9] text-2xl"
+                              class="font-medium text-main-800 text-2xl"
                             >
                               $1,150
                             </p>
@@ -5641,22 +5641,22 @@ VueWrapper {
                             class="mt-auto"
                           >
                             <p
-                              class="font-medium text-[#101828]"
+                              class="font-medium text-title-900"
                             >
                               Earned
                             </p>
                             <p
-                              class="font-medium text-[#7F56D9] text-2xl"
+                              class="font-medium text-main-800 text-2xl"
                             >
                               $2,300
                             </p>
                           </div>
                         </div>
                         <div
-                          class="w-[0.625rem] bg-[#B692F6] relative rounded-md overflow-hidden"
+                          class="w-[0.625rem] bg-main-500 relative rounded-md overflow-hidden"
                         >
                           <div
-                            class="bg-[#7F56D9] absolute bottom-0 left-0 right-0"
+                            class="bg-main-800 absolute bottom-0 left-0 right-0"
                             style="height: 66.66666666666666%;"
                           />
                         </div>
@@ -5711,12 +5711,12 @@ VueWrapper {
                   class="w-full border-r border-[#CFCFCF] text-right pr-9 box-border"
                 >
                   <h2
-                    class="font-medium mt-2 text-xl text-[#101828]"
+                    class="font-medium mt-2 text-xl text-title-900"
                   >
                     July cash flow
                   </h2>
                   <h2
-                    class="mt-4 font-bold text-5xl text-[#7F56D9]"
+                    class="mt-4 font-bold text-5xl text-main-800"
                   >
                     +$2,150
                   </h2>
@@ -5732,12 +5732,12 @@ VueWrapper {
                     >
                       <div>
                         <p
-                          class="font-medium text-[#101828]"
+                          class="font-medium text-title-900"
                         >
                           Spent
                         </p>
                         <p
-                          class="font-medium text-[#7F56D9] text-2xl"
+                          class="font-medium text-main-800 text-2xl"
                         >
                           $1,150
                         </p>
@@ -5746,22 +5746,22 @@ VueWrapper {
                         class="mt-auto"
                       >
                         <p
-                          class="font-medium text-[#101828]"
+                          class="font-medium text-title-900"
                         >
                           Earned
                         </p>
                         <p
-                          class="font-medium text-[#7F56D9] text-2xl"
+                          class="font-medium text-main-800 text-2xl"
                         >
                           $2,300
                         </p>
                       </div>
                     </div>
                     <div
-                      class="w-[0.625rem] bg-[#B692F6] relative rounded-md overflow-hidden"
+                      class="w-[0.625rem] bg-main-500 relative rounded-md overflow-hidden"
                     >
                       <div
-                        class="bg-[#7F56D9] absolute bottom-0 left-0 right-0"
+                        class="bg-main-800 absolute bottom-0 left-0 right-0"
                         style="height: 66.66666666666666%;"
                       />
                     </div>
@@ -5820,12 +5820,12 @@ VueWrapper {
               class="w-full border-r border-[#CFCFCF] text-right pr-9 box-border"
             >
               <h2
-                class="font-medium mt-2 text-xl text-[#101828]"
+                class="font-medium mt-2 text-xl text-title-900"
               >
                 July cash flow
               </h2>
               <h2
-                class="mt-4 font-bold text-5xl text-[#7F56D9]"
+                class="mt-4 font-bold text-5xl text-main-800"
               >
                 +$2,150
               </h2>
@@ -5841,12 +5841,12 @@ VueWrapper {
                 >
                   <div>
                     <p
-                      class="font-medium text-[#101828]"
+                      class="font-medium text-title-900"
                     >
                       Spent
                     </p>
                     <p
-                      class="font-medium text-[#7F56D9] text-2xl"
+                      class="font-medium text-main-800 text-2xl"
                     >
                       $1,150
                     </p>
@@ -5855,22 +5855,22 @@ VueWrapper {
                     class="mt-auto"
                   >
                     <p
-                      class="font-medium text-[#101828]"
+                      class="font-medium text-title-900"
                     >
                       Earned
                     </p>
                     <p
-                      class="font-medium text-[#7F56D9] text-2xl"
+                      class="font-medium text-main-800 text-2xl"
                     >
                       $2,300
                     </p>
                   </div>
                 </div>
                 <div
-                  class="w-[0.625rem] bg-[#B692F6] relative rounded-md overflow-hidden"
+                  class="w-[0.625rem] bg-main-500 relative rounded-md overflow-hidden"
                 >
                   <div
-                    class="bg-[#7F56D9] absolute bottom-0 left-0 right-0"
+                    class="bg-main-800 absolute bottom-0 left-0 right-0"
                     style="height: 66.66666666666666%;"
                   />
                 </div>
@@ -5971,12 +5971,12 @@ VueWrapper {
               class="w-full border-r border-[#CFCFCF] text-right pr-9 box-border"
             >
               <h2
-                class="font-medium mt-2 text-xl text-[#101828]"
+                class="font-medium mt-2 text-xl text-title-900"
               >
                 July cash flow
               </h2>
               <h2
-                class="mt-4 font-bold text-5xl text-[#7F56D9]"
+                class="mt-4 font-bold text-5xl text-main-800"
               >
                 +$2,150
               </h2>
@@ -5992,12 +5992,12 @@ VueWrapper {
                 >
                   <div>
                     <p
-                      class="font-medium text-[#101828]"
+                      class="font-medium text-title-900"
                     >
                       Spent
                     </p>
                     <p
-                      class="font-medium text-[#7F56D9] text-2xl"
+                      class="font-medium text-main-800 text-2xl"
                     >
                       $1,150
                     </p>
@@ -6006,22 +6006,22 @@ VueWrapper {
                     class="mt-auto"
                   >
                     <p
-                      class="font-medium text-[#101828]"
+                      class="font-medium text-title-900"
                     >
                       Earned
                     </p>
                     <p
-                      class="font-medium text-[#7F56D9] text-2xl"
+                      class="font-medium text-main-800 text-2xl"
                     >
                       $2,300
                     </p>
                   </div>
                 </div>
                 <div
-                  class="w-[0.625rem] bg-[#B692F6] relative rounded-md overflow-hidden"
+                  class="w-[0.625rem] bg-main-500 relative rounded-md overflow-hidden"
                 >
                   <div
-                    class="bg-[#7F56D9] absolute bottom-0 left-0 right-0"
+                    class="bg-main-800 absolute bottom-0 left-0 right-0"
                     style="height: 66.66666666666666%;"
                   />
                 </div>
@@ -6264,12 +6264,12 @@ VueWrapper {
         class="w-full border-r border-[#CFCFCF] text-right pr-9 box-border"
       >
         <h2
-          class="font-medium mt-2 text-xl text-[#101828]"
+          class="font-medium mt-2 text-xl text-title-900"
         >
           July cash flow
         </h2>
         <h2
-          class="mt-4 font-bold text-5xl text-[#7F56D9]"
+          class="mt-4 font-bold text-5xl text-main-800"
         >
           +$2,150
         </h2>
@@ -6285,12 +6285,12 @@ VueWrapper {
           >
             <div>
               <p
-                class="font-medium text-[#101828]"
+                class="font-medium text-title-900"
               >
                 Spent
               </p>
               <p
-                class="font-medium text-[#7F56D9] text-2xl"
+                class="font-medium text-main-800 text-2xl"
               >
                 $1,150
               </p>
@@ -6299,22 +6299,22 @@ VueWrapper {
               class="mt-auto"
             >
               <p
-                class="font-medium text-[#101828]"
+                class="font-medium text-title-900"
               >
                 Earned
               </p>
               <p
-                class="font-medium text-[#7F56D9] text-2xl"
+                class="font-medium text-main-800 text-2xl"
               >
                 $2,300
               </p>
             </div>
           </div>
           <div
-            class="w-[0.625rem] bg-[#B692F6] relative rounded-md overflow-hidden"
+            class="w-[0.625rem] bg-main-500 relative rounded-md overflow-hidden"
           >
             <div
-              class="bg-[#7F56D9] absolute bottom-0 left-0 right-0"
+              class="bg-main-800 absolute bottom-0 left-0 right-0"
               style="height: 66.66666666666666%;"
             />
           </div>

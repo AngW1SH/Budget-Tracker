@@ -1,6 +1,8 @@
 <script setup lang="ts">
 import { Checkbox, LabeledInput, Button } from "@/shared/ui";
+import { validate } from "@/shared/utils/FormValidation/validation";
 import { ref } from "vue";
+import { signInConfig } from "../../utils/SignIn/config";
 
 const inputData = ref({
   username: "",
@@ -9,7 +11,7 @@ const inputData = ref({
 });
 
 const confirm = () => {
-  console.log(inputData.value);
+  console.log(validate(inputData.value, signInConfig));
 };
 </script>
 

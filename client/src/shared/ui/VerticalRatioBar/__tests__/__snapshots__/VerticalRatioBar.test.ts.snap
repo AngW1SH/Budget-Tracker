@@ -12,10 +12,10 @@ VueWrapper {
       data-v-app=""
     >
       <div
-        class="w-[0.625rem] bg-[#B692F6] relative rounded-md overflow-hidden"
+        class="w-[0.625rem] bg-main-500 relative rounded-md overflow-hidden"
       >
         <div
-          class="bg-[#7F56D9] absolute bottom-0 left-0 right-0"
+          class="bg-main-800 absolute bottom-0 left-0 right-0"
           style="height: 80%;"
         />
       </div>
@@ -382,13 +382,13 @@ VueWrapper {
                 "dynamicChildren": null,
                 "dynamicProps": null,
                 "el": <div
-                  class="bg-[#7F56D9] absolute bottom-0 left-0 right-0"
+                  class="bg-main-800 absolute bottom-0 left-0 right-0"
                   style="height: 80%;"
                 />,
                 "key": null,
                 "patchFlag": 4,
                 "props": {
-                  "class": "bg-[#7F56D9] absolute bottom-0 left-0 right-0",
+                  "class": "bg-main-800 absolute bottom-0 left-0 right-0",
                   "style": {
                     "height": "80%",
                   },
@@ -423,13 +423,13 @@ VueWrapper {
                 "dynamicChildren": null,
                 "dynamicProps": null,
                 "el": <div
-                  class="bg-[#7F56D9] absolute bottom-0 left-0 right-0"
+                  class="bg-main-800 absolute bottom-0 left-0 right-0"
                   style="height: 80%;"
                 />,
                 "key": null,
                 "patchFlag": 4,
                 "props": {
-                  "class": "bg-[#7F56D9] absolute bottom-0 left-0 right-0",
+                  "class": "bg-main-800 absolute bottom-0 left-0 right-0",
                   "style": {
                     "height": "80%",
                   },
@@ -450,17 +450,17 @@ VueWrapper {
             ],
             "dynamicProps": null,
             "el": <div
-              class="w-[0.625rem] bg-[#B692F6] relative rounded-md overflow-hidden"
+              class="w-[0.625rem] bg-main-500 relative rounded-md overflow-hidden"
             >
               <div
-                class="bg-[#7F56D9] absolute bottom-0 left-0 right-0"
+                class="bg-main-800 absolute bottom-0 left-0 right-0"
                 style="height: 80%;"
               />
             </div>,
             "key": null,
             "patchFlag": 0,
             "props": {
-              "class": "w-[0.625rem] bg-[#B692F6] relative rounded-md overflow-hidden",
+              "class": "w-[0.625rem] bg-main-500 relative rounded-md overflow-hidden",
             },
             "ref": null,
             "scopeId": null,
@@ -506,10 +506,10 @@ VueWrapper {
         "dynamicChildren": null,
         "dynamicProps": null,
         "el": <div
-          class="w-[0.625rem] bg-[#B692F6] relative rounded-md overflow-hidden"
+          class="w-[0.625rem] bg-main-500 relative rounded-md overflow-hidden"
         >
           <div
-            class="bg-[#7F56D9] absolute bottom-0 left-0 right-0"
+            class="bg-main-800 absolute bottom-0 left-0 right-0"
             style="height: 80%;"
           />
         </div>,
@@ -607,10 +607,10 @@ VueWrapper {
         "dynamicChildren": null,
         "dynamicProps": null,
         "el": <div
-          class="w-[0.625rem] bg-[#B692F6] relative rounded-md overflow-hidden"
+          class="w-[0.625rem] bg-main-500 relative rounded-md overflow-hidden"
         >
           <div
-            class="bg-[#7F56D9] absolute bottom-0 left-0 right-0"
+            class="bg-main-800 absolute bottom-0 left-0 right-0"
             style="height: 80%;"
           />
         </div>,
@@ -838,10 +838,10 @@ VueWrapper {
     "VTU_COMPONENT": {},
   },
   "wrapperElement": <div
-    class="w-[0.625rem] bg-[#B692F6] relative rounded-md overflow-hidden"
+    class="w-[0.625rem] bg-main-500 relative rounded-md overflow-hidden"
   >
     <div
-      class="bg-[#7F56D9] absolute bottom-0 left-0 right-0"
+      class="bg-main-800 absolute bottom-0 left-0 right-0"
       style="height: 80%;"
     />
   </div>,

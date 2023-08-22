@@ -5,16 +5,16 @@ exports[`ProgressBar shared UI-component > snapshot UI 1`] = `
   class="flex justify-between items-center"
 >
   <div
-    class="relative mt-px w-full h-2 bg-[#F4EBFF] rounded-lg"
+    class="relative mt-px w-full h-2 bg-main-300 rounded-lg"
   >
     <div
-      class="relative h-full bg-[#7F56D9] rounded-lg"
+      class="relative h-full bg-main-800 rounded-lg"
       style="width: 20%;"
     />
     <!--v-if-->
   </div>
   <div
-    class="w-max ml-[0.625rem] text-sm text-[#344054] font-medium"
+    class="w-max ml-[0.625rem] text-sm text-title-600 font-medium"
   >
     20%
   </div>

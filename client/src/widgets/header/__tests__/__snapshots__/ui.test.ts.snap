@@ -16,7 +16,7 @@ exports[`Header Widget UI > snapshot UI testing 1`] = `
         class="flex items-center"
       >
         <div
-          class="h-4 w-4 rounded-full bg-purple-800 mr-3 mt-[3px]"
+          class="h-4 w-4 rounded-full bg-main-900 mr-3 mt-[3px]"
         />
         <h1
           class="text-2xl font-medium"
@@ -26,7 +26,7 @@ exports[`Header Widget UI > snapshot UI testing 1`] = `
       </div>
     </a>
     <ul
-      class="flex text-gray-500 font-semibold mt-[0.4rem]"
+      class="flex text-title-400 font-semibold mt-[0.4rem]"
     >
       <li
         class="mr-12"
@@ -65,9 +65,9 @@ exports[`Header Widget UI > snapshot UI testing 1`] = `
         href="/login"
       >
         <button
-          class="text-gray-500 font-semibold mr-6"
+          class="text-title-400 font-semibold mr-6"
         >
-          Login
+          Log in
         </button>
       </a>
       <a
@@ -75,7 +75,7 @@ exports[`Header Widget UI > snapshot UI testing 1`] = `
         href="/login"
       >
         <button
-          class="text-center text-white font-semibold bg-purple-800 py-[0.675rem] px-5 rounded-md"
+          class="text-center font-semibold bg-main-800 text-white py-[0.675rem] px-5 rounded-md"
         >
           
           Sign Up
