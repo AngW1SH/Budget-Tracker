@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { Checkbox, LabeledInput, Button } from "@/shared/ui";
-import { validate } from "@/shared/utils/FormValidation/validation";
+import { validate } from "@/shared/utils";
 import { ref } from "vue";
 import { signInConfig } from "../../utils/SignIn/config";
 

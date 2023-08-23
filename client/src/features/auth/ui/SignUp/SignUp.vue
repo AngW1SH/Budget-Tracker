@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { LabeledInput, Button } from "@/shared/ui";
-import { validate } from "@/shared/utils/FormValidation/validation";
+import { validate } from "@/shared/utils";
 import { ref } from "vue";
 import { generateSignUpConfig } from "../../utils/SignUp/config";
 

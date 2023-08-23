@@ -1,4 +1,4 @@
-import { ValidationConfigData } from "@/shared/utils/FormValidation/types";
+import { ValidationConfigData } from "@/shared/utils";
 
 export const generateSignUpConfig = (inputData: any): ValidationConfigData => {
   return [
