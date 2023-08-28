@@ -12,7 +12,7 @@ VueWrapper {
       data-v-app=""
     >
       <div
-        class="px-5 py-6 rounded-lg shadow-center-md relative"
+        class="px-5 py-6 rounded-lg shadow-center-md relative flex justify-center items-center"
       >
         
         <button
@@ -27,7 +27,7 @@ VueWrapper {
           </span>
         </button>
         <h1
-          class="text-center text-4xl font-bold"
+          class="text-4xl font-bold"
         >
           28.08.2023
         </h1>
@@ -396,7 +396,7 @@ VueWrapper {
               "asyncDep": null,
               "asyncResolved": false,
               "attrs": {
-                "class": "relative",
+                "class": "relative flex justify-center items-center",
               },
               "attrsProxy": null,
               "bc": null,
@@ -613,14 +613,14 @@ VueWrapper {
                         "dynamicChildren": null,
                         "dynamicProps": null,
                         "el": <h1
-                          class="text-center text-4xl font-bold"
+                          class="text-4xl font-bold"
                         >
                           28.08.2023
                         </h1>,
                         "key": null,
                         "patchFlag": -1,
                         "props": {
-                          "class": "text-center text-4xl font-bold",
+                          "class": "text-4xl font-bold",
                         },
                         "ref": null,
                         "scopeId": null,
@@ -900,14 +900,14 @@ VueWrapper {
                         "dynamicChildren": null,
                         "dynamicProps": null,
                         "el": <h1
-                          class="text-center text-4xl font-bold"
+                          class="text-4xl font-bold"
                         >
                           28.08.2023
                         </h1>,
                         "key": null,
                         "patchFlag": -1,
                         "props": {
-                          "class": "text-center text-4xl font-bold",
+                          "class": "text-4xl font-bold",
                         },
                         "ref": null,
                         "scopeId": null,
@@ -1058,7 +1058,7 @@ VueWrapper {
                 ],
                 "dynamicProps": null,
                 "el": <div
-                  class="px-5 py-6 rounded-lg shadow-center-md relative"
+                  class="px-5 py-6 rounded-lg shadow-center-md relative flex justify-center items-center"
                 >
                   
                   <button
@@ -1073,7 +1073,7 @@ VueWrapper {
                     </span>
                   </button>
                   <h1
-                    class="text-center text-4xl font-bold"
+                    class="text-4xl font-bold"
                   >
                     28.08.2023
                   </h1>
@@ -1093,7 +1093,7 @@ VueWrapper {
                 "key": null,
                 "patchFlag": 16,
                 "props": {
-                  "class": "px-5 py-6 rounded-lg shadow-center-md relative",
+                  "class": "px-5 py-6 rounded-lg shadow-center-md relative flex justify-center items-center",
                 },
                 "ref": null,
                 "scopeId": null,
@@ -1126,7 +1126,7 @@ VueWrapper {
             "dynamicChildren": [],
             "dynamicProps": null,
             "el": <div
-              class="px-5 py-6 rounded-lg shadow-center-md relative"
+              class="px-5 py-6 rounded-lg shadow-center-md relative flex justify-center items-center"
             >
               
               <button
@@ -1141,7 +1141,7 @@ VueWrapper {
                 </span>
               </button>
               <h1
-                class="text-center text-4xl font-bold"
+                class="text-4xl font-bold"
               >
                 28.08.2023
               </h1>
@@ -1161,7 +1161,7 @@ VueWrapper {
             "key": null,
             "patchFlag": 0,
             "props": {
-              "class": "relative",
+              "class": "relative flex justify-center items-center",
             },
             "ref": null,
             "scopeId": null,
@@ -1200,7 +1200,7 @@ VueWrapper {
         "dynamicChildren": null,
         "dynamicProps": null,
         "el": <div
-          class="px-5 py-6 rounded-lg shadow-center-md relative"
+          class="px-5 py-6 rounded-lg shadow-center-md relative flex justify-center items-center"
         >
           
           <button
@@ -1215,7 +1215,7 @@ VueWrapper {
             </span>
           </button>
           <h1
-            class="text-center text-4xl font-bold"
+            class="text-4xl font-bold"
           >
             28.08.2023
           </h1>
@@ -1314,7 +1314,7 @@ VueWrapper {
         "dynamicChildren": null,
         "dynamicProps": null,
         "el": <div
-          class="px-5 py-6 rounded-lg shadow-center-md relative"
+          class="px-5 py-6 rounded-lg shadow-center-md relative flex justify-center items-center"
         >
           
           <button
@@ -1329,7 +1329,7 @@ VueWrapper {
             </span>
           </button>
           <h1
-            class="text-center text-4xl font-bold"
+            class="text-4xl font-bold"
           >
             28.08.2023
           </h1>
@@ -1570,7 +1570,7 @@ VueWrapper {
     "VTU_COMPONENT": {},
   },
   "wrapperElement": <div
-    class="px-5 py-6 rounded-lg shadow-center-md relative"
+    class="px-5 py-6 rounded-lg shadow-center-md relative flex justify-center items-center"
   >
     
     <button
@@ -1585,7 +1585,7 @@ VueWrapper {
       </span>
     </button>
     <h1
-      class="text-center text-4xl font-bold"
+      class="text-4xl font-bold"
     >
       28.08.2023
     </h1>
