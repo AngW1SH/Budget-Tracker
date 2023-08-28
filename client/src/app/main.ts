@@ -6,11 +6,13 @@ import { Home } from "@/pages/home";
 import { createRouter, createWebHistory } from "vue-router";
 import { LogInPage } from "@/pages/signin";
 import { ResetPasswordPage } from "@/pages/resetpassword";
+import { Day } from "@/pages/day";
 
 export const routes = [
   { path: "/", component: Home },
   { path: "/login", component: LogInPage },
   { path: "/resetpassword/:token", component: ResetPasswordPage },
+  { path: "/day", component: Day },
 ];
 
 const router = createRouter({ routes, history: createWebHistory() });
