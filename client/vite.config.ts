@@ -8,6 +8,12 @@ export default defineConfig({
   test: {
     environment: "happy-dom",
   },
+  server: {
+    port: 5173,
+    proxy: {
+      "/api": "http://localhost:3000/",
+    },
+  },
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),

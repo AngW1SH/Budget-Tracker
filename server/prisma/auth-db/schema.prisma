@@ -14,12 +14,20 @@ datasource db {
 model User {
   id       String  @id @default(uuid())
   email    String
+  username String
   password String
   active   Boolean @default(false)
   refresh  String  @default("")
 }
 
 model UserEmailConfirm {
+  id           String   @id @default(uuid())
+  token        String
+  userid       String   @default("")
+  creationtime DateTime @default(now())
+}
+
+model UserResetPassword {
   id           String   @id @default(uuid())
   token        String
   userid       String   @default("")

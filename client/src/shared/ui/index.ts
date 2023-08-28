@@ -8,6 +8,7 @@ import LabeledInput from "./Input/LabeledInput.vue";
 import Input from "./Input/Input.vue";
 import PasswordInput from "./Input/PasswordInput.vue";
 import Checkbox from "./Checkbox/Checkbox.vue";
+import Modal from "./Modal/Modal.vue";
 
 export {
   Container,
@@ -20,4 +21,5 @@ export {
   Input,
   PasswordInput,
   Checkbox,
+  Modal,
 };

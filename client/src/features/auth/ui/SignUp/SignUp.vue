@@ -3,6 +3,11 @@ import { LabeledInput, Button } from "@/shared/ui";
 import { validate } from "@/shared/utils";
 import { ref } from "vue";
 import { generateSignUpConfig } from "../../utils/SignUp/config";
+import { registerUser } from "../../api/register";
+
+const emit = defineEmits<{
+  (e: "registration-success");
+}>();
 
 const inputData = ref({
   email: "",
@@ -11,8 +16,19 @@ const inputData = ref({
   repeatPassword: "",
 });
 
-const confirm = () => {
-  console.log(validate(inputData.value, generateSignUpConfig(inputData)));
+const confirm = async () => {
+  if (
+    !validate(inputData.value, generateSignUpConfig(inputData.value)).length
+  ) {
+    console.log(
+      await registerUser({
+        email: inputData.value.email,
+        username: inputData.value.username,
+        password: inputData.value.password,
+      })
+    );
+    emit("registration-success");
+  }
 };
 </script>
 

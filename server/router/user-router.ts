@@ -81,9 +81,34 @@ const sendConfirmationEmail = async (email: string, token: string) => {
   }
 };
 
+const sendResetPasswordEmail = async (email: string, token: string) => {
+  try {
+    const transporter = nodemailer.createTransport({
+      service: "yandex",
+      port: 465,
+      secure: true,
+      auth: {
+        user: process.env.MAIL_USER,
+        pass: process.env.MAIL_PASS,
+      },
+    });
+
+    const info = await transporter.sendMail({
+      from: process.env.MAIL_USER + "@yandex.ru",
+      to: email,
+      subject: "Passport Auth | Reset Password",
+      text: "http://localhost:5173/resetpassword/" + token,
+    });
+
+    return info;
+  } catch (err) {
+    return err;
+  }
+};
+
 userRouter.post("/register", async (req, res) => {
   try {
-    if (!req.body.email || !req.body.password) {
+    if (!req.body.email || !req.body.password || !req.body.username) {
       res.status(400).send();
       return;
     }
@@ -107,6 +132,7 @@ userRouter.post("/register", async (req, res) => {
           const user = await prisma.user.create({
             data: {
               email: req.body.email,
+              username: req.body.username,
               password: hashedPassword,
             },
           });
@@ -136,6 +162,89 @@ userRouter.post("/register", async (req, res) => {
   } catch (error) {
     res.status(500).send();
     return;
+  }
+});
+
+userRouter.post("/forgotpassword", async (req, res) => {
+  try {
+    if (!req.body.email) {
+      res.status(400).send();
+      return;
+    }
+
+    const user = await prisma.user.findFirst({
+      where: {
+        email: req.body.email,
+      },
+    });
+
+    if (user) {
+      const token = crypto.randomBytes(128).toString("hex");
+
+      const deletePrevTokens = await prisma.userResetPassword.deleteMany({
+        where: {
+          userid: user.id,
+        },
+      });
+
+      console.log("vibin");
+      const createNewToken = await prisma.userResetPassword.create({
+        data: {
+          userid: user.id,
+          token: token,
+        },
+      });
+
+      console.log(createNewToken);
+
+      await sendResetPasswordEmail(user.email, token);
+
+      res.status(200).send();
+    } else {
+      res.status(404).send();
+    }
+  } catch (err) {
+    console.log(err);
+    res.status(500).send();
+  }
+});
+
+userRouter.post("/resetpassword", async (req, res) => {
+  try {
+    if (!req.body.token || !req.body.password) {
+      res.status(400).send();
+      return;
+    }
+
+    const userid_token = await prisma.userResetPassword.findFirst({
+      where: {
+        token: req.body.token,
+      },
+    });
+
+    if (userid_token && userid_token.userid) {
+      const deleteToken = await prisma.userResetPassword.deleteMany({
+        where: {
+          userid: userid_token.userid,
+        },
+      });
+
+      bcrypt.genSalt(10, function (err, salt) {
+        bcrypt.hash(req.body.password, salt, async (err, hashedPassword) => {
+          const user = await prisma.user.update({
+            where: {
+              id: userid_token.userid,
+            },
+            data: {
+              password: hashedPassword,
+            },
+          });
+        });
+      });
+    }
+    return res.status(200).send();
+  } catch {
+    res.status(500).send();
   }
 });
 
@@ -216,31 +325,29 @@ userRouter.post(
         },
       });
 
-      if (user && user.refresh) {
-        res.cookie("passportauth-refresh", user.refresh, {
-          maxAge: 1000 * 60 * 60 * 24, // would expire after 15 minutes
-          httpOnly: true,
-          signed: true,
-        });
-      } else {
-        const refreshToken = generateRefreshToken(req.user.id);
+      if (user) {
+        if (req.body.rememberMe) {
+          const refreshToken = generateRefreshToken(req.user.id);
 
-        res.cookie("passportauth-refresh", refreshToken, {
-          maxAge: 1000 * 60 * 60 * 24, // would expire after 15 minutes
-          httpOnly: true,
-          signed: true,
-        });
+          res.cookie("passportauth-refresh", refreshToken, {
+            maxAge: 1000 * 60 * 60 * 24, // would expire after 15 minutes
+            httpOnly: true,
+            signed: true,
+          });
 
-        const result = await prisma.user.update({
-          where: {
-            id: req.user.id,
-          },
-          data: {
-            refresh: refreshToken,
-          },
-        });
+          const result = await prisma.user.update({
+            where: {
+              id: req.user.id,
+            },
+            data: {
+              refresh: refreshToken,
+            },
+          });
+        }
       }
       res.status(200).send();
+    } else {
+      res.status(404).send();
     }
     res.status(401).send();
   }

@@ -3,6 +3,12 @@ import { Checkbox, LabeledInput, Button } from "@/shared/ui";
 import { validate } from "@/shared/utils";
 import { ref } from "vue";
 import { signInConfig } from "../../utils/SignIn/config";
+import { loginUser } from "../../api/login";
+
+const emit = defineEmits<{
+  (e: "login-success");
+  (e: "forgot-password");
+}>();
 
 const inputData = ref({
   username: "",
@@ -10,8 +16,11 @@ const inputData = ref({
   rememberMe: false,
 });
 
-const confirm = () => {
-  console.log(validate(inputData.value, signInConfig));
+const confirm = async () => {
+  if (!validate(inputData.value, signInConfig).length) {
+    console.log(await loginUser(inputData.value));
+    emit("login-success");
+  }
 };
 </script>
 
@@ -29,7 +38,12 @@ const confirm = () => {
       label="Remember me"
       id="remember-me"
     />
-    <button class="text-sm font-light text-title-700">Forgot Password?</button>
+    <button
+      class="text-sm font-light text-title-700"
+      @click="$emit('forgot-password')"
+    >
+      Forgot Password?
+    </button>
   </div>
   <Button class="w-full text-[1.75rem] font-semibold my-4" @click="confirm"
     >Login</Button

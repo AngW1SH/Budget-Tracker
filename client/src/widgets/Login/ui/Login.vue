@@ -1,13 +1,29 @@
 <script setup lang="ts">
-import { Block } from "@/shared/ui";
+import { Block, Modal } from "@/shared/ui";
 import { ref } from "vue";
-import { SSO, SignIn, SignUp } from "@/features/auth";
+import {
+  SSO,
+  SignIn,
+  SignUp,
+  ConfirmEmailModal,
+  ForgotPassword,
+} from "@/features/auth";
+import { useRouter } from "vue-router";
 
-const mode = ref<"login" | "register">("login");
+const router = useRouter();
+
+function login() {
+  router.push("/");
+}
+
+const mode = ref<"login" | "register" | "forgotPassword">("login");
+const forgotPassword = ref(false);
 
 const toggleMode = () => {
   mode.value = mode.value == "login" ? "register" : "login";
 };
+
+const showConfirmEmailModal = ref(false);
 </script>
 
 <template>
@@ -15,7 +31,10 @@ const toggleMode = () => {
     <h2 class="font-light text-2xl mb-6">Welcome!</h2>
     <div v-if="mode == 'login'">
       <h1 class="font-medium text-5xl mb-6">Sign in</h1>
-      <SignIn />
+      <SignIn
+        @login-success="login"
+        @forgot-password="mode = 'forgotPassword'"
+      />
       <p class="mt-5 mb-2 font-light text-sm text-center">or continue with</p>
       <SSO class="mb-4" />
       <p class="font-light text-center">
@@ -39,5 +58,19 @@ const toggleMode = () => {
         >
       </p>
     </div>
+    <div v-if="mode == 'forgotPassword'">
+      <h1 class="font-medium text-3xl mb-6">Forgot password</h1>
+      <ForgotPassword
+        @forgotpassword-success="forgotPassword = true"
+        @forgotpassword-cancel="mode = 'login'"
+      />
+    </div>
+
+    <Modal v-show="showConfirmEmailModal">
+      <ConfirmEmailModal @confirm-message="showConfirmEmailModal = false" />
+    </Modal>
+    <Modal v-show="forgotPassword">
+      <ConfirmEmailModal @confirm-message="forgotPassword = false" />
+    </Modal>
   </Block>
 </template>
