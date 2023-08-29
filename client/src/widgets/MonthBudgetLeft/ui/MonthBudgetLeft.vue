@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { Block } from "@/shared/ui";
-import { OverallBudgetProgress } from "@/entities/UserMonth";
+import { OverallBudgetProgress } from "@/entities/Month";
 </script>
 
 <template>

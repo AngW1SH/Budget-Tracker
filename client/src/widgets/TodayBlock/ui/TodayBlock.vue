@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { TodayButton } from "@/features/TodayButton";
-import { DayAverage } from "@/entities/UserDay";
+import { DayAverage } from "@/entities/Day";
 import { Block, LearnMoreButton } from "@/shared/ui";
 </script>
 

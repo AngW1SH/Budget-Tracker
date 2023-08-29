@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { Block } from "@/shared/ui";
-import { CategoryList } from "@/entities/UserCategory";
+import { CategoryList } from "@/entities/Category";
 import { LearnMoreButton } from "@/shared/ui";
 </script>
 

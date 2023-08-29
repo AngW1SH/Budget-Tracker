@@ -317,7 +317,7 @@ VueWrapper {
               "render": [Function],
             },
             "SpentEarnedRatio": {
-              "__file": "C:/Users/lalue/OneDrive/Рабочий стол/Programming/Projects/Budget Planner/client/src/entities/UserMonth/ui/SpentEarnedRatio/SpentEarnedRatio.vue",
+              "__file": "C:/Users/lalue/OneDrive/Рабочий стол/Programming/Projects/Budget Planner/client/src/entities/Month/ui/SpentEarnedRatio/SpentEarnedRatio.vue",
               "__name": "SpentEarnedRatio",
               "render": [Function],
               "setup": [Function],
@@ -391,7 +391,7 @@ VueWrapper {
               "render": [Function],
             },
             "SpentEarnedRatio": {
-              "__file": "C:/Users/lalue/OneDrive/Рабочий стол/Programming/Projects/Budget Planner/client/src/entities/UserMonth/ui/SpentEarnedRatio/SpentEarnedRatio.vue",
+              "__file": "C:/Users/lalue/OneDrive/Рабочий стол/Programming/Projects/Budget Planner/client/src/entities/Month/ui/SpentEarnedRatio/SpentEarnedRatio.vue",
               "__name": "SpentEarnedRatio",
               "render": [Function],
               "setup": [Function],
@@ -1673,7 +1673,7 @@ VueWrapper {
                                   "suspense": null,
                                   "suspenseId": 0,
                                   "type": {
-                                    "__file": "C:/Users/lalue/OneDrive/Рабочий стол/Programming/Projects/Budget Planner/client/src/entities/UserMonth/ui/SpentEarnedRatio/SpentEarnedRatio.vue",
+                                    "__file": "C:/Users/lalue/OneDrive/Рабочий стол/Programming/Projects/Budget Planner/client/src/entities/Month/ui/SpentEarnedRatio/SpentEarnedRatio.vue",
                                     "__name": "SpentEarnedRatio",
                                     "render": [Function],
                                     "setup": [Function],
@@ -1748,7 +1748,7 @@ VueWrapper {
                                 "targetAnchor": null,
                                 "transition": null,
                                 "type": {
-                                  "__file": "C:/Users/lalue/OneDrive/Рабочий стол/Programming/Projects/Budget Planner/client/src/entities/UserMonth/ui/SpentEarnedRatio/SpentEarnedRatio.vue",
+                                  "__file": "C:/Users/lalue/OneDrive/Рабочий стол/Programming/Projects/Budget Planner/client/src/entities/Month/ui/SpentEarnedRatio/SpentEarnedRatio.vue",
                                   "__name": "SpentEarnedRatio",
                                   "render": [Function],
                                   "setup": [Function],
@@ -2947,7 +2947,7 @@ VueWrapper {
                           "suspense": null,
                           "suspenseId": 0,
                           "type": {
-                            "__file": "C:/Users/lalue/OneDrive/Рабочий стол/Programming/Projects/Budget Planner/client/src/entities/UserMonth/ui/SpentEarnedRatio/SpentEarnedRatio.vue",
+                            "__file": "C:/Users/lalue/OneDrive/Рабочий стол/Programming/Projects/Budget Planner/client/src/entities/Month/ui/SpentEarnedRatio/SpentEarnedRatio.vue",
                             "__name": "SpentEarnedRatio",
                             "render": [Function],
                             "setup": [Function],
@@ -3022,7 +3022,7 @@ VueWrapper {
                         "targetAnchor": null,
                         "transition": null,
                         "type": {
-                          "__file": "C:/Users/lalue/OneDrive/Рабочий стол/Programming/Projects/Budget Planner/client/src/entities/UserMonth/ui/SpentEarnedRatio/SpentEarnedRatio.vue",
+                          "__file": "C:/Users/lalue/OneDrive/Рабочий стол/Programming/Projects/Budget Planner/client/src/entities/Month/ui/SpentEarnedRatio/SpentEarnedRatio.vue",
                           "__name": "SpentEarnedRatio",
                           "render": [Function],
                           "setup": [Function],
@@ -4217,7 +4217,7 @@ VueWrapper {
                                   "suspense": null,
                                   "suspenseId": 0,
                                   "type": {
-                                    "__file": "C:/Users/lalue/OneDrive/Рабочий стол/Programming/Projects/Budget Planner/client/src/entities/UserMonth/ui/SpentEarnedRatio/SpentEarnedRatio.vue",
+                                    "__file": "C:/Users/lalue/OneDrive/Рабочий стол/Programming/Projects/Budget Planner/client/src/entities/Month/ui/SpentEarnedRatio/SpentEarnedRatio.vue",
                                     "__name": "SpentEarnedRatio",
                                     "render": [Function],
                                     "setup": [Function],
@@ -4292,7 +4292,7 @@ VueWrapper {
                                 "targetAnchor": null,
                                 "transition": null,
                                 "type": {
-                                  "__file": "C:/Users/lalue/OneDrive/Рабочий стол/Programming/Projects/Budget Planner/client/src/entities/UserMonth/ui/SpentEarnedRatio/SpentEarnedRatio.vue",
+                                  "__file": "C:/Users/lalue/OneDrive/Рабочий стол/Programming/Projects/Budget Planner/client/src/entities/Month/ui/SpentEarnedRatio/SpentEarnedRatio.vue",
                                   "__name": "SpentEarnedRatio",
                                   "render": [Function],
                                   "setup": [Function],
@@ -5491,7 +5491,7 @@ VueWrapper {
                           "suspense": null,
                           "suspenseId": 0,
                           "type": {
-                            "__file": "C:/Users/lalue/OneDrive/Рабочий стол/Programming/Projects/Budget Planner/client/src/entities/UserMonth/ui/SpentEarnedRatio/SpentEarnedRatio.vue",
+                            "__file": "C:/Users/lalue/OneDrive/Рабочий стол/Programming/Projects/Budget Planner/client/src/entities/Month/ui/SpentEarnedRatio/SpentEarnedRatio.vue",
                             "__name": "SpentEarnedRatio",
                             "render": [Function],
                             "setup": [Function],
@@ -5566,7 +5566,7 @@ VueWrapper {
                         "targetAnchor": null,
                         "transition": null,
                         "type": {
-                          "__file": "C:/Users/lalue/OneDrive/Рабочий стол/Programming/Projects/Budget Planner/client/src/entities/UserMonth/ui/SpentEarnedRatio/SpentEarnedRatio.vue",
+                          "__file": "C:/Users/lalue/OneDrive/Рабочий стол/Programming/Projects/Budget Planner/client/src/entities/Month/ui/SpentEarnedRatio/SpentEarnedRatio.vue",
                           "__name": "SpentEarnedRatio",
                           "render": [Function],
                           "setup": [Function],

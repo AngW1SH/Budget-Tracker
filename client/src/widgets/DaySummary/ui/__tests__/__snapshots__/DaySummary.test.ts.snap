@@ -326,15 +326,15 @@ VueWrapper {
               "render": [Function],
             },
             "DayActual": {
-              "__file": "C:/Users/lalue/OneDrive/Рабочий стол/Programming/Projects/Budget Planner/client/src/entities/UserDay/ui/DaySummary/DayActual.vue",
+              "__file": "C:/Users/lalue/OneDrive/Рабочий стол/Programming/Projects/Budget Planner/client/src/entities/Day/ui/DaySummary/DayActual.vue",
               "render": [Function],
             },
             "DayAverage": {
-              "__file": "C:/Users/lalue/OneDrive/Рабочий стол/Programming/Projects/Budget Planner/client/src/entities/UserDay/ui/DaySummary/DayAverage.vue",
+              "__file": "C:/Users/lalue/OneDrive/Рабочий стол/Programming/Projects/Budget Planner/client/src/entities/Day/ui/DaySummary/DayAverage.vue",
               "render": [Function],
             },
             "DayLimit": {
-              "__file": "C:/Users/lalue/OneDrive/Рабочий стол/Programming/Projects/Budget Planner/client/src/entities/UserDay/ui/DaySummary/DayLimit.vue",
+              "__file": "C:/Users/lalue/OneDrive/Рабочий стол/Programming/Projects/Budget Planner/client/src/entities/Day/ui/DaySummary/DayLimit.vue",
               "render": [Function],
             },
           },
@@ -406,15 +406,15 @@ VueWrapper {
               "render": [Function],
             },
             "DayActual": {
-              "__file": "C:/Users/lalue/OneDrive/Рабочий стол/Programming/Projects/Budget Planner/client/src/entities/UserDay/ui/DaySummary/DayActual.vue",
+              "__file": "C:/Users/lalue/OneDrive/Рабочий стол/Programming/Projects/Budget Planner/client/src/entities/Day/ui/DaySummary/DayActual.vue",
               "render": [Function],
             },
             "DayAverage": {
-              "__file": "C:/Users/lalue/OneDrive/Рабочий стол/Programming/Projects/Budget Planner/client/src/entities/UserDay/ui/DaySummary/DayAverage.vue",
+              "__file": "C:/Users/lalue/OneDrive/Рабочий стол/Programming/Projects/Budget Planner/client/src/entities/Day/ui/DaySummary/DayAverage.vue",
               "render": [Function],
             },
             "DayLimit": {
-              "__file": "C:/Users/lalue/OneDrive/Рабочий стол/Programming/Projects/Budget Planner/client/src/entities/UserDay/ui/DaySummary/DayLimit.vue",
+              "__file": "C:/Users/lalue/OneDrive/Рабочий стол/Programming/Projects/Budget Planner/client/src/entities/Day/ui/DaySummary/DayLimit.vue",
               "render": [Function],
             },
           },
@@ -931,7 +931,7 @@ VueWrapper {
                               "suspense": null,
                               "suspenseId": 0,
                               "type": {
-                                "__file": "C:/Users/lalue/OneDrive/Рабочий стол/Programming/Projects/Budget Planner/client/src/entities/UserDay/ui/DaySummary/DayAverage.vue",
+                                "__file": "C:/Users/lalue/OneDrive/Рабочий стол/Programming/Projects/Budget Planner/client/src/entities/Day/ui/DaySummary/DayAverage.vue",
                                 "render": [Function],
                               },
                               "u": null,
@@ -981,7 +981,7 @@ VueWrapper {
                             "targetAnchor": null,
                             "transition": null,
                             "type": {
-                              "__file": "C:/Users/lalue/OneDrive/Рабочий стол/Programming/Projects/Budget Planner/client/src/entities/UserDay/ui/DaySummary/DayAverage.vue",
+                              "__file": "C:/Users/lalue/OneDrive/Рабочий стол/Programming/Projects/Budget Planner/client/src/entities/Day/ui/DaySummary/DayAverage.vue",
                               "render": [Function],
                             },
                           },
@@ -1360,7 +1360,7 @@ VueWrapper {
                               "suspense": null,
                               "suspenseId": 0,
                               "type": {
-                                "__file": "C:/Users/lalue/OneDrive/Рабочий стол/Programming/Projects/Budget Planner/client/src/entities/UserDay/ui/DaySummary/DayAverage.vue",
+                                "__file": "C:/Users/lalue/OneDrive/Рабочий стол/Programming/Projects/Budget Planner/client/src/entities/Day/ui/DaySummary/DayAverage.vue",
                                 "render": [Function],
                               },
                               "u": null,
@@ -1410,7 +1410,7 @@ VueWrapper {
                             "targetAnchor": null,
                             "transition": null,
                             "type": {
-                              "__file": "C:/Users/lalue/OneDrive/Рабочий стол/Programming/Projects/Budget Planner/client/src/entities/UserDay/ui/DaySummary/DayAverage.vue",
+                              "__file": "C:/Users/lalue/OneDrive/Рабочий стол/Programming/Projects/Budget Planner/client/src/entities/Day/ui/DaySummary/DayAverage.vue",
                               "render": [Function],
                             },
                           },
@@ -1816,7 +1816,7 @@ VueWrapper {
                               "suspense": null,
                               "suspenseId": 0,
                               "type": {
-                                "__file": "C:/Users/lalue/OneDrive/Рабочий стол/Programming/Projects/Budget Planner/client/src/entities/UserDay/ui/DaySummary/DayAverage.vue",
+                                "__file": "C:/Users/lalue/OneDrive/Рабочий стол/Programming/Projects/Budget Planner/client/src/entities/Day/ui/DaySummary/DayAverage.vue",
                                 "render": [Function],
                               },
                               "u": null,
@@ -1866,7 +1866,7 @@ VueWrapper {
                             "targetAnchor": null,
                             "transition": null,
                             "type": {
-                              "__file": "C:/Users/lalue/OneDrive/Рабочий стол/Programming/Projects/Budget Planner/client/src/entities/UserDay/ui/DaySummary/DayAverage.vue",
+                              "__file": "C:/Users/lalue/OneDrive/Рабочий стол/Programming/Projects/Budget Planner/client/src/entities/Day/ui/DaySummary/DayAverage.vue",
                               "render": [Function],
                             },
                           },
@@ -2245,7 +2245,7 @@ VueWrapper {
                               "suspense": null,
                               "suspenseId": 0,
                               "type": {
-                                "__file": "C:/Users/lalue/OneDrive/Рабочий стол/Programming/Projects/Budget Planner/client/src/entities/UserDay/ui/DaySummary/DayAverage.vue",
+                                "__file": "C:/Users/lalue/OneDrive/Рабочий стол/Programming/Projects/Budget Planner/client/src/entities/Day/ui/DaySummary/DayAverage.vue",
                                 "render": [Function],
                               },
                               "u": null,
@@ -2295,7 +2295,7 @@ VueWrapper {
                             "targetAnchor": null,
                             "transition": null,
                             "type": {
-                              "__file": "C:/Users/lalue/OneDrive/Рабочий стол/Programming/Projects/Budget Planner/client/src/entities/UserDay/ui/DaySummary/DayAverage.vue",
+                              "__file": "C:/Users/lalue/OneDrive/Рабочий стол/Programming/Projects/Budget Planner/client/src/entities/Day/ui/DaySummary/DayAverage.vue",
                               "render": [Function],
                             },
                           },
@@ -2932,7 +2932,7 @@ VueWrapper {
                               "suspense": null,
                               "suspenseId": 0,
                               "type": {
-                                "__file": "C:/Users/lalue/OneDrive/Рабочий стол/Programming/Projects/Budget Planner/client/src/entities/UserDay/ui/DaySummary/DayLimit.vue",
+                                "__file": "C:/Users/lalue/OneDrive/Рабочий стол/Programming/Projects/Budget Planner/client/src/entities/Day/ui/DaySummary/DayLimit.vue",
                                 "render": [Function],
                               },
                               "u": null,
@@ -2982,7 +2982,7 @@ VueWrapper {
                             "targetAnchor": null,
                             "transition": null,
                             "type": {
-                              "__file": "C:/Users/lalue/OneDrive/Рабочий стол/Programming/Projects/Budget Planner/client/src/entities/UserDay/ui/DaySummary/DayLimit.vue",
+                              "__file": "C:/Users/lalue/OneDrive/Рабочий стол/Programming/Projects/Budget Planner/client/src/entities/Day/ui/DaySummary/DayLimit.vue",
                               "render": [Function],
                             },
                           },
@@ -3361,7 +3361,7 @@ VueWrapper {
                               "suspense": null,
                               "suspenseId": 0,
                               "type": {
-                                "__file": "C:/Users/lalue/OneDrive/Рабочий стол/Programming/Projects/Budget Planner/client/src/entities/UserDay/ui/DaySummary/DayLimit.vue",
+                                "__file": "C:/Users/lalue/OneDrive/Рабочий стол/Programming/Projects/Budget Planner/client/src/entities/Day/ui/DaySummary/DayLimit.vue",
                                 "render": [Function],
                               },
                               "u": null,
@@ -3411,7 +3411,7 @@ VueWrapper {
                             "targetAnchor": null,
                             "transition": null,
                             "type": {
-                              "__file": "C:/Users/lalue/OneDrive/Рабочий стол/Programming/Projects/Budget Planner/client/src/entities/UserDay/ui/DaySummary/DayLimit.vue",
+                              "__file": "C:/Users/lalue/OneDrive/Рабочий стол/Programming/Projects/Budget Planner/client/src/entities/Day/ui/DaySummary/DayLimit.vue",
                               "render": [Function],
                             },
                           },
@@ -3817,7 +3817,7 @@ VueWrapper {
                               "suspense": null,
                               "suspenseId": 0,
                               "type": {
-                                "__file": "C:/Users/lalue/OneDrive/Рабочий стол/Programming/Projects/Budget Planner/client/src/entities/UserDay/ui/DaySummary/DayLimit.vue",
+                                "__file": "C:/Users/lalue/OneDrive/Рабочий стол/Programming/Projects/Budget Planner/client/src/entities/Day/ui/DaySummary/DayLimit.vue",
                                 "render": [Function],
                               },
                               "u": null,
@@ -3867,7 +3867,7 @@ VueWrapper {
                             "targetAnchor": null,
                             "transition": null,
                             "type": {
-                              "__file": "C:/Users/lalue/OneDrive/Рабочий стол/Programming/Projects/Budget Planner/client/src/entities/UserDay/ui/DaySummary/DayLimit.vue",
+                              "__file": "C:/Users/lalue/OneDrive/Рабочий стол/Programming/Projects/Budget Planner/client/src/entities/Day/ui/DaySummary/DayLimit.vue",
                               "render": [Function],
                             },
                           },
@@ -4246,7 +4246,7 @@ VueWrapper {
                               "suspense": null,
                               "suspenseId": 0,
                               "type": {
-                                "__file": "C:/Users/lalue/OneDrive/Рабочий стол/Programming/Projects/Budget Planner/client/src/entities/UserDay/ui/DaySummary/DayLimit.vue",
+                                "__file": "C:/Users/lalue/OneDrive/Рабочий стол/Programming/Projects/Budget Planner/client/src/entities/Day/ui/DaySummary/DayLimit.vue",
                                 "render": [Function],
                               },
                               "u": null,
@@ -4296,7 +4296,7 @@ VueWrapper {
                             "targetAnchor": null,
                             "transition": null,
                             "type": {
-                              "__file": "C:/Users/lalue/OneDrive/Рабочий стол/Programming/Projects/Budget Planner/client/src/entities/UserDay/ui/DaySummary/DayLimit.vue",
+                              "__file": "C:/Users/lalue/OneDrive/Рабочий стол/Programming/Projects/Budget Planner/client/src/entities/Day/ui/DaySummary/DayLimit.vue",
                               "render": [Function],
                             },
                           },
@@ -4933,7 +4933,7 @@ VueWrapper {
                               "suspense": null,
                               "suspenseId": 0,
                               "type": {
-                                "__file": "C:/Users/lalue/OneDrive/Рабочий стол/Programming/Projects/Budget Planner/client/src/entities/UserDay/ui/DaySummary/DayActual.vue",
+                                "__file": "C:/Users/lalue/OneDrive/Рабочий стол/Programming/Projects/Budget Planner/client/src/entities/Day/ui/DaySummary/DayActual.vue",
                                 "render": [Function],
                               },
                               "u": null,
@@ -4983,7 +4983,7 @@ VueWrapper {
                             "targetAnchor": null,
                             "transition": null,
                             "type": {
-                              "__file": "C:/Users/lalue/OneDrive/Рабочий стол/Programming/Projects/Budget Planner/client/src/entities/UserDay/ui/DaySummary/DayActual.vue",
+                              "__file": "C:/Users/lalue/OneDrive/Рабочий стол/Programming/Projects/Budget Planner/client/src/entities/Day/ui/DaySummary/DayActual.vue",
                               "render": [Function],
                             },
                           },
@@ -5362,7 +5362,7 @@ VueWrapper {
                               "suspense": null,
                               "suspenseId": 0,
                               "type": {
-                                "__file": "C:/Users/lalue/OneDrive/Рабочий стол/Programming/Projects/Budget Planner/client/src/entities/UserDay/ui/DaySummary/DayActual.vue",
+                                "__file": "C:/Users/lalue/OneDrive/Рабочий стол/Programming/Projects/Budget Planner/client/src/entities/Day/ui/DaySummary/DayActual.vue",
                                 "render": [Function],
                               },
                               "u": null,
@@ -5412,7 +5412,7 @@ VueWrapper {
                             "targetAnchor": null,
                             "transition": null,
                             "type": {
-                              "__file": "C:/Users/lalue/OneDrive/Рабочий стол/Programming/Projects/Budget Planner/client/src/entities/UserDay/ui/DaySummary/DayActual.vue",
+                              "__file": "C:/Users/lalue/OneDrive/Рабочий стол/Programming/Projects/Budget Planner/client/src/entities/Day/ui/DaySummary/DayActual.vue",
                               "render": [Function],
                             },
                           },
@@ -5818,7 +5818,7 @@ VueWrapper {
                               "suspense": null,
                               "suspenseId": 0,
                               "type": {
-                                "__file": "C:/Users/lalue/OneDrive/Рабочий стол/Programming/Projects/Budget Planner/client/src/entities/UserDay/ui/DaySummary/DayActual.vue",
+                                "__file": "C:/Users/lalue/OneDrive/Рабочий стол/Programming/Projects/Budget Planner/client/src/entities/Day/ui/DaySummary/DayActual.vue",
                                 "render": [Function],
                               },
                               "u": null,
@@ -5868,7 +5868,7 @@ VueWrapper {
                             "targetAnchor": null,
                             "transition": null,
                             "type": {
-                              "__file": "C:/Users/lalue/OneDrive/Рабочий стол/Programming/Projects/Budget Planner/client/src/entities/UserDay/ui/DaySummary/DayActual.vue",
+                              "__file": "C:/Users/lalue/OneDrive/Рабочий стол/Programming/Projects/Budget Planner/client/src/entities/Day/ui/DaySummary/DayActual.vue",
                               "render": [Function],
                             },
                           },
@@ -6247,7 +6247,7 @@ VueWrapper {
                               "suspense": null,
                               "suspenseId": 0,
                               "type": {
-                                "__file": "C:/Users/lalue/OneDrive/Рабочий стол/Programming/Projects/Budget Planner/client/src/entities/UserDay/ui/DaySummary/DayActual.vue",
+                                "__file": "C:/Users/lalue/OneDrive/Рабочий стол/Programming/Projects/Budget Planner/client/src/entities/Day/ui/DaySummary/DayActual.vue",
                                 "render": [Function],
                               },
                               "u": null,
@@ -6297,7 +6297,7 @@ VueWrapper {
                             "targetAnchor": null,
                             "transition": null,
                             "type": {
-                              "__file": "C:/Users/lalue/OneDrive/Рабочий стол/Programming/Projects/Budget Planner/client/src/entities/UserDay/ui/DaySummary/DayActual.vue",
+                              "__file": "C:/Users/lalue/OneDrive/Рабочий стол/Programming/Projects/Budget Planner/client/src/entities/Day/ui/DaySummary/DayActual.vue",
                               "render": [Function],
                             },
                           },
@@ -6953,7 +6953,7 @@ VueWrapper {
                               "suspense": null,
                               "suspenseId": 0,
                               "type": {
-                                "__file": "C:/Users/lalue/OneDrive/Рабочий стол/Programming/Projects/Budget Planner/client/src/entities/UserDay/ui/DaySummary/DayAverage.vue",
+                                "__file": "C:/Users/lalue/OneDrive/Рабочий стол/Programming/Projects/Budget Planner/client/src/entities/Day/ui/DaySummary/DayAverage.vue",
                                 "render": [Function],
                               },
                               "u": null,
@@ -7003,7 +7003,7 @@ VueWrapper {
                             "targetAnchor": null,
                             "transition": null,
                             "type": {
-                              "__file": "C:/Users/lalue/OneDrive/Рабочий стол/Programming/Projects/Budget Planner/client/src/entities/UserDay/ui/DaySummary/DayAverage.vue",
+                              "__file": "C:/Users/lalue/OneDrive/Рабочий стол/Programming/Projects/Budget Planner/client/src/entities/Day/ui/DaySummary/DayAverage.vue",
                               "render": [Function],
                             },
                           },
@@ -7382,7 +7382,7 @@ VueWrapper {
                               "suspense": null,
                               "suspenseId": 0,
                               "type": {
-                                "__file": "C:/Users/lalue/OneDrive/Рабочий стол/Programming/Projects/Budget Planner/client/src/entities/UserDay/ui/DaySummary/DayAverage.vue",
+                                "__file": "C:/Users/lalue/OneDrive/Рабочий стол/Programming/Projects/Budget Planner/client/src/entities/Day/ui/DaySummary/DayAverage.vue",
                                 "render": [Function],
                               },
                               "u": null,
@@ -7432,7 +7432,7 @@ VueWrapper {
                             "targetAnchor": null,
                             "transition": null,
                             "type": {
-                              "__file": "C:/Users/lalue/OneDrive/Рабочий стол/Programming/Projects/Budget Planner/client/src/entities/UserDay/ui/DaySummary/DayAverage.vue",
+                              "__file": "C:/Users/lalue/OneDrive/Рабочий стол/Programming/Projects/Budget Planner/client/src/entities/Day/ui/DaySummary/DayAverage.vue",
                               "render": [Function],
                             },
                           },
@@ -7838,7 +7838,7 @@ VueWrapper {
                               "suspense": null,
                               "suspenseId": 0,
                               "type": {
-                                "__file": "C:/Users/lalue/OneDrive/Рабочий стол/Programming/Projects/Budget Planner/client/src/entities/UserDay/ui/DaySummary/DayAverage.vue",
+                                "__file": "C:/Users/lalue/OneDrive/Рабочий стол/Programming/Projects/Budget Planner/client/src/entities/Day/ui/DaySummary/DayAverage.vue",
                                 "render": [Function],
                               },
                               "u": null,
@@ -7888,7 +7888,7 @@ VueWrapper {
                             "targetAnchor": null,
                             "transition": null,
                             "type": {
-                              "__file": "C:/Users/lalue/OneDrive/Рабочий стол/Programming/Projects/Budget Planner/client/src/entities/UserDay/ui/DaySummary/DayAverage.vue",
+                              "__file": "C:/Users/lalue/OneDrive/Рабочий стол/Programming/Projects/Budget Planner/client/src/entities/Day/ui/DaySummary/DayAverage.vue",
                               "render": [Function],
                             },
                           },
@@ -8267,7 +8267,7 @@ VueWrapper {
                               "suspense": null,
                               "suspenseId": 0,
                               "type": {
-                                "__file": "C:/Users/lalue/OneDrive/Рабочий стол/Programming/Projects/Budget Planner/client/src/entities/UserDay/ui/DaySummary/DayAverage.vue",
+                                "__file": "C:/Users/lalue/OneDrive/Рабочий стол/Programming/Projects/Budget Planner/client/src/entities/Day/ui/DaySummary/DayAverage.vue",
                                 "render": [Function],
                               },
                               "u": null,
@@ -8317,7 +8317,7 @@ VueWrapper {
                             "targetAnchor": null,
                             "transition": null,
                             "type": {
-                              "__file": "C:/Users/lalue/OneDrive/Рабочий стол/Programming/Projects/Budget Planner/client/src/entities/UserDay/ui/DaySummary/DayAverage.vue",
+                              "__file": "C:/Users/lalue/OneDrive/Рабочий стол/Programming/Projects/Budget Planner/client/src/entities/Day/ui/DaySummary/DayAverage.vue",
                               "render": [Function],
                             },
                           },
@@ -8968,7 +8968,7 @@ VueWrapper {
                               "suspense": null,
                               "suspenseId": 0,
                               "type": {
-                                "__file": "C:/Users/lalue/OneDrive/Рабочий стол/Programming/Projects/Budget Planner/client/src/entities/UserDay/ui/DaySummary/DayLimit.vue",
+                                "__file": "C:/Users/lalue/OneDrive/Рабочий стол/Programming/Projects/Budget Planner/client/src/entities/Day/ui/DaySummary/DayLimit.vue",
                                 "render": [Function],
                               },
                               "u": null,
@@ -9018,7 +9018,7 @@ VueWrapper {
                             "targetAnchor": null,
                             "transition": null,
                             "type": {
-                              "__file": "C:/Users/lalue/OneDrive/Рабочий стол/Programming/Projects/Budget Planner/client/src/entities/UserDay/ui/DaySummary/DayLimit.vue",
+                              "__file": "C:/Users/lalue/OneDrive/Рабочий стол/Programming/Projects/Budget Planner/client/src/entities/Day/ui/DaySummary/DayLimit.vue",
                               "render": [Function],
                             },
                           },
@@ -9397,7 +9397,7 @@ VueWrapper {
                               "suspense": null,
                               "suspenseId": 0,
                               "type": {
-                                "__file": "C:/Users/lalue/OneDrive/Рабочий стол/Programming/Projects/Budget Planner/client/src/entities/UserDay/ui/DaySummary/DayLimit.vue",
+                                "__file": "C:/Users/lalue/OneDrive/Рабочий стол/Programming/Projects/Budget Planner/client/src/entities/Day/ui/DaySummary/DayLimit.vue",
                                 "render": [Function],
                               },
                               "u": null,
@@ -9447,7 +9447,7 @@ VueWrapper {
                             "targetAnchor": null,
                             "transition": null,
                             "type": {
-                              "__file": "C:/Users/lalue/OneDrive/Рабочий стол/Programming/Projects/Budget Planner/client/src/entities/UserDay/ui/DaySummary/DayLimit.vue",
+                              "__file": "C:/Users/lalue/OneDrive/Рабочий стол/Programming/Projects/Budget Planner/client/src/entities/Day/ui/DaySummary/DayLimit.vue",
                               "render": [Function],
                             },
                           },
@@ -9853,7 +9853,7 @@ VueWrapper {
                               "suspense": null,
                               "suspenseId": 0,
                               "type": {
-                                "__file": "C:/Users/lalue/OneDrive/Рабочий стол/Programming/Projects/Budget Planner/client/src/entities/UserDay/ui/DaySummary/DayLimit.vue",
+                                "__file": "C:/Users/lalue/OneDrive/Рабочий стол/Programming/Projects/Budget Planner/client/src/entities/Day/ui/DaySummary/DayLimit.vue",
                                 "render": [Function],
                               },
                               "u": null,
@@ -9903,7 +9903,7 @@ VueWrapper {
                             "targetAnchor": null,
                             "transition": null,
                             "type": {
-                              "__file": "C:/Users/lalue/OneDrive/Рабочий стол/Programming/Projects/Budget Planner/client/src/entities/UserDay/ui/DaySummary/DayLimit.vue",
+                              "__file": "C:/Users/lalue/OneDrive/Рабочий стол/Programming/Projects/Budget Planner/client/src/entities/Day/ui/DaySummary/DayLimit.vue",
                               "render": [Function],
                             },
                           },
@@ -10282,7 +10282,7 @@ VueWrapper {
                               "suspense": null,
                               "suspenseId": 0,
                               "type": {
-                                "__file": "C:/Users/lalue/OneDrive/Рабочий стол/Programming/Projects/Budget Planner/client/src/entities/UserDay/ui/DaySummary/DayLimit.vue",
+                                "__file": "C:/Users/lalue/OneDrive/Рабочий стол/Programming/Projects/Budget Planner/client/src/entities/Day/ui/DaySummary/DayLimit.vue",
                                 "render": [Function],
                               },
                               "u": null,
@@ -10332,7 +10332,7 @@ VueWrapper {
                             "targetAnchor": null,
                             "transition": null,
                             "type": {
-                              "__file": "C:/Users/lalue/OneDrive/Рабочий стол/Programming/Projects/Budget Planner/client/src/entities/UserDay/ui/DaySummary/DayLimit.vue",
+                              "__file": "C:/Users/lalue/OneDrive/Рабочий стол/Programming/Projects/Budget Planner/client/src/entities/Day/ui/DaySummary/DayLimit.vue",
                               "render": [Function],
                             },
                           },
@@ -10983,7 +10983,7 @@ VueWrapper {
                               "suspense": null,
                               "suspenseId": 0,
                               "type": {
-                                "__file": "C:/Users/lalue/OneDrive/Рабочий стол/Programming/Projects/Budget Planner/client/src/entities/UserDay/ui/DaySummary/DayActual.vue",
+                                "__file": "C:/Users/lalue/OneDrive/Рабочий стол/Programming/Projects/Budget Planner/client/src/entities/Day/ui/DaySummary/DayActual.vue",
                                 "render": [Function],
                               },
                               "u": null,
@@ -11033,7 +11033,7 @@ VueWrapper {
                             "targetAnchor": null,
                             "transition": null,
                             "type": {
-                              "__file": "C:/Users/lalue/OneDrive/Рабочий стол/Programming/Projects/Budget Planner/client/src/entities/UserDay/ui/DaySummary/DayActual.vue",
+                              "__file": "C:/Users/lalue/OneDrive/Рабочий стол/Programming/Projects/Budget Planner/client/src/entities/Day/ui/DaySummary/DayActual.vue",
                               "render": [Function],
                             },
                           },
@@ -11412,7 +11412,7 @@ VueWrapper {
                               "suspense": null,
                               "suspenseId": 0,
                               "type": {
-                                "__file": "C:/Users/lalue/OneDrive/Рабочий стол/Programming/Projects/Budget Planner/client/src/entities/UserDay/ui/DaySummary/DayActual.vue",
+                                "__file": "C:/Users/lalue/OneDrive/Рабочий стол/Programming/Projects/Budget Planner/client/src/entities/Day/ui/DaySummary/DayActual.vue",
                                 "render": [Function],
                               },
                               "u": null,
@@ -11462,7 +11462,7 @@ VueWrapper {
                             "targetAnchor": null,
                             "transition": null,
                             "type": {
-                              "__file": "C:/Users/lalue/OneDrive/Рабочий стол/Programming/Projects/Budget Planner/client/src/entities/UserDay/ui/DaySummary/DayActual.vue",
+                              "__file": "C:/Users/lalue/OneDrive/Рабочий стол/Programming/Projects/Budget Planner/client/src/entities/Day/ui/DaySummary/DayActual.vue",
                               "render": [Function],
                             },
                           },
@@ -11868,7 +11868,7 @@ VueWrapper {
                               "suspense": null,
                               "suspenseId": 0,
                               "type": {
-                                "__file": "C:/Users/lalue/OneDrive/Рабочий стол/Programming/Projects/Budget Planner/client/src/entities/UserDay/ui/DaySummary/DayActual.vue",
+                                "__file": "C:/Users/lalue/OneDrive/Рабочий стол/Programming/Projects/Budget Planner/client/src/entities/Day/ui/DaySummary/DayActual.vue",
                                 "render": [Function],
                               },
                               "u": null,
@@ -11918,7 +11918,7 @@ VueWrapper {
                             "targetAnchor": null,
                             "transition": null,
                             "type": {
-                              "__file": "C:/Users/lalue/OneDrive/Рабочий стол/Programming/Projects/Budget Planner/client/src/entities/UserDay/ui/DaySummary/DayActual.vue",
+                              "__file": "C:/Users/lalue/OneDrive/Рабочий стол/Programming/Projects/Budget Planner/client/src/entities/Day/ui/DaySummary/DayActual.vue",
                               "render": [Function],
                             },
                           },
@@ -12297,7 +12297,7 @@ VueWrapper {
                               "suspense": null,
                               "suspenseId": 0,
                               "type": {
-                                "__file": "C:/Users/lalue/OneDrive/Рабочий стол/Programming/Projects/Budget Planner/client/src/entities/UserDay/ui/DaySummary/DayActual.vue",
+                                "__file": "C:/Users/lalue/OneDrive/Рабочий стол/Programming/Projects/Budget Planner/client/src/entities/Day/ui/DaySummary/DayActual.vue",
                                 "render": [Function],
                               },
                               "u": null,
@@ -12347,7 +12347,7 @@ VueWrapper {
                             "targetAnchor": null,
                             "transition": null,
                             "type": {
-                              "__file": "C:/Users/lalue/OneDrive/Рабочий стол/Programming/Projects/Budget Planner/client/src/entities/UserDay/ui/DaySummary/DayActual.vue",
+                              "__file": "C:/Users/lalue/OneDrive/Рабочий стол/Programming/Projects/Budget Planner/client/src/entities/Day/ui/DaySummary/DayActual.vue",
                               "render": [Function],
                             },
                           },

@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { DayActual, DayAverage, DayLimit } from "@/entities/UserDay";
+import { DayActual, DayAverage, DayLimit } from "@/entities/Day";
 import { Block } from "@/shared/ui";
 </script>
 

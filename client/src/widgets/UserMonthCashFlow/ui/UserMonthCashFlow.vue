@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { SpentEarnedRatio } from "@/entities/UserMonth";
+import { SpentEarnedRatio } from "@/entities/Month";
 import { Block } from "@/shared/ui";
 </script>
 
