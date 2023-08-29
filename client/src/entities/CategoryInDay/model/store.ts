@@ -1,4 +1,5 @@
 import { defineStore } from "pinia";
+import { RootState } from "../types/types";
 
 export const useCategoryInDayStore = defineStore("categoryInDay", {
   state: () => {
@@ -6,23 +7,30 @@ export const useCategoryInDayStore = defineStore("categoryInDay", {
       categories: [
         {
           id: "1",
-          category: "Food",
+          category: {
+            name: "Food",
+          },
           subcategory: "Lenta",
           value: 21.25,
         },
         {
           id: "2",
-          category: "Gas & fuel",
+          category: {
+            name: "Gas & fuel",
+          },
           value: 201.25,
         },
         {
           id: "3",
-          category: "Longass name",
+
+          category: {
+            name: "Food",
+          },
           subcategory: "Lenta",
           value: 21.25,
         },
       ],
-    };
+    } as RootState;
   },
 
   actions: {},

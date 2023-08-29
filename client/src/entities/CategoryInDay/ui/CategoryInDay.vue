@@ -19,7 +19,7 @@ defineProps<{
         >
           <img src="/chat-icon.svg" alt="" />
         </div>
-        <p class="ml-2">{{ category.category }}</p>
+        <p class="ml-2">{{ category.category.name }}</p>
       </div>
       <div
         v-if="category.subcategory"
