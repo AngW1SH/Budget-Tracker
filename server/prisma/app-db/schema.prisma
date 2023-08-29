@@ -1,0 +1,28 @@
+generator client {
+    provider = "prisma-client-js"
+    output   = "./client"
+}
+
+datasource db {
+    provider = "postgresql"
+    url      = env("APP_DATABASE_URL")
+}
+
+// prisma generate --schema prisma/app-db/schema.prisma
+// npx prisma migrate dev --schema prisma/app-db/schema.prisma
+
+model Category {
+    id           String          @id @default(uuid())
+    name         String
+    userid       String
+    creationtime DateTime        @default(now())
+    instances    CategoryInDay[]
+}
+
+model CategoryInDay {
+    id          String   @id @default(uuid())
+    category    Category @relation(fields: [categoryId], references: [id])
+    categoryId  String
+    subcategory String?
+    value       Int
+}

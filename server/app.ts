@@ -7,6 +7,7 @@ import passport from "./passport/index";
 import path from "path";
 
 import userRouter from "./router/user-router";
+import appRouter from "./router/app-router";
 
 const app = express();
 app.listen(3000, () => console.log("listening port 3000"));
@@ -27,6 +28,7 @@ app.use(passport.initialize());
 app.use(passport.session());
 
 app.use("/api/user", userRouter);
+app.use("/api/", appRouter);
 
 app.use("/public", express.static(path.resolve(__dirname + "/../public")));
 
