@@ -22,7 +22,7 @@ VueWrapper {
             class="flex items-center ml-5 h-full h-full"
           >
             <p
-              class="text-[2.5rem] font-bold mr-4 text-main-800"
+              class="text-[2.3rem] font-bold mr-4 text-main-800"
             >
               $121.25
             </p>
@@ -47,7 +47,7 @@ VueWrapper {
             class="flex items-center ml-5 h-full h-full"
           >
             <p
-              class="text-[2.5rem] font-bold mr-4 text-main-800"
+              class="text-[2.3rem] font-bold mr-4 text-main-800"
             >
               $120.25
             </p>
@@ -72,7 +72,7 @@ VueWrapper {
             class="flex items-center ml-5 h-full h-full"
           >
             <p
-              class="text-[2.5rem] font-bold mr-4 text-main-800"
+              class="text-[2.3rem] font-bold mr-4 text-main-800"
             >
               $101.25
             </p>
@@ -704,14 +704,14 @@ VueWrapper {
                                     "dynamicChildren": null,
                                     "dynamicProps": null,
                                     "el": <p
-                                      class="text-[2.5rem] font-bold mr-4 text-main-800"
+                                      class="text-[2.3rem] font-bold mr-4 text-main-800"
                                     >
                                       $121.25
                                     </p>,
                                     "key": null,
                                     "patchFlag": -1,
                                     "props": {
-                                      "class": "text-[2.5rem] font-bold mr-4 text-main-800",
+                                      "class": "text-[2.3rem] font-bold mr-4 text-main-800",
                                     },
                                     "ref": null,
                                     "scopeId": null,
@@ -895,7 +895,7 @@ VueWrapper {
                                   class="flex items-center ml-5 h-full h-full"
                                 >
                                   <p
-                                    class="text-[2.5rem] font-bold mr-4 text-main-800"
+                                    class="text-[2.3rem] font-bold mr-4 text-main-800"
                                   >
                                     $121.25
                                   </p>
@@ -949,7 +949,7 @@ VueWrapper {
                               class="flex items-center ml-5 h-full h-full"
                             >
                               <p
-                                class="text-[2.5rem] font-bold mr-4 text-main-800"
+                                class="text-[2.3rem] font-bold mr-4 text-main-800"
                               >
                                 $121.25
                               </p>
@@ -1133,14 +1133,14 @@ VueWrapper {
                                     "dynamicChildren": null,
                                     "dynamicProps": null,
                                     "el": <p
-                                      class="text-[2.5rem] font-bold mr-4 text-main-800"
+                                      class="text-[2.3rem] font-bold mr-4 text-main-800"
                                     >
                                       $121.25
                                     </p>,
                                     "key": null,
                                     "patchFlag": -1,
                                     "props": {
-                                      "class": "text-[2.5rem] font-bold mr-4 text-main-800",
+                                      "class": "text-[2.3rem] font-bold mr-4 text-main-800",
                                     },
                                     "ref": null,
                                     "scopeId": null,
@@ -1324,7 +1324,7 @@ VueWrapper {
                                   class="flex items-center ml-5 h-full h-full"
                                 >
                                   <p
-                                    class="text-[2.5rem] font-bold mr-4 text-main-800"
+                                    class="text-[2.3rem] font-bold mr-4 text-main-800"
                                   >
                                     $121.25
                                   </p>
@@ -1378,7 +1378,7 @@ VueWrapper {
                               class="flex items-center ml-5 h-full h-full"
                             >
                               <p
-                                class="text-[2.5rem] font-bold mr-4 text-main-800"
+                                class="text-[2.3rem] font-bold mr-4 text-main-800"
                               >
                                 $121.25
                               </p>
@@ -1589,14 +1589,14 @@ VueWrapper {
                                     "dynamicChildren": null,
                                     "dynamicProps": null,
                                     "el": <p
-                                      class="text-[2.5rem] font-bold mr-4 text-main-800"
+                                      class="text-[2.3rem] font-bold mr-4 text-main-800"
                                     >
                                       $121.25
                                     </p>,
                                     "key": null,
                                     "patchFlag": -1,
                                     "props": {
-                                      "class": "text-[2.5rem] font-bold mr-4 text-main-800",
+                                      "class": "text-[2.3rem] font-bold mr-4 text-main-800",
                                     },
                                     "ref": null,
                                     "scopeId": null,
@@ -1780,7 +1780,7 @@ VueWrapper {
                                   class="flex items-center ml-5 h-full h-full"
                                 >
                                   <p
-                                    class="text-[2.5rem] font-bold mr-4 text-main-800"
+                                    class="text-[2.3rem] font-bold mr-4 text-main-800"
                                   >
                                     $121.25
                                   </p>
@@ -1834,7 +1834,7 @@ VueWrapper {
                               class="flex items-center ml-5 h-full h-full"
                             >
                               <p
-                                class="text-[2.5rem] font-bold mr-4 text-main-800"
+                                class="text-[2.3rem] font-bold mr-4 text-main-800"
                               >
                                 $121.25
                               </p>
@@ -2018,14 +2018,14 @@ VueWrapper {
                                     "dynamicChildren": null,
                                     "dynamicProps": null,
                                     "el": <p
-                                      class="text-[2.5rem] font-bold mr-4 text-main-800"
+                                      class="text-[2.3rem] font-bold mr-4 text-main-800"
                                     >
                                       $121.25
                                     </p>,
                                     "key": null,
                                     "patchFlag": -1,
                                     "props": {
-                                      "class": "text-[2.5rem] font-bold mr-4 text-main-800",
+                                      "class": "text-[2.3rem] font-bold mr-4 text-main-800",
                                     },
                                     "ref": null,
                                     "scopeId": null,
@@ -2209,7 +2209,7 @@ VueWrapper {
                                   class="flex items-center ml-5 h-full h-full"
                                 >
                                   <p
-                                    class="text-[2.5rem] font-bold mr-4 text-main-800"
+                                    class="text-[2.3rem] font-bold mr-4 text-main-800"
                                   >
                                     $121.25
                                   </p>
@@ -2263,7 +2263,7 @@ VueWrapper {
                               class="flex items-center ml-5 h-full h-full"
                             >
                               <p
-                                class="text-[2.5rem] font-bold mr-4 text-main-800"
+                                class="text-[2.3rem] font-bold mr-4 text-main-800"
                               >
                                 $121.25
                               </p>
@@ -2330,7 +2330,7 @@ VueWrapper {
                         class="flex items-center ml-5 h-full h-full"
                       >
                         <p
-                          class="text-[2.5rem] font-bold mr-4 text-main-800"
+                          class="text-[2.3rem] font-bold mr-4 text-main-800"
                         >
                           $121.25
                         </p>
@@ -2390,7 +2390,7 @@ VueWrapper {
                     class="flex items-center ml-5 h-full h-full"
                   >
                     <p
-                      class="text-[2.5rem] font-bold mr-4 text-main-800"
+                      class="text-[2.3rem] font-bold mr-4 text-main-800"
                     >
                       $121.25
                     </p>
@@ -2705,14 +2705,14 @@ VueWrapper {
                                     "dynamicChildren": null,
                                     "dynamicProps": null,
                                     "el": <p
-                                      class="text-[2.5rem] font-bold mr-4 text-main-800"
+                                      class="text-[2.3rem] font-bold mr-4 text-main-800"
                                     >
                                       $120.25
                                     </p>,
                                     "key": null,
                                     "patchFlag": -1,
                                     "props": {
-                                      "class": "text-[2.5rem] font-bold mr-4 text-main-800",
+                                      "class": "text-[2.3rem] font-bold mr-4 text-main-800",
                                     },
                                     "ref": null,
                                     "scopeId": null,
@@ -2896,7 +2896,7 @@ VueWrapper {
                                   class="flex items-center ml-5 h-full h-full"
                                 >
                                   <p
-                                    class="text-[2.5rem] font-bold mr-4 text-main-800"
+                                    class="text-[2.3rem] font-bold mr-4 text-main-800"
                                   >
                                     $120.25
                                   </p>
@@ -2950,7 +2950,7 @@ VueWrapper {
                               class="flex items-center ml-5 h-full h-full"
                             >
                               <p
-                                class="text-[2.5rem] font-bold mr-4 text-main-800"
+                                class="text-[2.3rem] font-bold mr-4 text-main-800"
                               >
                                 $120.25
                               </p>
@@ -3134,14 +3134,14 @@ VueWrapper {
                                     "dynamicChildren": null,
                                     "dynamicProps": null,
                                     "el": <p
-                                      class="text-[2.5rem] font-bold mr-4 text-main-800"
+                                      class="text-[2.3rem] font-bold mr-4 text-main-800"
                                     >
                                       $120.25
                                     </p>,
                                     "key": null,
                                     "patchFlag": -1,
                                     "props": {
-                                      "class": "text-[2.5rem] font-bold mr-4 text-main-800",
+                                      "class": "text-[2.3rem] font-bold mr-4 text-main-800",
                                     },
                                     "ref": null,
                                     "scopeId": null,
@@ -3325,7 +3325,7 @@ VueWrapper {
                                   class="flex items-center ml-5 h-full h-full"
                                 >
                                   <p
-                                    class="text-[2.5rem] font-bold mr-4 text-main-800"
+                                    class="text-[2.3rem] font-bold mr-4 text-main-800"
                                   >
                                     $120.25
                                   </p>
@@ -3379,7 +3379,7 @@ VueWrapper {
                               class="flex items-center ml-5 h-full h-full"
                             >
                               <p
-                                class="text-[2.5rem] font-bold mr-4 text-main-800"
+                                class="text-[2.3rem] font-bold mr-4 text-main-800"
                               >
                                 $120.25
                               </p>
@@ -3590,14 +3590,14 @@ VueWrapper {
                                     "dynamicChildren": null,
                                     "dynamicProps": null,
                                     "el": <p
-                                      class="text-[2.5rem] font-bold mr-4 text-main-800"
+                                      class="text-[2.3rem] font-bold mr-4 text-main-800"
                                     >
                                       $120.25
                                     </p>,
                                     "key": null,
                                     "patchFlag": -1,
                                     "props": {
-                                      "class": "text-[2.5rem] font-bold mr-4 text-main-800",
+                                      "class": "text-[2.3rem] font-bold mr-4 text-main-800",
                                     },
                                     "ref": null,
                                     "scopeId": null,
@@ -3781,7 +3781,7 @@ VueWrapper {
                                   class="flex items-center ml-5 h-full h-full"
                                 >
                                   <p
-                                    class="text-[2.5rem] font-bold mr-4 text-main-800"
+                                    class="text-[2.3rem] font-bold mr-4 text-main-800"
                                   >
                                     $120.25
                                   </p>
@@ -3835,7 +3835,7 @@ VueWrapper {
                               class="flex items-center ml-5 h-full h-full"
                             >
                               <p
-                                class="text-[2.5rem] font-bold mr-4 text-main-800"
+                                class="text-[2.3rem] font-bold mr-4 text-main-800"
                               >
                                 $120.25
                               </p>
@@ -4019,14 +4019,14 @@ VueWrapper {
                                     "dynamicChildren": null,
                                     "dynamicProps": null,
                                     "el": <p
-                                      class="text-[2.5rem] font-bold mr-4 text-main-800"
+                                      class="text-[2.3rem] font-bold mr-4 text-main-800"
                                     >
                                       $120.25
                                     </p>,
                                     "key": null,
                                     "patchFlag": -1,
                                     "props": {
-                                      "class": "text-[2.5rem] font-bold mr-4 text-main-800",
+                                      "class": "text-[2.3rem] font-bold mr-4 text-main-800",
                                     },
                                     "ref": null,
                                     "scopeId": null,
@@ -4210,7 +4210,7 @@ VueWrapper {
                                   class="flex items-center ml-5 h-full h-full"
                                 >
                                   <p
-                                    class="text-[2.5rem] font-bold mr-4 text-main-800"
+                                    class="text-[2.3rem] font-bold mr-4 text-main-800"
                                   >
                                     $120.25
                                   </p>
@@ -4264,7 +4264,7 @@ VueWrapper {
                               class="flex items-center ml-5 h-full h-full"
                             >
                               <p
-                                class="text-[2.5rem] font-bold mr-4 text-main-800"
+                                class="text-[2.3rem] font-bold mr-4 text-main-800"
                               >
                                 $120.25
                               </p>
@@ -4331,7 +4331,7 @@ VueWrapper {
                         class="flex items-center ml-5 h-full h-full"
                       >
                         <p
-                          class="text-[2.5rem] font-bold mr-4 text-main-800"
+                          class="text-[2.3rem] font-bold mr-4 text-main-800"
                         >
                           $120.25
                         </p>
@@ -4391,7 +4391,7 @@ VueWrapper {
                     class="flex items-center ml-5 h-full h-full"
                   >
                     <p
-                      class="text-[2.5rem] font-bold mr-4 text-main-800"
+                      class="text-[2.3rem] font-bold mr-4 text-main-800"
                     >
                       $120.25
                     </p>
@@ -4706,14 +4706,14 @@ VueWrapper {
                                     "dynamicChildren": null,
                                     "dynamicProps": null,
                                     "el": <p
-                                      class="text-[2.5rem] font-bold mr-4 text-main-800"
+                                      class="text-[2.3rem] font-bold mr-4 text-main-800"
                                     >
                                       $101.25
                                     </p>,
                                     "key": null,
                                     "patchFlag": -1,
                                     "props": {
-                                      "class": "text-[2.5rem] font-bold mr-4 text-main-800",
+                                      "class": "text-[2.3rem] font-bold mr-4 text-main-800",
                                     },
                                     "ref": null,
                                     "scopeId": null,
@@ -4897,7 +4897,7 @@ VueWrapper {
                                   class="flex items-center ml-5 h-full h-full"
                                 >
                                   <p
-                                    class="text-[2.5rem] font-bold mr-4 text-main-800"
+                                    class="text-[2.3rem] font-bold mr-4 text-main-800"
                                   >
                                     $101.25
                                   </p>
@@ -4951,7 +4951,7 @@ VueWrapper {
                               class="flex items-center ml-5 h-full h-full"
                             >
                               <p
-                                class="text-[2.5rem] font-bold mr-4 text-main-800"
+                                class="text-[2.3rem] font-bold mr-4 text-main-800"
                               >
                                 $101.25
                               </p>
@@ -5135,14 +5135,14 @@ VueWrapper {
                                     "dynamicChildren": null,
                                     "dynamicProps": null,
                                     "el": <p
-                                      class="text-[2.5rem] font-bold mr-4 text-main-800"
+                                      class="text-[2.3rem] font-bold mr-4 text-main-800"
                                     >
                                       $101.25
                                     </p>,
                                     "key": null,
                                     "patchFlag": -1,
                                     "props": {
-                                      "class": "text-[2.5rem] font-bold mr-4 text-main-800",
+                                      "class": "text-[2.3rem] font-bold mr-4 text-main-800",
                                     },
                                     "ref": null,
                                     "scopeId": null,
@@ -5326,7 +5326,7 @@ VueWrapper {
                                   class="flex items-center ml-5 h-full h-full"
                                 >
                                   <p
-                                    class="text-[2.5rem] font-bold mr-4 text-main-800"
+                                    class="text-[2.3rem] font-bold mr-4 text-main-800"
                                   >
                                     $101.25
                                   </p>
@@ -5380,7 +5380,7 @@ VueWrapper {
                               class="flex items-center ml-5 h-full h-full"
                             >
                               <p
-                                class="text-[2.5rem] font-bold mr-4 text-main-800"
+                                class="text-[2.3rem] font-bold mr-4 text-main-800"
                               >
                                 $101.25
                               </p>
@@ -5591,14 +5591,14 @@ VueWrapper {
                                     "dynamicChildren": null,
                                     "dynamicProps": null,
                                     "el": <p
-                                      class="text-[2.5rem] font-bold mr-4 text-main-800"
+                                      class="text-[2.3rem] font-bold mr-4 text-main-800"
                                     >
                                       $101.25
                                     </p>,
                                     "key": null,
                                     "patchFlag": -1,
                                     "props": {
-                                      "class": "text-[2.5rem] font-bold mr-4 text-main-800",
+                                      "class": "text-[2.3rem] font-bold mr-4 text-main-800",
                                     },
                                     "ref": null,
                                     "scopeId": null,
@@ -5782,7 +5782,7 @@ VueWrapper {
                                   class="flex items-center ml-5 h-full h-full"
                                 >
                                   <p
-                                    class="text-[2.5rem] font-bold mr-4 text-main-800"
+                                    class="text-[2.3rem] font-bold mr-4 text-main-800"
                                   >
                                     $101.25
                                   </p>
@@ -5836,7 +5836,7 @@ VueWrapper {
                               class="flex items-center ml-5 h-full h-full"
                             >
                               <p
-                                class="text-[2.5rem] font-bold mr-4 text-main-800"
+                                class="text-[2.3rem] font-bold mr-4 text-main-800"
                               >
                                 $101.25
                               </p>
@@ -6020,14 +6020,14 @@ VueWrapper {
                                     "dynamicChildren": null,
                                     "dynamicProps": null,
                                     "el": <p
-                                      class="text-[2.5rem] font-bold mr-4 text-main-800"
+                                      class="text-[2.3rem] font-bold mr-4 text-main-800"
                                     >
                                       $101.25
                                     </p>,
                                     "key": null,
                                     "patchFlag": -1,
                                     "props": {
-                                      "class": "text-[2.5rem] font-bold mr-4 text-main-800",
+                                      "class": "text-[2.3rem] font-bold mr-4 text-main-800",
                                     },
                                     "ref": null,
                                     "scopeId": null,
@@ -6211,7 +6211,7 @@ VueWrapper {
                                   class="flex items-center ml-5 h-full h-full"
                                 >
                                   <p
-                                    class="text-[2.5rem] font-bold mr-4 text-main-800"
+                                    class="text-[2.3rem] font-bold mr-4 text-main-800"
                                   >
                                     $101.25
                                   </p>
@@ -6265,7 +6265,7 @@ VueWrapper {
                               class="flex items-center ml-5 h-full h-full"
                             >
                               <p
-                                class="text-[2.5rem] font-bold mr-4 text-main-800"
+                                class="text-[2.3rem] font-bold mr-4 text-main-800"
                               >
                                 $101.25
                               </p>
@@ -6332,7 +6332,7 @@ VueWrapper {
                         class="flex items-center ml-5 h-full h-full"
                       >
                         <p
-                          class="text-[2.5rem] font-bold mr-4 text-main-800"
+                          class="text-[2.3rem] font-bold mr-4 text-main-800"
                         >
                           $101.25
                         </p>
@@ -6392,7 +6392,7 @@ VueWrapper {
                     class="flex items-center ml-5 h-full h-full"
                   >
                     <p
-                      class="text-[2.5rem] font-bold mr-4 text-main-800"
+                      class="text-[2.3rem] font-bold mr-4 text-main-800"
                     >
                       $101.25
                     </p>
@@ -6726,14 +6726,14 @@ VueWrapper {
                                     "dynamicChildren": null,
                                     "dynamicProps": null,
                                     "el": <p
-                                      class="text-[2.5rem] font-bold mr-4 text-main-800"
+                                      class="text-[2.3rem] font-bold mr-4 text-main-800"
                                     >
                                       $121.25
                                     </p>,
                                     "key": null,
                                     "patchFlag": -1,
                                     "props": {
-                                      "class": "text-[2.5rem] font-bold mr-4 text-main-800",
+                                      "class": "text-[2.3rem] font-bold mr-4 text-main-800",
                                     },
                                     "ref": null,
                                     "scopeId": null,
@@ -6917,7 +6917,7 @@ VueWrapper {
                                   class="flex items-center ml-5 h-full h-full"
                                 >
                                   <p
-                                    class="text-[2.5rem] font-bold mr-4 text-main-800"
+                                    class="text-[2.3rem] font-bold mr-4 text-main-800"
                                   >
                                     $121.25
                                   </p>
@@ -6971,7 +6971,7 @@ VueWrapper {
                               class="flex items-center ml-5 h-full h-full"
                             >
                               <p
-                                class="text-[2.5rem] font-bold mr-4 text-main-800"
+                                class="text-[2.3rem] font-bold mr-4 text-main-800"
                               >
                                 $121.25
                               </p>
@@ -7155,14 +7155,14 @@ VueWrapper {
                                     "dynamicChildren": null,
                                     "dynamicProps": null,
                                     "el": <p
-                                      class="text-[2.5rem] font-bold mr-4 text-main-800"
+                                      class="text-[2.3rem] font-bold mr-4 text-main-800"
                                     >
                                       $121.25
                                     </p>,
                                     "key": null,
                                     "patchFlag": -1,
                                     "props": {
-                                      "class": "text-[2.5rem] font-bold mr-4 text-main-800",
+                                      "class": "text-[2.3rem] font-bold mr-4 text-main-800",
                                     },
                                     "ref": null,
                                     "scopeId": null,
@@ -7346,7 +7346,7 @@ VueWrapper {
                                   class="flex items-center ml-5 h-full h-full"
                                 >
                                   <p
-                                    class="text-[2.5rem] font-bold mr-4 text-main-800"
+                                    class="text-[2.3rem] font-bold mr-4 text-main-800"
                                   >
                                     $121.25
                                   </p>
@@ -7400,7 +7400,7 @@ VueWrapper {
                               class="flex items-center ml-5 h-full h-full"
                             >
                               <p
-                                class="text-[2.5rem] font-bold mr-4 text-main-800"
+                                class="text-[2.3rem] font-bold mr-4 text-main-800"
                               >
                                 $121.25
                               </p>
@@ -7611,14 +7611,14 @@ VueWrapper {
                                     "dynamicChildren": null,
                                     "dynamicProps": null,
                                     "el": <p
-                                      class="text-[2.5rem] font-bold mr-4 text-main-800"
+                                      class="text-[2.3rem] font-bold mr-4 text-main-800"
                                     >
                                       $121.25
                                     </p>,
                                     "key": null,
                                     "patchFlag": -1,
                                     "props": {
-                                      "class": "text-[2.5rem] font-bold mr-4 text-main-800",
+                                      "class": "text-[2.3rem] font-bold mr-4 text-main-800",
                                     },
                                     "ref": null,
                                     "scopeId": null,
@@ -7802,7 +7802,7 @@ VueWrapper {
                                   class="flex items-center ml-5 h-full h-full"
                                 >
                                   <p
-                                    class="text-[2.5rem] font-bold mr-4 text-main-800"
+                                    class="text-[2.3rem] font-bold mr-4 text-main-800"
                                   >
                                     $121.25
                                   </p>
@@ -7856,7 +7856,7 @@ VueWrapper {
                               class="flex items-center ml-5 h-full h-full"
                             >
                               <p
-                                class="text-[2.5rem] font-bold mr-4 text-main-800"
+                                class="text-[2.3rem] font-bold mr-4 text-main-800"
                               >
                                 $121.25
                               </p>
@@ -8040,14 +8040,14 @@ VueWrapper {
                                     "dynamicChildren": null,
                                     "dynamicProps": null,
                                     "el": <p
-                                      class="text-[2.5rem] font-bold mr-4 text-main-800"
+                                      class="text-[2.3rem] font-bold mr-4 text-main-800"
                                     >
                                       $121.25
                                     </p>,
                                     "key": null,
                                     "patchFlag": -1,
                                     "props": {
-                                      "class": "text-[2.5rem] font-bold mr-4 text-main-800",
+                                      "class": "text-[2.3rem] font-bold mr-4 text-main-800",
                                     },
                                     "ref": null,
                                     "scopeId": null,
@@ -8231,7 +8231,7 @@ VueWrapper {
                                   class="flex items-center ml-5 h-full h-full"
                                 >
                                   <p
-                                    class="text-[2.5rem] font-bold mr-4 text-main-800"
+                                    class="text-[2.3rem] font-bold mr-4 text-main-800"
                                   >
                                     $121.25
                                   </p>
@@ -8285,7 +8285,7 @@ VueWrapper {
                               class="flex items-center ml-5 h-full h-full"
                             >
                               <p
-                                class="text-[2.5rem] font-bold mr-4 text-main-800"
+                                class="text-[2.3rem] font-bold mr-4 text-main-800"
                               >
                                 $121.25
                               </p>
@@ -8352,7 +8352,7 @@ VueWrapper {
                         class="flex items-center ml-5 h-full h-full"
                       >
                         <p
-                          class="text-[2.5rem] font-bold mr-4 text-main-800"
+                          class="text-[2.3rem] font-bold mr-4 text-main-800"
                         >
                           $121.25
                         </p>
@@ -8412,7 +8412,7 @@ VueWrapper {
                     class="flex items-center ml-5 h-full h-full"
                   >
                     <p
-                      class="text-[2.5rem] font-bold mr-4 text-main-800"
+                      class="text-[2.3rem] font-bold mr-4 text-main-800"
                     >
                       $121.25
                     </p>
@@ -8741,14 +8741,14 @@ VueWrapper {
                                     "dynamicChildren": null,
                                     "dynamicProps": null,
                                     "el": <p
-                                      class="text-[2.5rem] font-bold mr-4 text-main-800"
+                                      class="text-[2.3rem] font-bold mr-4 text-main-800"
                                     >
                                       $120.25
                                     </p>,
                                     "key": null,
                                     "patchFlag": -1,
                                     "props": {
-                                      "class": "text-[2.5rem] font-bold mr-4 text-main-800",
+                                      "class": "text-[2.3rem] font-bold mr-4 text-main-800",
                                     },
                                     "ref": null,
                                     "scopeId": null,
@@ -8932,7 +8932,7 @@ VueWrapper {
                                   class="flex items-center ml-5 h-full h-full"
                                 >
                                   <p
-                                    class="text-[2.5rem] font-bold mr-4 text-main-800"
+                                    class="text-[2.3rem] font-bold mr-4 text-main-800"
                                   >
                                     $120.25
                                   </p>
@@ -8986,7 +8986,7 @@ VueWrapper {
                               class="flex items-center ml-5 h-full h-full"
                             >
                               <p
-                                class="text-[2.5rem] font-bold mr-4 text-main-800"
+                                class="text-[2.3rem] font-bold mr-4 text-main-800"
                               >
                                 $120.25
                               </p>
@@ -9170,14 +9170,14 @@ VueWrapper {
                                     "dynamicChildren": null,
                                     "dynamicProps": null,
                                     "el": <p
-                                      class="text-[2.5rem] font-bold mr-4 text-main-800"
+                                      class="text-[2.3rem] font-bold mr-4 text-main-800"
                                     >
                                       $120.25
                                     </p>,
                                     "key": null,
                                     "patchFlag": -1,
                                     "props": {
-                                      "class": "text-[2.5rem] font-bold mr-4 text-main-800",
+                                      "class": "text-[2.3rem] font-bold mr-4 text-main-800",
                                     },
                                     "ref": null,
                                     "scopeId": null,
@@ -9361,7 +9361,7 @@ VueWrapper {
                                   class="flex items-center ml-5 h-full h-full"
                                 >
                                   <p
-                                    class="text-[2.5rem] font-bold mr-4 text-main-800"
+                                    class="text-[2.3rem] font-bold mr-4 text-main-800"
                                   >
                                     $120.25
                                   </p>
@@ -9415,7 +9415,7 @@ VueWrapper {
                               class="flex items-center ml-5 h-full h-full"
                             >
                               <p
-                                class="text-[2.5rem] font-bold mr-4 text-main-800"
+                                class="text-[2.3rem] font-bold mr-4 text-main-800"
                               >
                                 $120.25
                               </p>
@@ -9626,14 +9626,14 @@ VueWrapper {
                                     "dynamicChildren": null,
                                     "dynamicProps": null,
                                     "el": <p
-                                      class="text-[2.5rem] font-bold mr-4 text-main-800"
+                                      class="text-[2.3rem] font-bold mr-4 text-main-800"
                                     >
                                       $120.25
                                     </p>,
                                     "key": null,
                                     "patchFlag": -1,
                                     "props": {
-                                      "class": "text-[2.5rem] font-bold mr-4 text-main-800",
+                                      "class": "text-[2.3rem] font-bold mr-4 text-main-800",
                                     },
                                     "ref": null,
                                     "scopeId": null,
@@ -9817,7 +9817,7 @@ VueWrapper {
                                   class="flex items-center ml-5 h-full h-full"
                                 >
                                   <p
-                                    class="text-[2.5rem] font-bold mr-4 text-main-800"
+                                    class="text-[2.3rem] font-bold mr-4 text-main-800"
                                   >
                                     $120.25
                                   </p>
@@ -9871,7 +9871,7 @@ VueWrapper {
                               class="flex items-center ml-5 h-full h-full"
                             >
                               <p
-                                class="text-[2.5rem] font-bold mr-4 text-main-800"
+                                class="text-[2.3rem] font-bold mr-4 text-main-800"
                               >
                                 $120.25
                               </p>
@@ -10055,14 +10055,14 @@ VueWrapper {
                                     "dynamicChildren": null,
                                     "dynamicProps": null,
                                     "el": <p
-                                      class="text-[2.5rem] font-bold mr-4 text-main-800"
+                                      class="text-[2.3rem] font-bold mr-4 text-main-800"
                                     >
                                       $120.25
                                     </p>,
                                     "key": null,
                                     "patchFlag": -1,
                                     "props": {
-                                      "class": "text-[2.5rem] font-bold mr-4 text-main-800",
+                                      "class": "text-[2.3rem] font-bold mr-4 text-main-800",
                                     },
                                     "ref": null,
                                     "scopeId": null,
@@ -10246,7 +10246,7 @@ VueWrapper {
                                   class="flex items-center ml-5 h-full h-full"
                                 >
                                   <p
-                                    class="text-[2.5rem] font-bold mr-4 text-main-800"
+                                    class="text-[2.3rem] font-bold mr-4 text-main-800"
                                   >
                                     $120.25
                                   </p>
@@ -10300,7 +10300,7 @@ VueWrapper {
                               class="flex items-center ml-5 h-full h-full"
                             >
                               <p
-                                class="text-[2.5rem] font-bold mr-4 text-main-800"
+                                class="text-[2.3rem] font-bold mr-4 text-main-800"
                               >
                                 $120.25
                               </p>
@@ -10367,7 +10367,7 @@ VueWrapper {
                         class="flex items-center ml-5 h-full h-full"
                       >
                         <p
-                          class="text-[2.5rem] font-bold mr-4 text-main-800"
+                          class="text-[2.3rem] font-bold mr-4 text-main-800"
                         >
                           $120.25
                         </p>
@@ -10427,7 +10427,7 @@ VueWrapper {
                     class="flex items-center ml-5 h-full h-full"
                   >
                     <p
-                      class="text-[2.5rem] font-bold mr-4 text-main-800"
+                      class="text-[2.3rem] font-bold mr-4 text-main-800"
                     >
                       $120.25
                     </p>
@@ -10756,14 +10756,14 @@ VueWrapper {
                                     "dynamicChildren": null,
                                     "dynamicProps": null,
                                     "el": <p
-                                      class="text-[2.5rem] font-bold mr-4 text-main-800"
+                                      class="text-[2.3rem] font-bold mr-4 text-main-800"
                                     >
                                       $101.25
                                     </p>,
                                     "key": null,
                                     "patchFlag": -1,
                                     "props": {
-                                      "class": "text-[2.5rem] font-bold mr-4 text-main-800",
+                                      "class": "text-[2.3rem] font-bold mr-4 text-main-800",
                                     },
                                     "ref": null,
                                     "scopeId": null,
@@ -10947,7 +10947,7 @@ VueWrapper {
                                   class="flex items-center ml-5 h-full h-full"
                                 >
                                   <p
-                                    class="text-[2.5rem] font-bold mr-4 text-main-800"
+                                    class="text-[2.3rem] font-bold mr-4 text-main-800"
                                   >
                                     $101.25
                                   </p>
@@ -11001,7 +11001,7 @@ VueWrapper {
                               class="flex items-center ml-5 h-full h-full"
                             >
                               <p
-                                class="text-[2.5rem] font-bold mr-4 text-main-800"
+                                class="text-[2.3rem] font-bold mr-4 text-main-800"
                               >
                                 $101.25
                               </p>
@@ -11185,14 +11185,14 @@ VueWrapper {
                                     "dynamicChildren": null,
                                     "dynamicProps": null,
                                     "el": <p
-                                      class="text-[2.5rem] font-bold mr-4 text-main-800"
+                                      class="text-[2.3rem] font-bold mr-4 text-main-800"
                                     >
                                       $101.25
                                     </p>,
                                     "key": null,
                                     "patchFlag": -1,
                                     "props": {
-                                      "class": "text-[2.5rem] font-bold mr-4 text-main-800",
+                                      "class": "text-[2.3rem] font-bold mr-4 text-main-800",
                                     },
                                     "ref": null,
                                     "scopeId": null,
@@ -11376,7 +11376,7 @@ VueWrapper {
                                   class="flex items-center ml-5 h-full h-full"
                                 >
                                   <p
-                                    class="text-[2.5rem] font-bold mr-4 text-main-800"
+                                    class="text-[2.3rem] font-bold mr-4 text-main-800"
                                   >
                                     $101.25
                                   </p>
@@ -11430,7 +11430,7 @@ VueWrapper {
                               class="flex items-center ml-5 h-full h-full"
                             >
                               <p
-                                class="text-[2.5rem] font-bold mr-4 text-main-800"
+                                class="text-[2.3rem] font-bold mr-4 text-main-800"
                               >
                                 $101.25
                               </p>
@@ -11641,14 +11641,14 @@ VueWrapper {
                                     "dynamicChildren": null,
                                     "dynamicProps": null,
                                     "el": <p
-                                      class="text-[2.5rem] font-bold mr-4 text-main-800"
+                                      class="text-[2.3rem] font-bold mr-4 text-main-800"
                                     >
                                       $101.25
                                     </p>,
                                     "key": null,
                                     "patchFlag": -1,
                                     "props": {
-                                      "class": "text-[2.5rem] font-bold mr-4 text-main-800",
+                                      "class": "text-[2.3rem] font-bold mr-4 text-main-800",
                                     },
                                     "ref": null,
                                     "scopeId": null,
@@ -11832,7 +11832,7 @@ VueWrapper {
                                   class="flex items-center ml-5 h-full h-full"
                                 >
                                   <p
-                                    class="text-[2.5rem] font-bold mr-4 text-main-800"
+                                    class="text-[2.3rem] font-bold mr-4 text-main-800"
                                   >
                                     $101.25
                                   </p>
@@ -11886,7 +11886,7 @@ VueWrapper {
                               class="flex items-center ml-5 h-full h-full"
                             >
                               <p
-                                class="text-[2.5rem] font-bold mr-4 text-main-800"
+                                class="text-[2.3rem] font-bold mr-4 text-main-800"
                               >
                                 $101.25
                               </p>
@@ -12070,14 +12070,14 @@ VueWrapper {
                                     "dynamicChildren": null,
                                     "dynamicProps": null,
                                     "el": <p
-                                      class="text-[2.5rem] font-bold mr-4 text-main-800"
+                                      class="text-[2.3rem] font-bold mr-4 text-main-800"
                                     >
                                       $101.25
                                     </p>,
                                     "key": null,
                                     "patchFlag": -1,
                                     "props": {
-                                      "class": "text-[2.5rem] font-bold mr-4 text-main-800",
+                                      "class": "text-[2.3rem] font-bold mr-4 text-main-800",
                                     },
                                     "ref": null,
                                     "scopeId": null,
@@ -12261,7 +12261,7 @@ VueWrapper {
                                   class="flex items-center ml-5 h-full h-full"
                                 >
                                   <p
-                                    class="text-[2.5rem] font-bold mr-4 text-main-800"
+                                    class="text-[2.3rem] font-bold mr-4 text-main-800"
                                   >
                                     $101.25
                                   </p>
@@ -12315,7 +12315,7 @@ VueWrapper {
                               class="flex items-center ml-5 h-full h-full"
                             >
                               <p
-                                class="text-[2.5rem] font-bold mr-4 text-main-800"
+                                class="text-[2.3rem] font-bold mr-4 text-main-800"
                               >
                                 $101.25
                               </p>
@@ -12382,7 +12382,7 @@ VueWrapper {
                         class="flex items-center ml-5 h-full h-full"
                       >
                         <p
-                          class="text-[2.5rem] font-bold mr-4 text-main-800"
+                          class="text-[2.3rem] font-bold mr-4 text-main-800"
                         >
                           $101.25
                         </p>
@@ -12442,7 +12442,7 @@ VueWrapper {
                     class="flex items-center ml-5 h-full h-full"
                   >
                     <p
-                      class="text-[2.5rem] font-bold mr-4 text-main-800"
+                      class="text-[2.3rem] font-bold mr-4 text-main-800"
                     >
                       $101.25
                     </p>
@@ -12493,7 +12493,7 @@ VueWrapper {
                   class="flex items-center ml-5 h-full h-full"
                 >
                   <p
-                    class="text-[2.5rem] font-bold mr-4 text-main-800"
+                    class="text-[2.3rem] font-bold mr-4 text-main-800"
                   >
                     $121.25
                   </p>
@@ -12518,7 +12518,7 @@ VueWrapper {
                   class="flex items-center ml-5 h-full h-full"
                 >
                   <p
-                    class="text-[2.5rem] font-bold mr-4 text-main-800"
+                    class="text-[2.3rem] font-bold mr-4 text-main-800"
                   >
                     $120.25
                   </p>
@@ -12543,7 +12543,7 @@ VueWrapper {
                   class="flex items-center ml-5 h-full h-full"
                 >
                   <p
-                    class="text-[2.5rem] font-bold mr-4 text-main-800"
+                    class="text-[2.3rem] font-bold mr-4 text-main-800"
                   >
                     $101.25
                   </p>
@@ -12610,7 +12610,7 @@ VueWrapper {
               class="flex items-center ml-5 h-full h-full"
             >
               <p
-                class="text-[2.5rem] font-bold mr-4 text-main-800"
+                class="text-[2.3rem] font-bold mr-4 text-main-800"
               >
                 $121.25
               </p>
@@ -12635,7 +12635,7 @@ VueWrapper {
               class="flex items-center ml-5 h-full h-full"
             >
               <p
-                class="text-[2.5rem] font-bold mr-4 text-main-800"
+                class="text-[2.3rem] font-bold mr-4 text-main-800"
               >
                 $120.25
               </p>
@@ -12660,7 +12660,7 @@ VueWrapper {
               class="flex items-center ml-5 h-full h-full"
             >
               <p
-                class="text-[2.5rem] font-bold mr-4 text-main-800"
+                class="text-[2.3rem] font-bold mr-4 text-main-800"
               >
                 $101.25
               </p>
@@ -12770,7 +12770,7 @@ VueWrapper {
               class="flex items-center ml-5 h-full h-full"
             >
               <p
-                class="text-[2.5rem] font-bold mr-4 text-main-800"
+                class="text-[2.3rem] font-bold mr-4 text-main-800"
               >
                 $121.25
               </p>
@@ -12795,7 +12795,7 @@ VueWrapper {
               class="flex items-center ml-5 h-full h-full"
             >
               <p
-                class="text-[2.5rem] font-bold mr-4 text-main-800"
+                class="text-[2.3rem] font-bold mr-4 text-main-800"
               >
                 $120.25
               </p>
@@ -12820,7 +12820,7 @@ VueWrapper {
               class="flex items-center ml-5 h-full h-full"
             >
               <p
-                class="text-[2.5rem] font-bold mr-4 text-main-800"
+                class="text-[2.3rem] font-bold mr-4 text-main-800"
               >
                 $101.25
               </p>
@@ -13072,7 +13072,7 @@ VueWrapper {
         class="flex items-center ml-5 h-full h-full"
       >
         <p
-          class="text-[2.5rem] font-bold mr-4 text-main-800"
+          class="text-[2.3rem] font-bold mr-4 text-main-800"
         >
           $121.25
         </p>
@@ -13097,7 +13097,7 @@ VueWrapper {
         class="flex items-center ml-5 h-full h-full"
       >
         <p
-          class="text-[2.5rem] font-bold mr-4 text-main-800"
+          class="text-[2.3rem] font-bold mr-4 text-main-800"
         >
           $120.25
         </p>
@@ -13122,7 +13122,7 @@ VueWrapper {
         class="flex items-center ml-5 h-full h-full"
       >
         <p
-          class="text-[2.5rem] font-bold mr-4 text-main-800"
+          class="text-[2.3rem] font-bold mr-4 text-main-800"
         >
           $101.25
         </p>
