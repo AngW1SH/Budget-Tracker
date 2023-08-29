@@ -5,6 +5,14 @@ import { Container } from "@/shared/ui";
 import { DayNavigate } from "@/widgets/DayNavigate";
 import { DaySummary } from "@/widgets/DaySummary";
 import { DayDetailed } from "@/widgets/DayDetailed";
+import { useCategoryInDayStore } from "@/entities/CategoryInDay";
+import { onMounted } from "vue";
+
+const categoryInDayStore = useCategoryInDayStore();
+
+onMounted(() => {
+  categoryInDayStore.getData();
+});
 </script>
 
 <template>

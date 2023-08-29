@@ -1,5 +1,6 @@
 import { defineStore } from "pinia";
 import { RootState } from "../types/types";
+import { fetchCategories } from "../api/fetchData";
 
 export const useCategoryInDayStore = defineStore("categoryInDay", {
   state: () => {
@@ -33,5 +34,11 @@ export const useCategoryInDayStore = defineStore("categoryInDay", {
     } as RootState;
   },
 
-  actions: {},
+  actions: {
+    async getData() {
+      const data = await fetchCategories();
+
+      this.categories = data;
+    },
+  },
 });
