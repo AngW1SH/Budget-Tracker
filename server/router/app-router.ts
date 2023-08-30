@@ -4,7 +4,7 @@ import passport from "../passport";
 
 const appRouter = express.Router();
 
-const getDayByDate = async (date: Date) => {
+const getDayByDate = async (date: Date, userId: string) => {
   const nextDate = new Date(date);
   nextDate.setDate(nextDate.getDate() + 1);
 
@@ -14,6 +14,7 @@ const getDayByDate = async (date: Date) => {
         gte: date,
         lt: nextDate,
       },
+      userId: userId,
     },
   });
 
@@ -27,13 +28,14 @@ appRouter.get(
     try {
       if (!req.params.date) return res.status(400).send();
 
-      const day = await getDayByDate(new Date(req.params.date));
+      const day = await getDayByDate(new Date(req.params.date), req.user.id);
 
       if (day) return res.status(200).send();
 
       const created = await prisma.day.create({
         data: {
           date: new Date(req.params.date),
+          userId: req.user.id,
         },
       });
 
@@ -51,13 +53,14 @@ appRouter.get(
     try {
       if (!req.params.date) return res.status(400).send();
 
-      const day = await getDayByDate(new Date(req.params.date));
+      const day = await getDayByDate(new Date(req.params.date), req.user.id);
 
       if (!day) return res.status(501).send();
 
       const categories = await prisma.categoryInDay.findMany({
         where: {
           dayId: day.id,
+          userId: req.user.id,
         },
         select: {
           id: true,
@@ -87,7 +90,7 @@ appRouter.get(
     try {
       if (!req.params.date) return res.status(400).send();
 
-      const day = await getDayByDate(new Date(req.params.date));
+      const day = await getDayByDate(new Date(req.params.date), req.user.id);
 
       if (!day) return res.status(501).send();
 
@@ -96,6 +99,7 @@ appRouter.get(
           subcategory: "",
           value: 0,
           dayId: day.id,
+          userId: req.user.id,
         },
         select: {
           id: true,
@@ -131,6 +135,7 @@ appRouter.get(
       const deleted = await prisma.categoryInDay.delete({
         where: {
           id: req.params.id,
+          userId: req.user.id,
         },
       });
 
@@ -148,15 +153,10 @@ appRouter.post(
     try {
       if (!req.body.categoryInDay) return res.status(400).send();
 
-      console.log({
-        ...req.body.categoryInDay,
-        category: undefined,
-        categoryId: req.body.categoryInDay.category.id,
-      });
-
       const edited = await prisma.categoryInDay.update({
         where: {
           id: req.body.categoryInDay.id,
+          userId: req.user.id,
         },
         data: {
           ...req.body.categoryInDay,
@@ -180,10 +180,13 @@ appRouter.get(
   async (req, res) => {
     try {
       const categories = await prisma.category.findMany({
+        where: {
+          userId: req.user.id,
+        },
         select: {
           id: true,
           name: true,
-          userid: true,
+          userId: true,
         },
       });
 

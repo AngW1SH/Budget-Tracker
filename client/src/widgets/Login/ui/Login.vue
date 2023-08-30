@@ -48,7 +48,7 @@ const showConfirmEmailModal = ref(false);
     </div>
     <div v-if="mode == 'register'">
       <h1 class="font-medium text-5xl mb-6">Sign up</h1>
-      <SignUp />
+      <SignUp @registration-success="showConfirmEmailModal = true" />
       <p class="font-light text-center">
         Already have an account?
         <span

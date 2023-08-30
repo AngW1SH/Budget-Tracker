@@ -14,7 +14,7 @@ datasource db {
 model Category {
     id           String          @id @default(uuid())
     name         String
-    userid       String
+    userId       String
     creationtime DateTime        @default(now())
     instances    CategoryInDay[]
 }
@@ -27,11 +27,13 @@ model CategoryInDay {
     description String    @default("")
     day         Day       @relation(fields: [dayId], references: [id])
     dayId       String
+    userId      String
     value       Int
 }
 
 model Day {
     id         String          @id @default(uuid())
     categories CategoryInDay[]
+    userId     String
     date       DateTime
 }
