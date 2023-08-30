@@ -1,11 +1,17 @@
 import { defineStore } from "pinia";
+import { fetchCategories } from "../api/fetchCategories";
+import { ICategory } from "../types/types";
 
-export const useCategory = defineStore("category", {
+export const useCategoryStore = defineStore("category", {
   state: () => {
     return {
-      categories: [],
+      categories: [] as ICategory[],
     };
   },
 
-  actions: {},
+  actions: {
+    async getData() {
+      this.categories = await fetchCategories();
+    },
+  },
 });

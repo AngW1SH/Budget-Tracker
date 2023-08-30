@@ -1,11 +1,13 @@
 export interface ICategoryInDay {
   id: string;
   category: ICategoryInDayInner;
-  subcategory?: string;
+  subcategory: string;
   value: number;
+  description: string;
 }
 
 export interface ICategoryInDayInner {
+  id: string;
   name: string;
 }
 

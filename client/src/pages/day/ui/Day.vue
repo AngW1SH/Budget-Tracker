@@ -6,12 +6,15 @@ import { DayNavigate } from "@/widgets/DayNavigate";
 import { DaySummary } from "@/widgets/DaySummary";
 import { DayDetailed } from "@/widgets/DayDetailed";
 import { useCategoryInDayStore } from "@/entities/CategoryInDay";
+import { useCategoryStore } from "@/entities/Category";
 import { onMounted } from "vue";
 
 const categoryInDayStore = useCategoryInDayStore();
+const categoryStore = useCategoryStore();
 
 onMounted(() => {
   categoryInDayStore.getData();
+  categoryStore.getData();
 });
 </script>
 

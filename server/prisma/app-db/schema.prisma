@@ -20,9 +20,10 @@ model Category {
 }
 
 model CategoryInDay {
-    id          String   @id @default(uuid())
-    category    Category @relation(fields: [categoryId], references: [id])
-    categoryId  String
+    id          String    @id @default(uuid())
+    category    Category? @relation(fields: [categoryId], references: [id])
+    categoryId  String?
     subcategory String?
+    description String    @default("")
     value       Int
 }
