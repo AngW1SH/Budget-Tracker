@@ -1,7 +1,8 @@
+import { authorizedFetch } from "@/shared/utils";
 import { ICategoryInDay } from "..";
 
 export const editCategoryInDay = async (categoryInDay: ICategoryInDay) => {
-  const result = await fetch("/api/editcategoryinday", {
+  const result = await authorizedFetch("/api/editcategoryinday", {
     method: "POST",
     cache: "no-cache",
     headers: {

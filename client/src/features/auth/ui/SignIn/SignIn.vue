@@ -18,8 +18,9 @@ const inputData = ref({
 
 const confirm = async () => {
   if (!validate(inputData.value, signInConfig).length) {
-    await loginUser(inputData.value);
-    emit("login-success");
+    if ((await loginUser(inputData.value)) == 200) {
+      emit("login-success");
+    }
   }
 };
 </script>

@@ -1,8 +1,8 @@
-import { formatDateForURL } from "@/shared/utils";
+import { authorizedFetch, formatDateForURL } from "@/shared/utils";
 import { ICategoryInDay } from "..";
 
 export const addEmptyCategoryInDay = async (date: Date) => {
-  const result: ICategoryInDay = await fetch(
+  const result: ICategoryInDay = await authorizedFetch(
     "/api/insertemptycategoryinday/" + formatDateForURL(date)
   ).then((data) => data.json());
 

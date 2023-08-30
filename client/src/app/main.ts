@@ -20,3 +20,5 @@ const router = createRouter({ routes, history: createWebHistory() });
 const pinia = createPinia();
 
 createApp(App).use(pinia).use(router).mount("#app");
+
+export { router };

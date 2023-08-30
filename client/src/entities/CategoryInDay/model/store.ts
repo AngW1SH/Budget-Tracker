@@ -8,38 +8,7 @@ import { editCategoryInDay } from "../api/editCategory";
 export const useCategoryInDayStore = defineStore("categoryInDay", {
   state: () => {
     return {
-      categories: [
-        {
-          id: "1",
-          category: {
-            id: "b",
-            name: "Food",
-          },
-          subcategory: "Lenta",
-          value: 21.25,
-          description: "",
-        },
-        {
-          id: "2",
-          category: {
-            id: "a",
-            name: "Gas & fuel",
-          },
-          value: 201.25,
-          description: "",
-        },
-        {
-          id: "3",
-
-          category: {
-            id: "c",
-            name: "Food",
-          },
-          subcategory: "Lenta",
-          value: 21.25,
-          description: "",
-        },
-      ],
+      categories: [],
     } as RootState;
   },
 

@@ -14,7 +14,10 @@ userRouter.get(
   "/authenticate",
   passport.authenticate("jwt-authenticate", { session: false }),
   async (req, res) => {
-    return res.status(200).send();
+    return res.status(200).send({
+      name: req.user.username,
+      email: req.user.email,
+    });
   }
 );
 
