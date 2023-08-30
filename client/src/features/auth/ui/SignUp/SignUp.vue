@@ -20,13 +20,11 @@ const confirm = async () => {
   if (
     !validate(inputData.value, generateSignUpConfig(inputData.value)).length
   ) {
-    console.log(
-      await registerUser({
-        email: inputData.value.email,
-        username: inputData.value.username,
-        password: inputData.value.password,
-      })
-    );
+    await registerUser({
+      email: inputData.value.email,
+      username: inputData.value.username,
+      password: inputData.value.password,
+    });
     emit("registration-success");
   }
 };

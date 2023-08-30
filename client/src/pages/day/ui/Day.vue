@@ -8,12 +8,26 @@ import { DayDetailed } from "@/widgets/DayDetailed";
 import { useCategoryInDayStore } from "@/entities/CategoryInDay";
 import { useCategoryStore } from "@/entities/Category";
 import { onMounted } from "vue";
+import { useRoute } from "vue-router";
+import { useDayStore } from "@/entities/Day";
+
+const route = useRoute();
 
 const categoryInDayStore = useCategoryInDayStore();
 const categoryStore = useCategoryStore();
+const dayStore = useDayStore();
 
-onMounted(() => {
-  categoryInDayStore.getData();
+onMounted(async () => {
+  if (!route.params.date) return "";
+
+  if (typeof route.params.date == "string") {
+    dayStore.setDate(new Date(route.params.date));
+  } else {
+    dayStore.setDate(new Date(route.params.date[0]));
+  }
+
+  await dayStore.prepareDay(dayStore.date);
+  categoryInDayStore.getData(dayStore.date);
   categoryStore.getData();
 });
 </script>

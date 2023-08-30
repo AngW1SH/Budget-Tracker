@@ -18,7 +18,7 @@ const inputData = ref({
 
 const confirm = async () => {
   if (!validate(inputData.value, signInConfig).length) {
-    console.log(await loginUser(inputData.value));
+    await loginUser(inputData.value);
     emit("login-success");
   }
 };

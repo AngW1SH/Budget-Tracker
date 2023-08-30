@@ -1,9 +1,10 @@
+import { formatDateForURL } from "@/shared/utils";
 import { ICategoryInDay } from "..";
 
-export const fetchCategories = async () => {
-  const result: ICategoryInDay[] = await fetch("/api/categoriesinday").then(
-    (data) => data.json()
-  );
+export const fetchCategories = async (date: Date) => {
+  const result: ICategoryInDay[] = await fetch(
+    "/api/categoriesinday/" + formatDateForURL(date)
+  ).then((data) => data.json());
 
   return result.map(
     (category) =>

@@ -16,7 +16,7 @@ const inputData = ref({
 
 const confirm = async () => {
   if (!validate(inputData.value, forgotPasswordConfig).length) {
-    console.log(await forgotPassword(inputData.value.email));
+    await forgotPassword(inputData.value.email);
     emit("forgotpassword-success");
   }
 };

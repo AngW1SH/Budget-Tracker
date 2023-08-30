@@ -150,7 +150,7 @@ userRouter.post("/register", async (req, res) => {
             },
           });
 
-          console.log(await sendConfirmationEmail(user.email, token));
+          await sendConfirmationEmail(user.email, token);
           res.status(200).send();
           return;
         });
@@ -187,15 +187,12 @@ userRouter.post("/forgotpassword", async (req, res) => {
         },
       });
 
-      console.log("vibin");
       const createNewToken = await prisma.userResetPassword.create({
         data: {
           userid: user.id,
           token: token,
         },
       });
-
-      console.log(createNewToken);
 
       await sendResetPasswordEmail(user.email, token);
 
@@ -204,7 +201,6 @@ userRouter.post("/forgotpassword", async (req, res) => {
       res.status(404).send();
     }
   } catch (err) {
-    console.log(err);
     res.status(500).send();
   }
 });

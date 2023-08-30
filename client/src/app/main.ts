@@ -12,7 +12,7 @@ export const routes = [
   { path: "/", component: Home },
   { path: "/login", component: LogInPage },
   { path: "/resetpassword/:token", component: ResetPasswordPage },
-  { path: "/day", component: Day },
+  { path: "/day/:date", component: Day },
 ];
 
 const router = createRouter({ routes, history: createWebHistory() });

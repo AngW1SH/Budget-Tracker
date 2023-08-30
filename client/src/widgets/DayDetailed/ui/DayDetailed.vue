@@ -7,7 +7,9 @@ import {
 } from "@/entities/CategoryInDay";
 import { EditCategoryInDay } from "@/features/EditCategoryInDay";
 import { ref, toRaw } from "vue";
+import { useDayStore } from "@/entities/Day";
 
+const dayStore = useDayStore();
 const categoryInDayStore = useCategoryInDayStore();
 
 const showEditor = ref(false);
@@ -42,7 +44,7 @@ const setEdited = (e: MouseEvent) => {
     </ul>
     <Button
       class="mt-8 w-full text-3xl"
-      @click="categoryInDayStore.addEmptyCategory"
+      @click="() => categoryInDayStore.addEmptyCategory(dayStore.date)"
       >Add more</Button
     >
     <Modal

@@ -23,7 +23,7 @@ const confirm = async () => {
     !validate(inputData.value, generateResetPasswordConfig(inputData.value))
       .length
   ) {
-    console.log(await resetPassword(inputData.value.password, props.token));
+    await resetPassword(inputData.value.password, props.token);
     emit("resetpassword-success");
   }
 };

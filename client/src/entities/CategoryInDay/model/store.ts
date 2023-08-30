@@ -44,8 +44,8 @@ export const useCategoryInDayStore = defineStore("categoryInDay", {
   },
 
   actions: {
-    async getData() {
-      const data = await fetchCategories();
+    async getData(date: Date) {
+      const data = await fetchCategories(date);
 
       this.categories = data;
     },
@@ -64,8 +64,8 @@ export const useCategoryInDayStore = defineStore("categoryInDay", {
       );
     },
 
-    async addEmptyCategory() {
-      const newCategory = await addEmptyCategoryInDay();
+    async addEmptyCategory(date: Date) {
+      const newCategory = await addEmptyCategoryInDay(date);
 
       this.categories = [...this.categories, newCategory];
     },

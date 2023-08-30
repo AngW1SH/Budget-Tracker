@@ -8,7 +8,7 @@ datasource db {
     url      = env("APP_DATABASE_URL")
 }
 
-// prisma generate --schema prisma/app-db/schema.prisma
+// npx prisma generate --schema prisma/app-db/schema.prisma
 // npx prisma migrate dev --schema prisma/app-db/schema.prisma
 
 model Category {
@@ -25,5 +25,13 @@ model CategoryInDay {
     categoryId  String?
     subcategory String?
     description String    @default("")
+    day         Day       @relation(fields: [dayId], references: [id])
+    dayId       String
     value       Int
+}
+
+model Day {
+    id         String          @id @default(uuid())
+    categories CategoryInDay[]
+    date       DateTime
 }
