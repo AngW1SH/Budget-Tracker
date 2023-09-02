@@ -1,6 +1,10 @@
 import { router } from "@/app/main";
 
-export const authorizedFetch = async (url: RequestInfo, init?: RequestInit) => {
+export const authorizedFetch = async (
+  url: RequestInfo,
+  noRedirect?: boolean,
+  init?: RequestInit
+) => {
   const result = await fetch(url, init);
   if (result.status == 401) {
     await fetch("/api/user/token");
@@ -12,7 +16,7 @@ export const authorizedFetch = async (url: RequestInfo, init?: RequestInit) => {
     be too much of a bother to handle each 401 error 
     from the shared-level all the way to the app-level
     */
-    if (result.status == 401) {
+    if (noRedirect && result.status == 401) {
       router.push("/login");
     }
   }

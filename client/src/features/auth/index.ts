@@ -7,6 +7,7 @@ import ConfirmEmailModal from "./ui/ConfirmEmailModal/ConfirmEmailModal.vue";
 import ResetPassword from "./ui/ResetPassword/ResetPassword.vue";
 import ForgotPasswordModal from "./ui/ForgotPasswordModal/ForgotPasswordModal.vue";
 import ForgotPassword from "./ui/ForgotPassword/ForgotPassword.vue";
+import UserMenu from "./ui/UserMenu/UserMenu.vue";
 
 export {
   SignupButton,
@@ -18,4 +19,5 @@ export {
   ResetPassword,
   ForgotPasswordModal,
   ForgotPassword,
+  UserMenu,
 };

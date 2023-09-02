@@ -8,11 +8,15 @@ import {
   ConfirmEmailModal,
   ForgotPassword,
 } from "@/features/auth";
+import { useUserStore } from "@/entities/User";
 import { useRouter } from "vue-router";
+
+const userStore = useUserStore();
 
 const router = useRouter();
 
-function login() {
+async function login() {
+  userStore.prepareUser();
   router.push("/");
 }
 
