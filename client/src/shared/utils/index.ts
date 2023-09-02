@@ -2,6 +2,7 @@ import {
   generateMonth,
   shortWeekDayNames,
   monthNames,
+  Month,
 } from "./Calendar/calendar";
 import { validate } from "./FormValidation/validation";
 import { ValidationConfigData } from "./FormValidation/types";
@@ -19,4 +20,4 @@ export {
   authorizedFetch,
 };
 
-export type { ValidationConfigData };
+export type { ValidationConfigData, Month };

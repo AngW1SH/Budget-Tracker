@@ -1,3 +1,7 @@
+export type Week = (string | null)[];
+
+export type Month = Week[];
+
 const daysInMonth = (month: number, year: number) => {
   return new Date(year, month, 0).getDate();
 };
@@ -8,14 +12,14 @@ export const getWeekDay = (day: number, month: number, year: number) => {
   return weekDay == 0 ? 6 : weekDay - 1;
 };
 
-const pushEmptyWeek = (month: (string | null)[][]) => {
+const pushEmptyWeek = (month: Month) => {
   month.push([null, null, null, null, null, null, null]);
 };
 
 export const generateMonth = (month: number, year: number) => {
   if (month < 0 || month > 11 || year < 0) return [];
 
-  const result: string[][] = [];
+  const result: Month = [];
   const daysTotal = daysInMonth(month + 1, year);
 
   pushEmptyWeek(result);

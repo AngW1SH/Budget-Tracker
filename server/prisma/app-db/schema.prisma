@@ -36,4 +36,5 @@ model Day {
     categories CategoryInDay[]
     userId     String
     date       DateTime
+    active     Boolean         @default(false)
 }

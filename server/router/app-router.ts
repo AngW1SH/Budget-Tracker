@@ -76,6 +76,10 @@ appRouter.get(
         },
       });
 
+      /*
+      This can be where inactive days are deleted
+      */
+
       res.status(200).send(categories);
     } catch {
       res.status(500).send();
@@ -120,6 +124,19 @@ appRouter.get(
         },
       });
 
+      /* 
+      The 'await' here can hurt performance, but 
+      ensures that getDayByDate always works as expected
+      */
+      const setDayActive = await prisma.day.update({
+        where: {
+          id: category.day.id,
+        },
+        data: {
+          active: true,
+        },
+      });
+
       res.status(200).send(category);
     } catch {
       res.status(500).send();
@@ -138,6 +155,23 @@ appRouter.get(
           userId: req.user.id,
         },
       });
+
+      const count = await prisma.categoryInDay.count({
+        where: {
+          dayId: deleted.dayId,
+        },
+      });
+
+      if (!count) {
+        const updatedDay = await prisma.day.update({
+          where: {
+            id: deleted.dayId,
+          },
+          data: {
+            active: false,
+          },
+        });
+      }
 
       res.status(200).send();
     } catch {
@@ -191,6 +225,49 @@ appRouter.get(
       });
 
       res.status(200).send(categories);
+    } catch {
+      res.status(500).send();
+    }
+  }
+);
+
+appRouter.get(
+  "/monthdays/:date",
+  passport.authenticate("jwt-authenticate", { session: false }),
+  async (req, res) => {
+    try {
+      if (!req.params.date) return res.status(400).send();
+
+      const date = new Date(req.params.date);
+
+      const firstDayOfCurrentMonth = new Date(
+        date.getFullYear(),
+        date.getMonth(),
+        1
+      );
+
+      const firstDayOfFollowingMonth = new Date(
+        date.getFullYear(),
+        date.getMonth() + 1,
+        1
+      );
+
+      const days = await prisma.day.findMany({
+        where: {
+          userId: req.user.id,
+          active: true,
+          date: {
+            gte: firstDayOfCurrentMonth,
+            lt: firstDayOfFollowingMonth,
+          },
+        },
+        select: {
+          id: true,
+          date: true,
+        },
+      });
+
+      return res.status(200).send(days);
     } catch {
       res.status(500).send();
     }

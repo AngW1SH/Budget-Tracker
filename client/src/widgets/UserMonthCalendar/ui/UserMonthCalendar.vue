@@ -1,12 +1,25 @@
 <script setup lang="ts">
 import { Block } from "@/shared/ui";
-import { generateMonth, shortWeekDayNames, monthNames } from "@/shared/utils";
-import { computed, ref } from "vue";
-const date = ref(new Date());
+import {
+  generateMonth,
+  shortWeekDayNames,
+  monthNames,
+  formatDateForURL,
+} from "@/shared/utils";
+import { onMounted, ref, watch } from "vue";
+import { fillMonthWithData } from "../utils/fillMonthWithData";
+import { fillMonthWithEmptyData } from "../utils/fillMonthWithEmptyData";
+import { getMonthDays } from "../api/getMonthDays";
+import { useRouter } from "vue-router";
 
-const monthData = computed(() => {
-  return generateMonth(date.value.getMonth(), date.value.getFullYear());
-});
+const router = useRouter();
+
+const date = ref(new Date());
+const monthData = ref(
+  fillMonthWithEmptyData(
+    generateMonth(new Date().getMonth(), new Date().getFullYear())
+  )
+);
 
 const decrementMonth = () => {
   const newDate = new Date(date.value.toDateString());
@@ -19,6 +32,33 @@ const incrementMonth = () => {
   newDate.setMonth(newDate.getMonth() + 1);
   date.value = newDate;
 };
+
+const updateMonthData = async () => {
+  const dayData = await getMonthDays(date.value);
+
+  monthData.value = fillMonthWithData(
+    generateMonth(date.value.getMonth(), date.value.getFullYear()),
+    dayData
+  );
+};
+
+const handleDayClick = (e: MouseEvent) => {
+  if (!(e.target instanceof HTMLElement)) return;
+
+  const value = e.target.innerHTML;
+
+  if ("" + +value != value) return;
+
+  const selectedDate = new Date(date.value);
+
+  selectedDate.setDate(+value);
+
+  router.push("/day/" + formatDateForURL(selectedDate));
+};
+
+watch([date], updateMonthData);
+
+onMounted(updateMonthData);
 </script>
 
 <template>
@@ -53,18 +93,25 @@ const incrementMonth = () => {
         {{ day }}
       </li>
     </ul>
-    <div class="h-full grid auto-rows-fr mt-1">
+    <div class="h-full grid auto-rows-fr mt-1" @click="handleDayClick">
       <div
         v-for="(week, weekindex) in monthData"
         class="flex justify-between"
         :key="date.toString() + 'week' + weekindex"
       >
         <div
-          class="w-full flex justify-center items-center text-lg text-title-900 font-medium cursor-pointer"
+          class="relative w-full flex justify-center items-center text-lg text-title-900 font-medium cursor-pointer"
           v-for="(day, dayindex) in week"
           :key="date.toString() + 'day' + dayindex"
         >
-          {{ day }}
+          <img
+            v-if="day.data != null"
+            class="absolute object-contain object-center"
+            src="/calendar-active-day.svg"
+          />
+          <div class="relative h-full w-full flex justify-center items-center">
+            {{ day.value }}
+          </div>
         </div>
       </div>
     </div>
