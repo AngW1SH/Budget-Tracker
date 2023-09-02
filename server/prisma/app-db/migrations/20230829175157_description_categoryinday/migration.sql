@@ -1,2 +1,2 @@
 -- AlterTable
-ALTER TABLE "CategoryInDay" ADD COLUMN     "description" TEXT NOT NULL DEFAULT '';
+ALTER TABLE "Transaction" ADD COLUMN     "description" TEXT NOT NULL DEFAULT '';

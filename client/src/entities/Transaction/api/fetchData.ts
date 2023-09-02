@@ -1,9 +1,9 @@
 import { authorizedFetch, formatDateForURL } from "@/shared/utils";
-import { ICategoryInDay } from "..";
+import { ITransaction } from "..";
 
-export const fetchCategories = async (date: Date) => {
-  const result: ICategoryInDay[] = await authorizedFetch(
-    "/api/categoriesinday/" + formatDateForURL(date)
+export const fetchTransactions = async (date: Date) => {
+  const result: ITransaction[] = await authorizedFetch(
+    "/api/transactions/" + formatDateForURL(date)
   ).then((data) => data.json());
 
   return result.map(

@@ -1,10 +1,10 @@
 <script setup lang="ts">
 import { useCategoryStore } from "@/entities/Category";
 import {
-  ICategoryInDay,
-  CategoryInDay,
-  useCategoryInDayStore,
-} from "@/entities/CategoryInDay";
+  ITransaction,
+  TransactionInDay,
+  useTransactionStore,
+} from "@/entities/Transaction";
 import {
   DashedInput,
   Dropdown,
@@ -16,21 +16,21 @@ import {
 import { ref } from "vue";
 
 const props = defineProps<{
-  category: ICategoryInDay;
+  transaction: ITransaction;
 }>();
 
 const emit = defineEmits<{
-  (e: "confirm-edit", edited: ICategoryInDay);
-  (e: "delete-edit", edited: ICategoryInDay);
+  (e: "confirm-edit", edited: ITransaction);
+  (e: "delete-edit", edited: ITransaction);
 }>();
 
-const categoryInDayStore = useCategoryInDayStore();
+const TransactionStore = useTransactionStore();
 
 const categoryStore = useCategoryStore();
 
 const showConfirmDelete = ref(false);
 
-const data = ref<ICategoryInDay>(props.category);
+const data = ref<ITransaction>(props.transaction);
 
 const onConfirm = () => {
   const selectedCategory = categoryStore.categories.find(
@@ -41,13 +41,13 @@ const onConfirm = () => {
     data.value.category.id = selectedCategory.id;
   }
 
-  categoryInDayStore.editCategory(data.value);
+  TransactionStore.editCategory(data.value);
   // make fetch request here
   emit("confirm-edit", data.value);
 };
 
 const onDelete = () => {
-  categoryInDayStore.removeCategory(data.value);
+  TransactionStore.removeCategory(data.value);
   // make fetch request here
   emit("delete-edit", data.value);
 };
@@ -55,7 +55,7 @@ const onDelete = () => {
 
 <template>
   <div class="w-[50vw] py-10 px-20">
-    <CategoryInDay class="cursor-pointer" :category="data" />
+    <TransactionInDay class="cursor-pointer" :transaction="data" />
     <div class="mt-10">
       <div
         class="flex items-center justify-between py-4 border-b border-title-200"
@@ -114,7 +114,7 @@ const onDelete = () => {
       <Block class="bg-white">
         <div class="px-10">
           <h2 class="font-bold text-2xl text-center text-main-800">
-            Are you sure<br />you want to delete this note?
+            Are you sure<br />you want to delete this transaction?
           </h2>
           <div class="mt-8 flex gap-7">
             <Button class="flex-1 text-lg" @click="onDelete">Confirm</Button>

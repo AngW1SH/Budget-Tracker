@@ -1,8 +1,8 @@
 <script setup lang="ts">
-import { ICategoryInDay } from "../types/types";
+import { ITransaction } from "../types/types";
 
 defineProps<{
-  category: ICategoryInDay;
+  transaction: ITransaction;
 }>();
 </script>
 
@@ -19,17 +19,17 @@ defineProps<{
         >
           <img src="/chat-icon.svg" alt="" />
         </div>
-        <p class="ml-2">{{ category.category.name }}</p>
+        <p class="ml-2">{{ transaction.category.name }}</p>
       </div>
       <div
-        v-if="category.subcategory"
+        v-if="transaction.subcategory"
         class="flex flex-1 justify-center items-center px-5 border-r border-title-400"
       >
-        {{ category.subcategory }}
+        {{ transaction.subcategory }}
       </div>
     </div>
     <div class="w-1/3 flex justify-center items-center text-2xl text-main-800">
-      ${{ category.value }}
+      ${{ transaction.value }}
     </div>
   </div>
 </template>

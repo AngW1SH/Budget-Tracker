@@ -1,11 +1,11 @@
 /*
   Warnings:
 
-  - Added the required column `dayId` to the `CategoryInDay` table without a default value. This is not possible if the table is not empty.
+  - Added the required column `dayId` to the `Transaction` table without a default value. This is not possible if the table is not empty.
 
 */
 -- AlterTable
-ALTER TABLE "CategoryInDay" ADD COLUMN     "dayId" TEXT NOT NULL;
+ALTER TABLE "Transaction" ADD COLUMN     "dayId" TEXT NOT NULL;
 
 -- CreateTable
 CREATE TABLE "Day" (
@@ -16,4 +16,4 @@ CREATE TABLE "Day" (
 );
 
 -- AddForeignKey
-ALTER TABLE "CategoryInDay" ADD CONSTRAINT "CategoryInDay_dayId_fkey" FOREIGN KEY ("dayId") REFERENCES "Day"("id") ON DELETE RESTRICT ON UPDATE CASCADE;
+ALTER TABLE "Transaction" ADD CONSTRAINT "Transaction_dayId_fkey" FOREIGN KEY ("dayId") REFERENCES "Day"("id") ON DELETE RESTRICT ON UPDATE CASCADE;

@@ -1,16 +1,16 @@
-export interface ICategoryInDay {
+export interface ITransaction {
   id: string;
-  category: ICategoryInDayInner;
+  category: ITransactionInner;
   subcategory: string;
   value: number;
   description: string;
 }
 
-export interface ICategoryInDayInner {
+export interface ITransactionInner {
   id: string;
   name: string;
 }
 
 export type RootState = {
-  categories: ICategoryInDay[];
+  transactions: ITransaction[];
 };

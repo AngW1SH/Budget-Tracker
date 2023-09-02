@@ -1,19 +1,19 @@
 <script setup lang="ts">
 import { Block, Button, Modal } from "@/shared/ui";
 import {
-  CategoryInDay,
-  ICategoryInDay,
-  useCategoryInDayStore,
-} from "@/entities/CategoryInDay";
-import { EditCategoryInDay } from "@/features/EditCategoryInDay";
+  TransactionInDay,
+  ITransaction,
+  useTransactionStore,
+} from "@/entities/Transaction";
+import { EditTransaction } from "@/features/EditTransaction";
 import { ref, toRaw } from "vue";
 import { useDayStore } from "@/entities/Day";
 
 const dayStore = useDayStore();
-const categoryInDayStore = useCategoryInDayStore();
+const TransactionStore = useTransactionStore();
 
 const showEditor = ref(false);
-const edited = ref<ICategoryInDay | null>(null);
+const edited = ref<ITransaction | null>(null);
 
 const setEdited = (e: MouseEvent) => {
   if (
@@ -26,7 +26,7 @@ const setEdited = (e: MouseEvent) => {
       );
 
       edited.value = structuredClone(
-        toRaw(categoryInDayStore.categories[editedIndex])
+        toRaw(TransactionStore.transactions[editedIndex])
       );
       showEditor.value = true;
     }
@@ -38,13 +38,16 @@ const setEdited = (e: MouseEvent) => {
   <Block>
     <h2 class="text-3xl text-center font-bold">Detailed</h2>
     <ul class="mt-9 grid grid-cols-2 gap-4" @click="setEdited">
-      <li v-for="category in categoryInDayStore.categories" :key="category.id">
-        <CategoryInDay class="cursor-pointer" :category="category" />
+      <li
+        v-for="transaction in TransactionStore.transactions"
+        :key="transaction.id"
+      >
+        <TransactionInDay class="cursor-pointer" :transaction="transaction" />
       </li>
     </ul>
     <Button
       class="mt-8 w-full text-3xl"
-      @click="() => categoryInDayStore.addEmptyCategory(dayStore.date)"
+      @click="() => TransactionStore.addEmptyCategory(dayStore.date)"
       >Add more</Button
     >
     <Modal
@@ -56,10 +59,10 @@ const setEdited = (e: MouseEvent) => {
       "
     >
       <Block class="bg-white">
-        <EditCategoryInDay
+        <EditTransaction
           v-if="edited"
           :key="'' + showEditor + edited"
-          :category="edited"
+          :transaction="edited"
           @confirm-edit="showEditor = false"
           @delete-edit="showEditor = false"
         />

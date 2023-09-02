@@ -12,14 +12,14 @@ datasource db {
 // npx prisma migrate dev --schema prisma/app-db/schema.prisma
 
 model Category {
-    id           String          @id @default(uuid())
+    id           String        @id @default(uuid())
     name         String
     userId       String
-    creationtime DateTime        @default(now())
-    instances    CategoryInDay[]
+    creationtime DateTime      @default(now())
+    transactions Transaction[]
 }
 
-model CategoryInDay {
+model Transaction {
     id          String    @id @default(uuid())
     category    Category? @relation(fields: [categoryId], references: [id])
     categoryId  String?
@@ -32,9 +32,9 @@ model CategoryInDay {
 }
 
 model Day {
-    id         String          @id @default(uuid())
-    categories CategoryInDay[]
+    id         String        @id @default(uuid())
+    categories Transaction[]
     userId     String
     date       DateTime
-    active     Boolean         @default(false)
+    active     Boolean       @default(false)
 }

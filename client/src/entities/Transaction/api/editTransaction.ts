@@ -1,15 +1,15 @@
 import { authorizedFetch } from "@/shared/utils";
-import { ICategoryInDay } from "..";
+import { ITransaction } from "..";
 
-export const editCategoryInDay = async (categoryInDay: ICategoryInDay) => {
-  const result = await authorizedFetch("/api/editcategoryinday", {
+export const editTransaction = async (Transaction: ITransaction) => {
+  const result = await authorizedFetch("/api/edittransaction", {
     method: "POST",
     cache: "no-cache",
     headers: {
       "Content-Type": "application/json",
     },
     body: JSON.stringify({
-      categoryInDay: categoryInDay,
+      Transaction: Transaction,
     }),
   }).then((response) => response.status);
 

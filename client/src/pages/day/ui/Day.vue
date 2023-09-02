@@ -5,7 +5,7 @@ import { Container } from "@/shared/ui";
 import { DayNavigate } from "@/widgets/DayNavigate";
 import { DaySummary } from "@/widgets/DaySummary";
 import { DayDetailed } from "@/widgets/DayDetailed";
-import { useCategoryInDayStore } from "@/entities/CategoryInDay";
+import { useTransactionStore } from "@/entities/Transaction";
 import { useCategoryStore } from "@/entities/Category";
 import { onMounted } from "vue";
 import { useRoute } from "vue-router";
@@ -13,7 +13,7 @@ import { useDayStore } from "@/entities/Day";
 
 const route = useRoute();
 
-const categoryInDayStore = useCategoryInDayStore();
+const TransactionStore = useTransactionStore();
 const categoryStore = useCategoryStore();
 const dayStore = useDayStore();
 
@@ -27,7 +27,7 @@ onMounted(async () => {
   }
 
   await dayStore.prepareDay(dayStore.date);
-  categoryInDayStore.getData(dayStore.date);
+  TransactionStore.getData(dayStore.date);
   categoryStore.getData();
 });
 </script>

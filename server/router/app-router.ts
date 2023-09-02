@@ -47,7 +47,7 @@ appRouter.get(
 );
 
 appRouter.get(
-  "/categoriesinday/:date",
+  "/transactions/:date",
   passport.authenticate("jwt-authenticate", { session: false }),
   async (req, res) => {
     try {
@@ -57,7 +57,7 @@ appRouter.get(
 
       if (!day) return res.status(501).send();
 
-      const categories = await prisma.categoryInDay.findMany({
+      const categories = await prisma.transaction.findMany({
         where: {
           dayId: day.id,
           userId: req.user.id,
@@ -88,7 +88,7 @@ appRouter.get(
 );
 
 appRouter.get(
-  "/insertemptycategoryinday/:date",
+  "/insertemptyTransaction/:date",
   passport.authenticate("jwt-authenticate", { session: false }),
   async (req, res) => {
     try {
@@ -98,7 +98,7 @@ appRouter.get(
 
       if (!day) return res.status(501).send();
 
-      const category = await prisma.categoryInDay.create({
+      const transaction = await prisma.transaction.create({
         data: {
           subcategory: "",
           value: 0,
@@ -130,14 +130,14 @@ appRouter.get(
       */
       const setDayActive = await prisma.day.update({
         where: {
-          id: category.day.id,
+          id: transaction.day.id,
         },
         data: {
           active: true,
         },
       });
 
-      res.status(200).send(category);
+      res.status(200).send(transaction);
     } catch {
       res.status(500).send();
     }
@@ -145,18 +145,18 @@ appRouter.get(
 );
 
 appRouter.get(
-  "/deletecategoryinday/:id",
+  "/deleteTransaction/:id",
   passport.authenticate("jwt-authenticate", { session: false }),
   async (req, res) => {
     try {
-      const deleted = await prisma.categoryInDay.delete({
+      const deleted = await prisma.transaction.delete({
         where: {
           id: req.params.id,
           userId: req.user.id,
         },
       });
 
-      const count = await prisma.categoryInDay.count({
+      const count = await prisma.transaction.count({
         where: {
           dayId: deleted.dayId,
         },
@@ -181,23 +181,23 @@ appRouter.get(
 );
 
 appRouter.post(
-  "/editcategoryinday",
+  "/editTransaction",
   passport.authenticate("jwt-authenticate", { session: false }),
   async (req, res) => {
     try {
-      if (!req.body.categoryInDay) return res.status(400).send();
+      if (!req.body.Transaction) return res.status(400).send();
 
-      const edited = await prisma.categoryInDay.update({
+      const edited = await prisma.transaction.update({
         where: {
-          id: req.body.categoryInDay.id,
+          id: req.body.Transaction.id,
           userId: req.user.id,
         },
         data: {
-          ...req.body.categoryInDay,
+          ...req.body.Transaction,
           category: undefined,
-          categoryId: req.body.categoryInDay.category.id,
+          categoryId: req.body.Transaction.category.id,
           day: undefined,
-          dayId: req.body.categoryInDay.day.id,
+          dayId: req.body.Transaction.day.id,
         },
       });
 
