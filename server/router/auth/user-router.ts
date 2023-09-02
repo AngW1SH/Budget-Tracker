@@ -1,13 +1,13 @@
 import express from "express";
-import { prismaAuth as prisma } from "../prisma-client";
-import { prismaApp } from "../prisma-client";
+import { prismaAuth as prisma } from "../../prisma-client";
+import { prismaApp } from "../../prisma-client";
 import crypto from "node:crypto";
 import bcrypt from "bcryptjs";
 import nodemailer from "nodemailer";
 import jwt, { JwtPayload } from "jsonwebtoken";
 
-import passport from "../passport/";
-import { generateAccessToken, generateRefreshToken } from "../jwt/";
+import passport from "../../passport";
+import { generateAccessToken, generateRefreshToken } from "../../jwt";
 
 const generateDefaultCategories = async (userId: string) => {
   const names = ["Food", "Gas & Fuel", "Health"];

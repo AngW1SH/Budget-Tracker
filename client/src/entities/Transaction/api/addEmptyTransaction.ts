@@ -3,7 +3,7 @@ import { ITransaction } from "..";
 
 export const addEmptyTransaction = async (date: Date) => {
   const result: ITransaction = await authorizedFetch(
-    "/api/insertemptytransaction/" + formatDateForURL(date)
+    "/api/transaction/addempty/" + formatDateForURL(date)
   ).then((data) => data.json());
 
   return result.category

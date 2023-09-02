@@ -6,8 +6,8 @@ import passport from "./passport/index";
 
 import path from "path";
 
-import userRouter from "./router/user-router";
-import appRouter from "./router/app-router";
+import userRouter from "./router/auth/user-router";
+import appRouter from "./router/app/app-router";
 
 const app = express();
 app.listen(3000, () => console.log("listening port 3000"));

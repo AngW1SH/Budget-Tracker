@@ -3,7 +3,7 @@ import { ITransaction } from "..";
 
 export const deleteCategory = async (Transaction: ITransaction) => {
   const result: number = await authorizedFetch(
-    "/api/deletetransaction/" + Transaction.id
+    "/api/transaction/delete/" + Transaction.id
   ).then((data) => data.status);
 
   return result;
