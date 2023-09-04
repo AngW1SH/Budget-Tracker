@@ -10,10 +10,24 @@ import passport from "../../passport";
 import { generateAccessToken, generateRefreshToken } from "../../jwt";
 
 const generateDefaultCategories = async (userId: string) => {
-  const names = ["Food", "Gas & Fuel", "Health"];
+  const expense = ["Food", "Gas & Fuel", "Health"];
+
+  const income = ["Salary"];
 
   await prismaApp.category.createMany({
-    data: names.map((name) => ({ name: name, userId: userId })),
+    data: expense.map((name) => ({
+      name: name,
+      userId: userId,
+      type: "expense",
+    })),
+  });
+
+  await prismaApp.category.createMany({
+    data: income.map((name) => ({
+      name: name,
+      userId: userId,
+      type: "income",
+    })),
   });
 };
 

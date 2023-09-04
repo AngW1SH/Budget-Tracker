@@ -16,6 +16,7 @@ categoryRouter.get(
         },
         select: {
           id: true,
+          type: true,
           name: true,
           userId: true,
         },

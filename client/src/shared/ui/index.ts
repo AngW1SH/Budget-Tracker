@@ -12,6 +12,7 @@ import PasswordInput from "./Input/PasswordInput.vue";
 import Checkbox from "./Checkbox/Checkbox.vue";
 import Modal from "./Modal/Modal.vue";
 import Dropdown from "./Dropdown/Dropdown.vue";
+import Toggle from "./Toggle/Toggle.vue";
 
 export {
   Container,
@@ -28,4 +29,5 @@ export {
   Checkbox,
   Modal,
   Dropdown,
+  Toggle,
 };

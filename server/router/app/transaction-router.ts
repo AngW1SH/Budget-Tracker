@@ -23,6 +23,7 @@ transactionRouter.get(
         },
         select: {
           id: true,
+          type: true,
           category: {
             select: {
               id: true,
@@ -66,6 +67,7 @@ transactionRouter.get(
         },
         select: {
           id: true,
+          type: true,
           category: {
             select: {
               id: true,
@@ -96,7 +98,7 @@ transactionRouter.get(
         },
       });
 
-      res.status(200).send(transaction);
+      res.status(200).send({ ...transaction, day: undefined });
     } catch {
       res.status(500).send();
     }
@@ -146,6 +148,12 @@ transactionRouter.post(
     try {
       if (!req.body.transaction) return res.status(400).send();
 
+      console.log({
+        ...req.body.transaction,
+        category: undefined,
+        categoryId: req.body.transaction.category.id,
+      });
+
       const edited = await prisma.transaction.update({
         where: {
           id: req.body.transaction.id,
@@ -155,6 +163,8 @@ transactionRouter.post(
           ...req.body.transaction,
           category: undefined,
           categoryId: req.body.transaction.category.id,
+          day: undefined,
+          dayId: undefined,
         },
       });
 

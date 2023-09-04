@@ -16,6 +16,7 @@ model Category {
     name         String
     userId       String
     creationtime DateTime      @default(now())
+    type         String        @default("expense") // expense or income
     transactions Transaction[]
 }
 
@@ -28,6 +29,7 @@ model Transaction {
     day         Day       @relation(fields: [dayId], references: [id])
     dayId       String
     userId      String
+    type        String    @default("expense") // expense or income
     value       Int
 }
 

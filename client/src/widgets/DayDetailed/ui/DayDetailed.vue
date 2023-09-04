@@ -6,14 +6,16 @@ import {
   useTransactionStore,
 } from "@/entities/Transaction";
 import { EditTransaction } from "@/features/EditTransaction";
-import { ref, toRaw } from "vue";
+import { ref } from "vue";
 import { useDayStore } from "@/entities/Day";
 
 const dayStore = useDayStore();
-const TransactionStore = useTransactionStore();
+const transactionStore = useTransactionStore();
 
 const showEditor = ref(false);
 const edited = ref<ITransaction | null>(null);
+
+const rerenderKey = ref(0);
 
 const setEdited = (e: MouseEvent) => {
   if (
@@ -25,10 +27,11 @@ const setEdited = (e: MouseEvent) => {
         (elem) => elem === e.target || elem.contains(e.target as HTMLElement)
       );
 
-      edited.value = structuredClone(
-        toRaw(TransactionStore.transactions[editedIndex])
-      );
+      edited.value = { ...transactionStore.transactions[editedIndex] };
+
       showEditor.value = true;
+
+      rerenderKey.value += 1; // without this, clicking away and selecting the same element wouldn't cause a rerender
     }
   }
 };
@@ -39,7 +42,7 @@ const setEdited = (e: MouseEvent) => {
     <h2 class="text-3xl text-center font-bold">Detailed</h2>
     <ul class="mt-9 grid grid-cols-2 gap-4" @click="setEdited">
       <li
-        v-for="transaction in TransactionStore.transactions"
+        v-for="transaction in transactionStore.transactions"
         :key="transaction.id"
       >
         <TransactionInDay class="cursor-pointer" :transaction="transaction" />
@@ -47,7 +50,7 @@ const setEdited = (e: MouseEvent) => {
     </ul>
     <Button
       class="mt-8 w-full text-3xl"
-      @click="() => TransactionStore.addEmptyCategory(dayStore.date)"
+      @click="() => transactionStore.addEmptyCategory(dayStore.date)"
       >Add more</Button
     >
     <Modal
@@ -61,7 +64,7 @@ const setEdited = (e: MouseEvent) => {
       <Block class="bg-white">
         <EditTransaction
           v-if="edited"
-          :key="'' + showEditor + edited"
+          :key="rerenderKey"
           :transaction="edited"
           @confirm-edit="showEditor = false"
           @delete-edit="showEditor = false"

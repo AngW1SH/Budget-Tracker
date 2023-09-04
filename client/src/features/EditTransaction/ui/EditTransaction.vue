@@ -12,8 +12,9 @@ import {
   ButtonAlt,
   Modal,
   Block,
+  Toggle,
 } from "@/shared/ui";
-import { ref } from "vue";
+import { computed, ref, watch } from "vue";
 
 const props = defineProps<{
   transaction: ITransaction;
@@ -24,39 +25,50 @@ const emit = defineEmits<{
   (e: "delete-edit", edited: ITransaction);
 }>();
 
-const TransactionStore = useTransactionStore();
+const transactionStore = useTransactionStore();
 
 const categoryStore = useCategoryStore();
 
 const showConfirmDelete = ref(false);
 
-const data = ref<ITransaction>(props.transaction);
+const data = ref<ITransaction>({ ...props.transaction });
 
 const onConfirm = () => {
   const selectedCategory = categoryStore.categories.find(
     (category) => category.name == data.value.category.name
   );
 
-  if (selectedCategory) {
-    data.value.category.id = selectedCategory.id;
-  }
+  if (!selectedCategory) return;
 
-  TransactionStore.editCategory(data.value);
-  // make fetch request here
+  data.value.category.id = selectedCategory.id;
+
+  transactionStore.editCategory(data.value);
+
   emit("confirm-edit", data.value);
 };
 
 const onDelete = () => {
-  TransactionStore.removeCategory(data.value);
-  // make fetch request here
+  transactionStore.removeCategory(data.value);
+
   emit("delete-edit", data.value);
 };
+
+watch([() => data.value.type], () => {
+  data.value.category = { id: "", name: "" };
+});
+
+const categoryList = computed(() => {
+  return categoryStore.categories
+    .filter((category) => category.type == data.value.type)
+    .map((category) => category.name);
+});
 </script>
 
 <template>
-  <div class="w-[50vw] py-10 px-20">
+  <div class="w-[50vw] py-8 px-20">
     <TransactionInDay class="cursor-pointer" :transaction="data" />
-    <div class="mt-10">
+    <Toggle :options="['expense', 'income']" v-model="data.type" class="mt-8" />
+    <div class="mt-5">
       <div
         class="flex items-center justify-between py-4 border-b border-title-200"
       >
@@ -64,7 +76,8 @@ const onDelete = () => {
         <Dropdown
           v-model="data.category.name"
           class="w-44"
-          :elements="categoryStore.categories.map((category) => category.name)"
+          :key="data.id + data.type"
+          :elements="categoryList"
         />
       </div>
       <div

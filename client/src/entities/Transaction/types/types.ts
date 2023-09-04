@@ -1,5 +1,6 @@
 export interface ITransaction {
   id: string;
+  type: "expense" | "income";
   category: ITransactionInner;
   subcategory: string;
   value: number;

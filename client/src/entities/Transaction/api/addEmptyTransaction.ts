@@ -8,5 +8,5 @@ export const addEmptyTransaction = async (date: Date) => {
 
   return result.category
     ? result
-    : { ...result, category: { id: "0", name: "" } };
+    : { ...result, category: { id: "0", name: "", type: "expense" } };
 };

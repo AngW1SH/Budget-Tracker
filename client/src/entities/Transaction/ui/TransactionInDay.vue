@@ -8,7 +8,12 @@ defineProps<{
 
 <template>
   <div
-    class="flex justify-between font-bold border border-title-700 py-2 px-6 rounded-lg"
+    class="flex justify-between font-bold border rounded-lg"
+    :class="{
+      ['border-main-800 border-[3px] py-[6px] px-[22px]']:
+        transaction.type == 'income',
+      ['border-title-700 py-[8px] px-[24px]']: transaction.type != 'income',
+    }"
   >
     <div class="w-2/3 flex">
       <div
