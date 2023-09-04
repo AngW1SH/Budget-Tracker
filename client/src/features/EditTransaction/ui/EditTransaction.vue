@@ -33,15 +33,17 @@ const showConfirmDelete = ref(false);
 
 const data = ref<ITransaction>({ ...props.transaction });
 
-const onConfirm = () => {
+const onCategoryChange = (selected: string) => {
   const selectedCategory = categoryStore.categories.find(
-    (category) => category.name == data.value.category.name
+    (category) => category.name == selected
   );
 
   if (!selectedCategory) return;
 
-  data.value.category.id = selectedCategory.id;
+  data.value.category = selectedCategory;
+};
 
+const onConfirm = () => {
   transactionStore.editCategory(data.value);
 
   emit("confirm-edit", data.value);
@@ -74,7 +76,8 @@ const categoryList = computed(() => {
       >
         <p class="font-medium">Category</p>
         <Dropdown
-          v-model="data.category.name"
+          :model-value="data.category.name"
+          @update:model-value="onCategoryChange"
           class="w-44"
           :key="data.id + data.type"
           :elements="categoryList"
