@@ -27,10 +27,10 @@ const setEdited = (e: MouseEvent) => {
         (elem) => elem === e.target || elem.contains(e.target as HTMLElement)
       );
 
+      if (editedIndex == -1) return;
+
       edited.value = { ...transactionStore.transactions[editedIndex] };
-
       showEditor.value = true;
-
       rerenderKey.value += 1; // without this, clicking away and selecting the same element wouldn't cause a rerender
     }
   }
