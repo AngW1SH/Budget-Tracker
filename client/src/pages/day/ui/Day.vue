@@ -25,10 +25,9 @@ onMounted(async () => {
   } else {
     dayStore.setDate(new Date(route.params.date[0]));
   }
-
+  categoryStore.getData();
   await dayStore.prepareDay(dayStore.date);
   TransactionStore.getData(dayStore.date);
-  categoryStore.getData();
 });
 </script>
 

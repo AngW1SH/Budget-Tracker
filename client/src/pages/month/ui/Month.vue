@@ -6,6 +6,14 @@ import { MonthNavigate } from "@/widgets/MonthNavigate";
 import { MonthGoal } from "@/widgets/MonthGoal";
 import { MonthTotal } from "@/widgets/MonthTotal";
 import { MonthCategories } from "@/widgets/MonthCategories";
+import { onMounted } from "vue";
+import { useCategoryStore } from "@/entities/Category";
+
+const categoryStore = useCategoryStore();
+
+onMounted(() => {
+  categoryStore.getData();
+});
 </script>
 
 <template>
