@@ -12,12 +12,32 @@ datasource db {
 // npx prisma migrate dev --schema prisma/app-db/schema.prisma
 
 model Category {
-    id           String        @id @default(uuid())
-    name         String
-    userId       String
-    creationtime DateTime      @default(now())
-    type         String        @default("expense") // expense or income
-    transactions Transaction[]
+    id                String            @id @default(uuid())
+    name              String
+    userId            String
+    creationtime      DateTime          @default(now())
+    type              String            @default("expense") // expense or income
+    transactions      Transaction[]
+    categoriesInMonth CategoryInMonth[]
+}
+
+model Month {
+    id         String            @id @default(uuid())
+    date       DateTime
+    categories CategoryInMonth[]
+    userId     String
+}
+
+model CategoryInMonth {
+    id          String    @id @default(uuid())
+    description String
+    category    Category? @relation(fields: [categoryId], references: [id])
+    categoryId  String?
+    month       Month     @relation(fields: [monthId], references: [id])
+    monthId     String
+    goal        Int
+    spent       Int
+    userId      String
 }
 
 model Transaction {
