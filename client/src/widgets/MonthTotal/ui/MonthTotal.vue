@@ -1,5 +1,8 @@
 <script setup lang="ts">
+import { useMonthStore } from "@/entities/Month";
 import { Block } from "@/shared/ui";
+
+const monthStore = useMonthStore();
 </script>
 
 <template>
@@ -17,7 +20,7 @@ import { Block } from "@/shared/ui";
           class="text-3xl pl-1 font-bold text-center text-main-800 w-1/2"
           label="Month Goal"
         >
-          25.00
+          {{ monthStore.month ? monthStore.month.spent : "" }}
         </p>
       </div>
     </div>

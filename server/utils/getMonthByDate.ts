@@ -12,6 +12,12 @@ export const getMonthByDate = async (date: Date, userId: string) => {
       },
       userId: userId,
     },
+    select: {
+      id: true,
+      date: true,
+      goal: true,
+      spent: true,
+    },
   });
 
   return month;

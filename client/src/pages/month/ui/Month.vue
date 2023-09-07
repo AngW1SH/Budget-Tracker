@@ -29,7 +29,7 @@ onMounted(async () => {
     monthStore.setDate(new Date(route.params.date[0]));
   }
   categoryStore.getData();
-  await monthStore.prepareDay(monthStore.date);
+  await monthStore.prepareMonth(monthStore.date);
 });
 </script>
 

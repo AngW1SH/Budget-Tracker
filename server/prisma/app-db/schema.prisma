@@ -24,6 +24,8 @@ model Category {
 model Month {
     id         String            @id @default(uuid())
     date       DateTime
+    goal       Int               @default(0)
+    spent      Int               @default(0)
     categories CategoryInMonth[]
     userId     String
 }

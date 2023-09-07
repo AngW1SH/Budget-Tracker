@@ -1,8 +1,6 @@
 <script setup lang="ts">
-import { Block, DashedInput } from "@/shared/ui";
-import { ref } from "vue";
-
-const goal = ref("25");
+import { Block } from "@/shared/ui";
+import { EditMonthGoal } from "@/features/EditMonthGoal";
 </script>
 
 <template>
@@ -16,11 +14,7 @@ const goal = ref("25");
       <div
         class="pl-4 w-full flex justify-center items-center text-2xl font-bold text-main-800 text-center"
       >
-        <DashedInput
-          class="text-3xl pl-1 font-bold text-center text-main-800 w-3/4"
-          v-model="goal"
-          label="Month Goal"
-        />
+        <EditMonthGoal />
       </div>
     </div>
   </Block>
