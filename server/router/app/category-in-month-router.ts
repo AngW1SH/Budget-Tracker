@@ -126,7 +126,7 @@ categoryInMonthRouter.post(
         data: {
           ...req.body.categoryInMonth,
           category: undefined,
-          categoryId: req.body.transaction.category.id,
+          categoryId: req.body.categoryInMonth.category.id,
           month: undefined,
           monthId: undefined,
         },

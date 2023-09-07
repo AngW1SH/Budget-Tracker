@@ -10,9 +10,11 @@ import { onMounted } from "vue";
 import { useCategoryStore } from "@/entities/Category";
 import { useMonthStore } from "@/entities/Month";
 import { useRoute } from "vue-router";
+import { useCategoryInMonthStore } from "@/entities/CategoryInMonth/model/store";
 
 const categoryStore = useCategoryStore();
 const monthStore = useMonthStore();
+const categoryInMonthStore = useCategoryInMonthStore();
 
 onMounted(() => {
   categoryStore.getData();
@@ -29,6 +31,7 @@ onMounted(async () => {
     monthStore.setDate(new Date(route.params.date[0]));
   }
   categoryStore.getData();
+  categoryInMonthStore.getData(monthStore.date);
   await monthStore.prepareMonth(monthStore.date);
 });
 </script>

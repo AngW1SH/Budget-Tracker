@@ -1,4 +1,10 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import { ICategoryInMonth } from "../types/types";
+
+defineProps<{
+  category: ICategoryInMonth;
+}>();
+</script>
 
 <template>
   <div
@@ -10,17 +16,17 @@
       >
         <img src="/chat-icon.svg" alt="" />
       </div>
-      <p class="ml-2">Food</p>
+      <p class="ml-2">{{ category.category?.name }}</p>
     </div>
     <div
       class="w-36 flex items-center justify-center border-r border-title-400 font-bold text-2xl text-main-800"
     >
-      $21.25
+      ${{ category.goal }}
     </div>
     <div
       class="w-36 flex items-center justify-center font-bold text-2xl text-main-800"
     >
-      $21.25
+      ${{ category.spent }}
     </div>
   </div>
 </template>

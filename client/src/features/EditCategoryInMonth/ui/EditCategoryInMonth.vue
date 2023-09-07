@@ -10,6 +10,14 @@ import {
   Block,
 } from "@/shared/ui";
 import { computed, ref } from "vue";
+import { ICategoryInMonth } from "@/entities/CategoryInMonth/types/types";
+import { useCategoryInMonthStore } from "@/entities/CategoryInMonth/model/store";
+
+const categoryInMonthStore = useCategoryInMonthStore();
+
+const props = defineProps<{
+  categoryInMonth: ICategoryInMonth;
+}>();
 
 const emit = defineEmits<{
   (e: "confirm-edit");
@@ -17,18 +25,30 @@ const emit = defineEmits<{
 }>();
 
 const onConfirm = () => {
+  categoryInMonthStore.editCategory(data.value);
+
   emit("confirm-edit");
 };
 
 const onDelete = () => {
+  categoryInMonthStore.removeCategory(data.value);
+
   emit("delete-edit");
 };
 
-const category = ref("");
-const value = ref(0);
-const description = ref("");
+const data = ref(props.categoryInMonth);
 
 const showConfirmDelete = ref(false);
+
+const onCategoryChange = (selected: string) => {
+  const selectedCategory = categoryStore.categories.find(
+    (category) => category.name == selected
+  );
+
+  if (!selectedCategory) return;
+
+  data.value.category = selectedCategory;
+};
 
 // todo: move category selector dropdown to a separate entity ui component
 const categoryStore = useCategoryStore();
@@ -46,7 +66,7 @@ const categoryList = computed(() => {
         <h2 class="w-36">Goal</h2>
         <h2 class="w-36">Spent</h2>
       </div>
-      <CategoryInMonth />
+      <CategoryInMonth :category="data" />
     </div>
     <div class="mt-5">
       <div
@@ -54,7 +74,8 @@ const categoryList = computed(() => {
       >
         <p class="font-medium">Category</p>
         <Dropdown
-          :model-value="category"
+          :model-value="data.category.name"
+          @update:model-value="onCategoryChange"
           class="w-44"
           :elements="categoryList"
         />
@@ -62,11 +83,11 @@ const categoryList = computed(() => {
       <div
         class="flex items-center justify-between py-4 border-b border-title-200"
       >
-        <p class="font-medium">Value</p>
+        <p class="font-medium">Goal</p>
         <DashedInput
           class="w-44"
-          :model-value="'' + value"
-          @update:model-value="(newValue) => (value = +newValue)"
+          :model-value="'' + data.goal"
+          @update:model-value="(newValue) => (data.goal = +newValue)"
           type="number"
           label=""
         />
@@ -75,7 +96,7 @@ const categoryList = computed(() => {
         <h3 class="font-medium">Notes</h3>
         <div class="relative bg-[#F6F6F6]">
           <div
-            v-if="!description.length"
+            v-if="!data.description.length"
             class="absolute top-3 left-5 text-[#A3A3A3]"
           >
             Enter a description
@@ -83,9 +104,9 @@ const categoryList = computed(() => {
           <div
             contenteditable
             class="relative mt-2 w-full rounded-md py-3 px-5 min-h-[5rem]"
-            @input="(e: Event) => description = (e.target as HTMLDivElement).innerHTML"
+            @input="(e: Event) => data.description = (e.target as HTMLDivElement).innerHTML"
           >
-            {{ description }}
+            {{ data.description }}
           </div>
         </div>
       </div>
