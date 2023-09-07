@@ -8,11 +8,28 @@ import { MonthTotal } from "@/widgets/MonthTotal";
 import { MonthCategories } from "@/widgets/MonthCategories";
 import { onMounted } from "vue";
 import { useCategoryStore } from "@/entities/Category";
+import { useMonthStore } from "@/entities/Month";
+import { useRoute } from "vue-router";
 
 const categoryStore = useCategoryStore();
+const monthStore = useMonthStore();
 
 onMounted(() => {
   categoryStore.getData();
+});
+
+const route = useRoute();
+
+onMounted(async () => {
+  if (!route.params.date) return "";
+
+  if (typeof route.params.date == "string") {
+    monthStore.setDate(new Date(route.params.date));
+  } else {
+    monthStore.setDate(new Date(route.params.date[0]));
+  }
+  categoryStore.getData();
+  await monthStore.prepareDay(monthStore.date);
 });
 </script>
 

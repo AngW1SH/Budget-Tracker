@@ -14,7 +14,7 @@ export const routes = [
   { path: "/login", component: LogInPage },
   { path: "/resetpassword/:token", component: ResetPasswordPage },
   { path: "/day/:date", component: Day },
-  { path: "/month", component: Month },
+  { path: "/month/:date", component: Month },
 ];
 
 const router = createRouter({ routes, history: createWebHistory() });

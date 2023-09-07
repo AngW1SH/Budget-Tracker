@@ -10,7 +10,7 @@ export const useMonthStore = defineStore("month", {
   },
 
   actions: {
-    setMonth(date: Date) {
+    setDate(date: Date) {
       this.date = date;
     },
 
@@ -21,7 +21,7 @@ export const useMonthStore = defineStore("month", {
 
   getters: {
     formattedDate(state) {
-      return monthNames[state.date.getMonth()] + state.date.getFullYear();
+      return monthNames[state.date.getMonth()] + " " + state.date.getFullYear();
     },
   },
 });
