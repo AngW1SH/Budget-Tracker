@@ -20,7 +20,7 @@ const monthStore = useMonthStore();
           class="text-3xl pl-1 font-bold text-center text-main-800 w-1/2"
           label="Month Goal"
         >
-          {{ monthStore.month ? monthStore.month.spent : "" }}
+          ₽{{ monthStore.month ? monthStore.month.spent : "" }}
         </p>
       </div>
     </div>

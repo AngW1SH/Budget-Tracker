@@ -24,7 +24,7 @@ VueWrapper {
             <p
               class="text-[2.3rem] font-bold mr-4 text-main-800"
             >
-              $121.25
+              ₽121.25
             </p>
             <p
               class="text-title-900 whitespace-nowrap"
@@ -49,7 +49,7 @@ VueWrapper {
             <p
               class="text-[2.3rem] font-bold mr-4 text-main-800"
             >
-              $120.25
+              ₽120.25
             </p>
             <p
               class="text-title-900 whitespace-nowrap"
@@ -74,7 +74,7 @@ VueWrapper {
             <p
               class="text-[2.3rem] font-bold mr-4 text-main-800"
             >
-              $101.25
+              ₽101.25
             </p>
             <p
               class="text-title-900 whitespace-nowrap"
@@ -697,7 +697,7 @@ VueWrapper {
                                     "anchor": null,
                                     "appContext": null,
                                     "ce": undefined,
-                                    "children": "$121.25",
+                                    "children": "₽121.25",
                                     "component": null,
                                     "ctx": null,
                                     "dirs": null,
@@ -706,7 +706,7 @@ VueWrapper {
                                     "el": <p
                                       class="text-[2.3rem] font-bold mr-4 text-main-800"
                                     >
-                                      $121.25
+                                      ₽121.25
                                     </p>,
                                     "key": null,
                                     "patchFlag": -1,
@@ -897,7 +897,7 @@ VueWrapper {
                                   <p
                                     class="text-[2.3rem] font-bold mr-4 text-main-800"
                                   >
-                                    $121.25
+                                    ₽121.25
                                   </p>
                                   <p
                                     class="text-title-900 whitespace-nowrap"
@@ -951,7 +951,7 @@ VueWrapper {
                               <p
                                 class="text-[2.3rem] font-bold mr-4 text-main-800"
                               >
-                                $121.25
+                                ₽121.25
                               </p>
                               <p
                                 class="text-title-900 whitespace-nowrap"
@@ -1126,7 +1126,7 @@ VueWrapper {
                                     "anchor": null,
                                     "appContext": null,
                                     "ce": undefined,
-                                    "children": "$121.25",
+                                    "children": "₽121.25",
                                     "component": null,
                                     "ctx": null,
                                     "dirs": null,
@@ -1135,7 +1135,7 @@ VueWrapper {
                                     "el": <p
                                       class="text-[2.3rem] font-bold mr-4 text-main-800"
                                     >
-                                      $121.25
+                                      ₽121.25
                                     </p>,
                                     "key": null,
                                     "patchFlag": -1,
@@ -1326,7 +1326,7 @@ VueWrapper {
                                   <p
                                     class="text-[2.3rem] font-bold mr-4 text-main-800"
                                   >
-                                    $121.25
+                                    ₽121.25
                                   </p>
                                   <p
                                     class="text-title-900 whitespace-nowrap"
@@ -1380,7 +1380,7 @@ VueWrapper {
                               <p
                                 class="text-[2.3rem] font-bold mr-4 text-main-800"
                               >
-                                $121.25
+                                ₽121.25
                               </p>
                               <p
                                 class="text-title-900 whitespace-nowrap"
@@ -1582,7 +1582,7 @@ VueWrapper {
                                     "anchor": null,
                                     "appContext": null,
                                     "ce": undefined,
-                                    "children": "$121.25",
+                                    "children": "₽121.25",
                                     "component": null,
                                     "ctx": null,
                                     "dirs": null,
@@ -1591,7 +1591,7 @@ VueWrapper {
                                     "el": <p
                                       class="text-[2.3rem] font-bold mr-4 text-main-800"
                                     >
-                                      $121.25
+                                      ₽121.25
                                     </p>,
                                     "key": null,
                                     "patchFlag": -1,
@@ -1782,7 +1782,7 @@ VueWrapper {
                                   <p
                                     class="text-[2.3rem] font-bold mr-4 text-main-800"
                                   >
-                                    $121.25
+                                    ₽121.25
                                   </p>
                                   <p
                                     class="text-title-900 whitespace-nowrap"
@@ -1836,7 +1836,7 @@ VueWrapper {
                               <p
                                 class="text-[2.3rem] font-bold mr-4 text-main-800"
                               >
-                                $121.25
+                                ₽121.25
                               </p>
                               <p
                                 class="text-title-900 whitespace-nowrap"
@@ -2011,7 +2011,7 @@ VueWrapper {
                                     "anchor": null,
                                     "appContext": null,
                                     "ce": undefined,
-                                    "children": "$121.25",
+                                    "children": "₽121.25",
                                     "component": null,
                                     "ctx": null,
                                     "dirs": null,
@@ -2020,7 +2020,7 @@ VueWrapper {
                                     "el": <p
                                       class="text-[2.3rem] font-bold mr-4 text-main-800"
                                     >
-                                      $121.25
+                                      ₽121.25
                                     </p>,
                                     "key": null,
                                     "patchFlag": -1,
@@ -2211,7 +2211,7 @@ VueWrapper {
                                   <p
                                     class="text-[2.3rem] font-bold mr-4 text-main-800"
                                   >
-                                    $121.25
+                                    ₽121.25
                                   </p>
                                   <p
                                     class="text-title-900 whitespace-nowrap"
@@ -2265,7 +2265,7 @@ VueWrapper {
                               <p
                                 class="text-[2.3rem] font-bold mr-4 text-main-800"
                               >
-                                $121.25
+                                ₽121.25
                               </p>
                               <p
                                 class="text-title-900 whitespace-nowrap"
@@ -2332,7 +2332,7 @@ VueWrapper {
                         <p
                           class="text-[2.3rem] font-bold mr-4 text-main-800"
                         >
-                          $121.25
+                          ₽121.25
                         </p>
                         <p
                           class="text-title-900 whitespace-nowrap"
@@ -2392,7 +2392,7 @@ VueWrapper {
                     <p
                       class="text-[2.3rem] font-bold mr-4 text-main-800"
                     >
-                      $121.25
+                      ₽121.25
                     </p>
                     <p
                       class="text-title-900 whitespace-nowrap"
@@ -2698,7 +2698,7 @@ VueWrapper {
                                     "anchor": null,
                                     "appContext": null,
                                     "ce": undefined,
-                                    "children": "$120.25",
+                                    "children": "₽120.25",
                                     "component": null,
                                     "ctx": null,
                                     "dirs": null,
@@ -2707,7 +2707,7 @@ VueWrapper {
                                     "el": <p
                                       class="text-[2.3rem] font-bold mr-4 text-main-800"
                                     >
-                                      $120.25
+                                      ₽120.25
                                     </p>,
                                     "key": null,
                                     "patchFlag": -1,
@@ -2898,7 +2898,7 @@ VueWrapper {
                                   <p
                                     class="text-[2.3rem] font-bold mr-4 text-main-800"
                                   >
-                                    $120.25
+                                    ₽120.25
                                   </p>
                                   <p
                                     class="text-title-900 whitespace-nowrap"
@@ -2952,7 +2952,7 @@ VueWrapper {
                               <p
                                 class="text-[2.3rem] font-bold mr-4 text-main-800"
                               >
-                                $120.25
+                                ₽120.25
                               </p>
                               <p
                                 class="text-title-900 whitespace-nowrap"
@@ -3127,7 +3127,7 @@ VueWrapper {
                                     "anchor": null,
                                     "appContext": null,
                                     "ce": undefined,
-                                    "children": "$120.25",
+                                    "children": "₽120.25",
                                     "component": null,
                                     "ctx": null,
                                     "dirs": null,
@@ -3136,7 +3136,7 @@ VueWrapper {
                                     "el": <p
                                       class="text-[2.3rem] font-bold mr-4 text-main-800"
                                     >
-                                      $120.25
+                                      ₽120.25
                                     </p>,
                                     "key": null,
                                     "patchFlag": -1,
@@ -3327,7 +3327,7 @@ VueWrapper {
                                   <p
                                     class="text-[2.3rem] font-bold mr-4 text-main-800"
                                   >
-                                    $120.25
+                                    ₽120.25
                                   </p>
                                   <p
                                     class="text-title-900 whitespace-nowrap"
@@ -3381,7 +3381,7 @@ VueWrapper {
                               <p
                                 class="text-[2.3rem] font-bold mr-4 text-main-800"
                               >
-                                $120.25
+                                ₽120.25
                               </p>
                               <p
                                 class="text-title-900 whitespace-nowrap"
@@ -3583,7 +3583,7 @@ VueWrapper {
                                     "anchor": null,
                                     "appContext": null,
                                     "ce": undefined,
-                                    "children": "$120.25",
+                                    "children": "₽120.25",
                                     "component": null,
                                     "ctx": null,
                                     "dirs": null,
@@ -3592,7 +3592,7 @@ VueWrapper {
                                     "el": <p
                                       class="text-[2.3rem] font-bold mr-4 text-main-800"
                                     >
-                                      $120.25
+                                      ₽120.25
                                     </p>,
                                     "key": null,
                                     "patchFlag": -1,
@@ -3783,7 +3783,7 @@ VueWrapper {
                                   <p
                                     class="text-[2.3rem] font-bold mr-4 text-main-800"
                                   >
-                                    $120.25
+                                    ₽120.25
                                   </p>
                                   <p
                                     class="text-title-900 whitespace-nowrap"
@@ -3837,7 +3837,7 @@ VueWrapper {
                               <p
                                 class="text-[2.3rem] font-bold mr-4 text-main-800"
                               >
-                                $120.25
+                                ₽120.25
                               </p>
                               <p
                                 class="text-title-900 whitespace-nowrap"
@@ -4012,7 +4012,7 @@ VueWrapper {
                                     "anchor": null,
                                     "appContext": null,
                                     "ce": undefined,
-                                    "children": "$120.25",
+                                    "children": "₽120.25",
                                     "component": null,
                                     "ctx": null,
                                     "dirs": null,
@@ -4021,7 +4021,7 @@ VueWrapper {
                                     "el": <p
                                       class="text-[2.3rem] font-bold mr-4 text-main-800"
                                     >
-                                      $120.25
+                                      ₽120.25
                                     </p>,
                                     "key": null,
                                     "patchFlag": -1,
@@ -4212,7 +4212,7 @@ VueWrapper {
                                   <p
                                     class="text-[2.3rem] font-bold mr-4 text-main-800"
                                   >
-                                    $120.25
+                                    ₽120.25
                                   </p>
                                   <p
                                     class="text-title-900 whitespace-nowrap"
@@ -4266,7 +4266,7 @@ VueWrapper {
                               <p
                                 class="text-[2.3rem] font-bold mr-4 text-main-800"
                               >
-                                $120.25
+                                ₽120.25
                               </p>
                               <p
                                 class="text-title-900 whitespace-nowrap"
@@ -4333,7 +4333,7 @@ VueWrapper {
                         <p
                           class="text-[2.3rem] font-bold mr-4 text-main-800"
                         >
-                          $120.25
+                          ₽120.25
                         </p>
                         <p
                           class="text-title-900 whitespace-nowrap"
@@ -4393,7 +4393,7 @@ VueWrapper {
                     <p
                       class="text-[2.3rem] font-bold mr-4 text-main-800"
                     >
-                      $120.25
+                      ₽120.25
                     </p>
                     <p
                       class="text-title-900 whitespace-nowrap"
@@ -4699,7 +4699,7 @@ VueWrapper {
                                     "anchor": null,
                                     "appContext": null,
                                     "ce": undefined,
-                                    "children": "$101.25",
+                                    "children": "₽101.25",
                                     "component": null,
                                     "ctx": null,
                                     "dirs": null,
@@ -4708,7 +4708,7 @@ VueWrapper {
                                     "el": <p
                                       class="text-[2.3rem] font-bold mr-4 text-main-800"
                                     >
-                                      $101.25
+                                      ₽101.25
                                     </p>,
                                     "key": null,
                                     "patchFlag": -1,
@@ -4899,7 +4899,7 @@ VueWrapper {
                                   <p
                                     class="text-[2.3rem] font-bold mr-4 text-main-800"
                                   >
-                                    $101.25
+                                    ₽101.25
                                   </p>
                                   <p
                                     class="text-title-900 whitespace-nowrap"
@@ -4953,7 +4953,7 @@ VueWrapper {
                               <p
                                 class="text-[2.3rem] font-bold mr-4 text-main-800"
                               >
-                                $101.25
+                                ₽101.25
                               </p>
                               <p
                                 class="text-title-900 whitespace-nowrap"
@@ -5128,7 +5128,7 @@ VueWrapper {
                                     "anchor": null,
                                     "appContext": null,
                                     "ce": undefined,
-                                    "children": "$101.25",
+                                    "children": "₽101.25",
                                     "component": null,
                                     "ctx": null,
                                     "dirs": null,
@@ -5137,7 +5137,7 @@ VueWrapper {
                                     "el": <p
                                       class="text-[2.3rem] font-bold mr-4 text-main-800"
                                     >
-                                      $101.25
+                                      ₽101.25
                                     </p>,
                                     "key": null,
                                     "patchFlag": -1,
@@ -5328,7 +5328,7 @@ VueWrapper {
                                   <p
                                     class="text-[2.3rem] font-bold mr-4 text-main-800"
                                   >
-                                    $101.25
+                                    ₽101.25
                                   </p>
                                   <p
                                     class="text-title-900 whitespace-nowrap"
@@ -5382,7 +5382,7 @@ VueWrapper {
                               <p
                                 class="text-[2.3rem] font-bold mr-4 text-main-800"
                               >
-                                $101.25
+                                ₽101.25
                               </p>
                               <p
                                 class="text-title-900 whitespace-nowrap"
@@ -5584,7 +5584,7 @@ VueWrapper {
                                     "anchor": null,
                                     "appContext": null,
                                     "ce": undefined,
-                                    "children": "$101.25",
+                                    "children": "₽101.25",
                                     "component": null,
                                     "ctx": null,
                                     "dirs": null,
@@ -5593,7 +5593,7 @@ VueWrapper {
                                     "el": <p
                                       class="text-[2.3rem] font-bold mr-4 text-main-800"
                                     >
-                                      $101.25
+                                      ₽101.25
                                     </p>,
                                     "key": null,
                                     "patchFlag": -1,
@@ -5784,7 +5784,7 @@ VueWrapper {
                                   <p
                                     class="text-[2.3rem] font-bold mr-4 text-main-800"
                                   >
-                                    $101.25
+                                    ₽101.25
                                   </p>
                                   <p
                                     class="text-title-900 whitespace-nowrap"
@@ -5838,7 +5838,7 @@ VueWrapper {
                               <p
                                 class="text-[2.3rem] font-bold mr-4 text-main-800"
                               >
-                                $101.25
+                                ₽101.25
                               </p>
                               <p
                                 class="text-title-900 whitespace-nowrap"
@@ -6013,7 +6013,7 @@ VueWrapper {
                                     "anchor": null,
                                     "appContext": null,
                                     "ce": undefined,
-                                    "children": "$101.25",
+                                    "children": "₽101.25",
                                     "component": null,
                                     "ctx": null,
                                     "dirs": null,
@@ -6022,7 +6022,7 @@ VueWrapper {
                                     "el": <p
                                       class="text-[2.3rem] font-bold mr-4 text-main-800"
                                     >
-                                      $101.25
+                                      ₽101.25
                                     </p>,
                                     "key": null,
                                     "patchFlag": -1,
@@ -6213,7 +6213,7 @@ VueWrapper {
                                   <p
                                     class="text-[2.3rem] font-bold mr-4 text-main-800"
                                   >
-                                    $101.25
+                                    ₽101.25
                                   </p>
                                   <p
                                     class="text-title-900 whitespace-nowrap"
@@ -6267,7 +6267,7 @@ VueWrapper {
                               <p
                                 class="text-[2.3rem] font-bold mr-4 text-main-800"
                               >
-                                $101.25
+                                ₽101.25
                               </p>
                               <p
                                 class="text-title-900 whitespace-nowrap"
@@ -6334,7 +6334,7 @@ VueWrapper {
                         <p
                           class="text-[2.3rem] font-bold mr-4 text-main-800"
                         >
-                          $101.25
+                          ₽101.25
                         </p>
                         <p
                           class="text-title-900 whitespace-nowrap"
@@ -6394,7 +6394,7 @@ VueWrapper {
                     <p
                       class="text-[2.3rem] font-bold mr-4 text-main-800"
                     >
-                      $101.25
+                      ₽101.25
                     </p>
                     <p
                       class="text-title-900 whitespace-nowrap"
@@ -6719,7 +6719,7 @@ VueWrapper {
                                     "anchor": null,
                                     "appContext": null,
                                     "ce": undefined,
-                                    "children": "$121.25",
+                                    "children": "₽121.25",
                                     "component": null,
                                     "ctx": null,
                                     "dirs": null,
@@ -6728,7 +6728,7 @@ VueWrapper {
                                     "el": <p
                                       class="text-[2.3rem] font-bold mr-4 text-main-800"
                                     >
-                                      $121.25
+                                      ₽121.25
                                     </p>,
                                     "key": null,
                                     "patchFlag": -1,
@@ -6919,7 +6919,7 @@ VueWrapper {
                                   <p
                                     class="text-[2.3rem] font-bold mr-4 text-main-800"
                                   >
-                                    $121.25
+                                    ₽121.25
                                   </p>
                                   <p
                                     class="text-title-900 whitespace-nowrap"
@@ -6973,7 +6973,7 @@ VueWrapper {
                               <p
                                 class="text-[2.3rem] font-bold mr-4 text-main-800"
                               >
-                                $121.25
+                                ₽121.25
                               </p>
                               <p
                                 class="text-title-900 whitespace-nowrap"
@@ -7148,7 +7148,7 @@ VueWrapper {
                                     "anchor": null,
                                     "appContext": null,
                                     "ce": undefined,
-                                    "children": "$121.25",
+                                    "children": "₽121.25",
                                     "component": null,
                                     "ctx": null,
                                     "dirs": null,
@@ -7157,7 +7157,7 @@ VueWrapper {
                                     "el": <p
                                       class="text-[2.3rem] font-bold mr-4 text-main-800"
                                     >
-                                      $121.25
+                                      ₽121.25
                                     </p>,
                                     "key": null,
                                     "patchFlag": -1,
@@ -7348,7 +7348,7 @@ VueWrapper {
                                   <p
                                     class="text-[2.3rem] font-bold mr-4 text-main-800"
                                   >
-                                    $121.25
+                                    ₽121.25
                                   </p>
                                   <p
                                     class="text-title-900 whitespace-nowrap"
@@ -7402,7 +7402,7 @@ VueWrapper {
                               <p
                                 class="text-[2.3rem] font-bold mr-4 text-main-800"
                               >
-                                $121.25
+                                ₽121.25
                               </p>
                               <p
                                 class="text-title-900 whitespace-nowrap"
@@ -7604,7 +7604,7 @@ VueWrapper {
                                     "anchor": null,
                                     "appContext": null,
                                     "ce": undefined,
-                                    "children": "$121.25",
+                                    "children": "₽121.25",
                                     "component": null,
                                     "ctx": null,
                                     "dirs": null,
@@ -7613,7 +7613,7 @@ VueWrapper {
                                     "el": <p
                                       class="text-[2.3rem] font-bold mr-4 text-main-800"
                                     >
-                                      $121.25
+                                      ₽121.25
                                     </p>,
                                     "key": null,
                                     "patchFlag": -1,
@@ -7804,7 +7804,7 @@ VueWrapper {
                                   <p
                                     class="text-[2.3rem] font-bold mr-4 text-main-800"
                                   >
-                                    $121.25
+                                    ₽121.25
                                   </p>
                                   <p
                                     class="text-title-900 whitespace-nowrap"
@@ -7858,7 +7858,7 @@ VueWrapper {
                               <p
                                 class="text-[2.3rem] font-bold mr-4 text-main-800"
                               >
-                                $121.25
+                                ₽121.25
                               </p>
                               <p
                                 class="text-title-900 whitespace-nowrap"
@@ -8033,7 +8033,7 @@ VueWrapper {
                                     "anchor": null,
                                     "appContext": null,
                                     "ce": undefined,
-                                    "children": "$121.25",
+                                    "children": "₽121.25",
                                     "component": null,
                                     "ctx": null,
                                     "dirs": null,
@@ -8042,7 +8042,7 @@ VueWrapper {
                                     "el": <p
                                       class="text-[2.3rem] font-bold mr-4 text-main-800"
                                     >
-                                      $121.25
+                                      ₽121.25
                                     </p>,
                                     "key": null,
                                     "patchFlag": -1,
@@ -8233,7 +8233,7 @@ VueWrapper {
                                   <p
                                     class="text-[2.3rem] font-bold mr-4 text-main-800"
                                   >
-                                    $121.25
+                                    ₽121.25
                                   </p>
                                   <p
                                     class="text-title-900 whitespace-nowrap"
@@ -8287,7 +8287,7 @@ VueWrapper {
                               <p
                                 class="text-[2.3rem] font-bold mr-4 text-main-800"
                               >
-                                $121.25
+                                ₽121.25
                               </p>
                               <p
                                 class="text-title-900 whitespace-nowrap"
@@ -8354,7 +8354,7 @@ VueWrapper {
                         <p
                           class="text-[2.3rem] font-bold mr-4 text-main-800"
                         >
-                          $121.25
+                          ₽121.25
                         </p>
                         <p
                           class="text-title-900 whitespace-nowrap"
@@ -8414,7 +8414,7 @@ VueWrapper {
                     <p
                       class="text-[2.3rem] font-bold mr-4 text-main-800"
                     >
-                      $121.25
+                      ₽121.25
                     </p>
                     <p
                       class="text-title-900 whitespace-nowrap"
@@ -8734,7 +8734,7 @@ VueWrapper {
                                     "anchor": null,
                                     "appContext": null,
                                     "ce": undefined,
-                                    "children": "$120.25",
+                                    "children": "₽120.25",
                                     "component": null,
                                     "ctx": null,
                                     "dirs": null,
@@ -8743,7 +8743,7 @@ VueWrapper {
                                     "el": <p
                                       class="text-[2.3rem] font-bold mr-4 text-main-800"
                                     >
-                                      $120.25
+                                      ₽120.25
                                     </p>,
                                     "key": null,
                                     "patchFlag": -1,
@@ -8934,7 +8934,7 @@ VueWrapper {
                                   <p
                                     class="text-[2.3rem] font-bold mr-4 text-main-800"
                                   >
-                                    $120.25
+                                    ₽120.25
                                   </p>
                                   <p
                                     class="text-title-900 whitespace-nowrap"
@@ -8988,7 +8988,7 @@ VueWrapper {
                               <p
                                 class="text-[2.3rem] font-bold mr-4 text-main-800"
                               >
-                                $120.25
+                                ₽120.25
                               </p>
                               <p
                                 class="text-title-900 whitespace-nowrap"
@@ -9163,7 +9163,7 @@ VueWrapper {
                                     "anchor": null,
                                     "appContext": null,
                                     "ce": undefined,
-                                    "children": "$120.25",
+                                    "children": "₽120.25",
                                     "component": null,
                                     "ctx": null,
                                     "dirs": null,
@@ -9172,7 +9172,7 @@ VueWrapper {
                                     "el": <p
                                       class="text-[2.3rem] font-bold mr-4 text-main-800"
                                     >
-                                      $120.25
+                                      ₽120.25
                                     </p>,
                                     "key": null,
                                     "patchFlag": -1,
@@ -9363,7 +9363,7 @@ VueWrapper {
                                   <p
                                     class="text-[2.3rem] font-bold mr-4 text-main-800"
                                   >
-                                    $120.25
+                                    ₽120.25
                                   </p>
                                   <p
                                     class="text-title-900 whitespace-nowrap"
@@ -9417,7 +9417,7 @@ VueWrapper {
                               <p
                                 class="text-[2.3rem] font-bold mr-4 text-main-800"
                               >
-                                $120.25
+                                ₽120.25
                               </p>
                               <p
                                 class="text-title-900 whitespace-nowrap"
@@ -9619,7 +9619,7 @@ VueWrapper {
                                     "anchor": null,
                                     "appContext": null,
                                     "ce": undefined,
-                                    "children": "$120.25",
+                                    "children": "₽120.25",
                                     "component": null,
                                     "ctx": null,
                                     "dirs": null,
@@ -9628,7 +9628,7 @@ VueWrapper {
                                     "el": <p
                                       class="text-[2.3rem] font-bold mr-4 text-main-800"
                                     >
-                                      $120.25
+                                      ₽120.25
                                     </p>,
                                     "key": null,
                                     "patchFlag": -1,
@@ -9819,7 +9819,7 @@ VueWrapper {
                                   <p
                                     class="text-[2.3rem] font-bold mr-4 text-main-800"
                                   >
-                                    $120.25
+                                    ₽120.25
                                   </p>
                                   <p
                                     class="text-title-900 whitespace-nowrap"
@@ -9873,7 +9873,7 @@ VueWrapper {
                               <p
                                 class="text-[2.3rem] font-bold mr-4 text-main-800"
                               >
-                                $120.25
+                                ₽120.25
                               </p>
                               <p
                                 class="text-title-900 whitespace-nowrap"
@@ -10048,7 +10048,7 @@ VueWrapper {
                                     "anchor": null,
                                     "appContext": null,
                                     "ce": undefined,
-                                    "children": "$120.25",
+                                    "children": "₽120.25",
                                     "component": null,
                                     "ctx": null,
                                     "dirs": null,
@@ -10057,7 +10057,7 @@ VueWrapper {
                                     "el": <p
                                       class="text-[2.3rem] font-bold mr-4 text-main-800"
                                     >
-                                      $120.25
+                                      ₽120.25
                                     </p>,
                                     "key": null,
                                     "patchFlag": -1,
@@ -10248,7 +10248,7 @@ VueWrapper {
                                   <p
                                     class="text-[2.3rem] font-bold mr-4 text-main-800"
                                   >
-                                    $120.25
+                                    ₽120.25
                                   </p>
                                   <p
                                     class="text-title-900 whitespace-nowrap"
@@ -10302,7 +10302,7 @@ VueWrapper {
                               <p
                                 class="text-[2.3rem] font-bold mr-4 text-main-800"
                               >
-                                $120.25
+                                ₽120.25
                               </p>
                               <p
                                 class="text-title-900 whitespace-nowrap"
@@ -10369,7 +10369,7 @@ VueWrapper {
                         <p
                           class="text-[2.3rem] font-bold mr-4 text-main-800"
                         >
-                          $120.25
+                          ₽120.25
                         </p>
                         <p
                           class="text-title-900 whitespace-nowrap"
@@ -10429,7 +10429,7 @@ VueWrapper {
                     <p
                       class="text-[2.3rem] font-bold mr-4 text-main-800"
                     >
-                      $120.25
+                      ₽120.25
                     </p>
                     <p
                       class="text-title-900 whitespace-nowrap"
@@ -10749,7 +10749,7 @@ VueWrapper {
                                     "anchor": null,
                                     "appContext": null,
                                     "ce": undefined,
-                                    "children": "$101.25",
+                                    "children": "₽101.25",
                                     "component": null,
                                     "ctx": null,
                                     "dirs": null,
@@ -10758,7 +10758,7 @@ VueWrapper {
                                     "el": <p
                                       class="text-[2.3rem] font-bold mr-4 text-main-800"
                                     >
-                                      $101.25
+                                      ₽101.25
                                     </p>,
                                     "key": null,
                                     "patchFlag": -1,
@@ -10949,7 +10949,7 @@ VueWrapper {
                                   <p
                                     class="text-[2.3rem] font-bold mr-4 text-main-800"
                                   >
-                                    $101.25
+                                    ₽101.25
                                   </p>
                                   <p
                                     class="text-title-900 whitespace-nowrap"
@@ -11003,7 +11003,7 @@ VueWrapper {
                               <p
                                 class="text-[2.3rem] font-bold mr-4 text-main-800"
                               >
-                                $101.25
+                                ₽101.25
                               </p>
                               <p
                                 class="text-title-900 whitespace-nowrap"
@@ -11178,7 +11178,7 @@ VueWrapper {
                                     "anchor": null,
                                     "appContext": null,
                                     "ce": undefined,
-                                    "children": "$101.25",
+                                    "children": "₽101.25",
                                     "component": null,
                                     "ctx": null,
                                     "dirs": null,
@@ -11187,7 +11187,7 @@ VueWrapper {
                                     "el": <p
                                       class="text-[2.3rem] font-bold mr-4 text-main-800"
                                     >
-                                      $101.25
+                                      ₽101.25
                                     </p>,
                                     "key": null,
                                     "patchFlag": -1,
@@ -11378,7 +11378,7 @@ VueWrapper {
                                   <p
                                     class="text-[2.3rem] font-bold mr-4 text-main-800"
                                   >
-                                    $101.25
+                                    ₽101.25
                                   </p>
                                   <p
                                     class="text-title-900 whitespace-nowrap"
@@ -11432,7 +11432,7 @@ VueWrapper {
                               <p
                                 class="text-[2.3rem] font-bold mr-4 text-main-800"
                               >
-                                $101.25
+                                ₽101.25
                               </p>
                               <p
                                 class="text-title-900 whitespace-nowrap"
@@ -11634,7 +11634,7 @@ VueWrapper {
                                     "anchor": null,
                                     "appContext": null,
                                     "ce": undefined,
-                                    "children": "$101.25",
+                                    "children": "₽101.25",
                                     "component": null,
                                     "ctx": null,
                                     "dirs": null,
@@ -11643,7 +11643,7 @@ VueWrapper {
                                     "el": <p
                                       class="text-[2.3rem] font-bold mr-4 text-main-800"
                                     >
-                                      $101.25
+                                      ₽101.25
                                     </p>,
                                     "key": null,
                                     "patchFlag": -1,
@@ -11834,7 +11834,7 @@ VueWrapper {
                                   <p
                                     class="text-[2.3rem] font-bold mr-4 text-main-800"
                                   >
-                                    $101.25
+                                    ₽101.25
                                   </p>
                                   <p
                                     class="text-title-900 whitespace-nowrap"
@@ -11888,7 +11888,7 @@ VueWrapper {
                               <p
                                 class="text-[2.3rem] font-bold mr-4 text-main-800"
                               >
-                                $101.25
+                                ₽101.25
                               </p>
                               <p
                                 class="text-title-900 whitespace-nowrap"
@@ -12063,7 +12063,7 @@ VueWrapper {
                                     "anchor": null,
                                     "appContext": null,
                                     "ce": undefined,
-                                    "children": "$101.25",
+                                    "children": "₽101.25",
                                     "component": null,
                                     "ctx": null,
                                     "dirs": null,
@@ -12072,7 +12072,7 @@ VueWrapper {
                                     "el": <p
                                       class="text-[2.3rem] font-bold mr-4 text-main-800"
                                     >
-                                      $101.25
+                                      ₽101.25
                                     </p>,
                                     "key": null,
                                     "patchFlag": -1,
@@ -12263,7 +12263,7 @@ VueWrapper {
                                   <p
                                     class="text-[2.3rem] font-bold mr-4 text-main-800"
                                   >
-                                    $101.25
+                                    ₽101.25
                                   </p>
                                   <p
                                     class="text-title-900 whitespace-nowrap"
@@ -12317,7 +12317,7 @@ VueWrapper {
                               <p
                                 class="text-[2.3rem] font-bold mr-4 text-main-800"
                               >
-                                $101.25
+                                ₽101.25
                               </p>
                               <p
                                 class="text-title-900 whitespace-nowrap"
@@ -12384,7 +12384,7 @@ VueWrapper {
                         <p
                           class="text-[2.3rem] font-bold mr-4 text-main-800"
                         >
-                          $101.25
+                          ₽101.25
                         </p>
                         <p
                           class="text-title-900 whitespace-nowrap"
@@ -12444,7 +12444,7 @@ VueWrapper {
                     <p
                       class="text-[2.3rem] font-bold mr-4 text-main-800"
                     >
-                      $101.25
+                      ₽101.25
                     </p>
                     <p
                       class="text-title-900 whitespace-nowrap"
@@ -12495,7 +12495,7 @@ VueWrapper {
                   <p
                     class="text-[2.3rem] font-bold mr-4 text-main-800"
                   >
-                    $121.25
+                    ₽121.25
                   </p>
                   <p
                     class="text-title-900 whitespace-nowrap"
@@ -12520,7 +12520,7 @@ VueWrapper {
                   <p
                     class="text-[2.3rem] font-bold mr-4 text-main-800"
                   >
-                    $120.25
+                    ₽120.25
                   </p>
                   <p
                     class="text-title-900 whitespace-nowrap"
@@ -12545,7 +12545,7 @@ VueWrapper {
                   <p
                     class="text-[2.3rem] font-bold mr-4 text-main-800"
                   >
-                    $101.25
+                    ₽101.25
                   </p>
                   <p
                     class="text-title-900 whitespace-nowrap"
@@ -12612,7 +12612,7 @@ VueWrapper {
               <p
                 class="text-[2.3rem] font-bold mr-4 text-main-800"
               >
-                $121.25
+                ₽121.25
               </p>
               <p
                 class="text-title-900 whitespace-nowrap"
@@ -12637,7 +12637,7 @@ VueWrapper {
               <p
                 class="text-[2.3rem] font-bold mr-4 text-main-800"
               >
-                $120.25
+                ₽120.25
               </p>
               <p
                 class="text-title-900 whitespace-nowrap"
@@ -12662,7 +12662,7 @@ VueWrapper {
               <p
                 class="text-[2.3rem] font-bold mr-4 text-main-800"
               >
-                $101.25
+                ₽101.25
               </p>
               <p
                 class="text-title-900 whitespace-nowrap"
@@ -12772,7 +12772,7 @@ VueWrapper {
               <p
                 class="text-[2.3rem] font-bold mr-4 text-main-800"
               >
-                $121.25
+                ₽121.25
               </p>
               <p
                 class="text-title-900 whitespace-nowrap"
@@ -12797,7 +12797,7 @@ VueWrapper {
               <p
                 class="text-[2.3rem] font-bold mr-4 text-main-800"
               >
-                $120.25
+                ₽120.25
               </p>
               <p
                 class="text-title-900 whitespace-nowrap"
@@ -12822,7 +12822,7 @@ VueWrapper {
               <p
                 class="text-[2.3rem] font-bold mr-4 text-main-800"
               >
-                $101.25
+                ₽101.25
               </p>
               <p
                 class="text-title-900 whitespace-nowrap"
@@ -12861,7 +12861,7 @@ VueWrapper {
       "withProxy": null,
     },
     "_props": null,
-    "_uid": 0,
+    "_uid": 1,
     "component": [Function],
     "config": {
       "compilerOptions": {},
@@ -13074,7 +13074,7 @@ VueWrapper {
         <p
           class="text-[2.3rem] font-bold mr-4 text-main-800"
         >
-          $121.25
+          ₽121.25
         </p>
         <p
           class="text-title-900 whitespace-nowrap"
@@ -13099,7 +13099,7 @@ VueWrapper {
         <p
           class="text-[2.3rem] font-bold mr-4 text-main-800"
         >
-          $120.25
+          ₽120.25
         </p>
         <p
           class="text-title-900 whitespace-nowrap"
@@ -13124,7 +13124,7 @@ VueWrapper {
         <p
           class="text-[2.3rem] font-bold mr-4 text-main-800"
         >
-          $101.25
+          ₽101.25
         </p>
         <p
           class="text-title-900 whitespace-nowrap"

@@ -60,28 +60,14 @@ exports[`Header Widget UI > snapshot UI testing 1`] = `
     <div
       class="ml-auto"
     >
-      <a
-        class=""
-        href="/login"
-      >
+      <!--v-if-->
+      <div>
         <button
-          class="text-title-400 font-semibold mr-6"
+          class="text-title-400 font-semibold mr-3"
         >
-          Log in
+          Log out
         </button>
-      </a>
-      <a
-        class=""
-        href="/login"
-      >
-        <button
-          class="text-center font-semibold bg-main-800 text-white py-[0.675rem] px-5 rounded-md"
-        >
-          
-          Sign Up
-          
-        </button>
-      </a>
+      </div>
     </div>
     
   </div>

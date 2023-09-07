@@ -21,12 +21,12 @@ defineProps<{
     <div
       class="w-36 flex items-center justify-center border-r border-title-400 font-bold text-2xl text-main-800"
     >
-      ${{ category.goal }}
+      ₽{{ category.goal }}
     </div>
     <div
       class="w-36 flex items-center justify-center font-bold text-2xl text-main-800"
     >
-      ${{ category.spent }}
+      ₽{{ category.spent }}
     </div>
   </div>
 </template>

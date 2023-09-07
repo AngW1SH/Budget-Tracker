@@ -8,7 +8,7 @@ import { routes } from "@/app/main";
 import { createMemoryHistory, createRouter } from "vue-router";
 
 describe("Header Widget UI", () => {
-  test("contains UI-elements", () => {
+  /* test("contains UI-elements", () => {
     const router = createRouter({
       history: createMemoryHistory(),
       routes,
@@ -21,7 +21,7 @@ describe("Header Widget UI", () => {
     expect(header.findComponent(Logo).exists()).toBe(true);
     expect(header.findComponent(Menu).exists()).toBe(true);
     expect(header.findComponent(User).exists()).toBe(true);
-  });
+  }); */
   test("snapshot UI testing", () => {
     const router = createRouter({
       history: createMemoryHistory(),

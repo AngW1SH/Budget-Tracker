@@ -34,7 +34,7 @@ defineProps<{
       </div>
     </div>
     <div class="w-1/3 flex justify-center items-center text-2xl text-main-800">
-      ${{ transaction.value }}
+      ₽{{ transaction.value }}
     </div>
   </div>
 </template>

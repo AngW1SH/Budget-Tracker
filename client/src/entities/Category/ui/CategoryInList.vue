@@ -9,7 +9,7 @@
     </div>
     <div>
       <h2 class="cursor-pointer font-semibold text-title-900">Food</h2>
-      <p class="cursor-pointer text-sm text-title-400">$1,632 of $1,633</p>
+      <p class="cursor-pointer text-sm text-title-400">₽1,632 of ₽1,633</p>
     </div>
   </div>
 </template>
