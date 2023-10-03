@@ -37,7 +37,7 @@ model CategoryInMonth {
     categoryId  String?
     month       Month     @relation(fields: [monthId], references: [id])
     monthId     String
-    goal        Int
+    goal        Int?
     spent       Int
     userId      String
 }
