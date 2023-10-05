@@ -1,30 +1,11 @@
-import { IDay, IDayShort } from "../day";
+import type {
+  ITransaction,
+  ITransactionInner,
+  RootState,
+  ITransactionWithDay,
+} from "./types";
 
-export interface ITransaction {
-  id: string;
-  type: string; //"expense" | "income";
-  category: ITransactionInner | null;
-  subcategory: string | null;
-  value: number;
-  description: string;
-}
+import { staticTransactions, staticTransactionsWithDays } from "./static";
 
-export interface ITransactionInner {
-  id: string;
-  name: string;
-}
-
-export type RootState = {
-  transactions: ITransaction[];
-};
-
-export interface ITransactionWithDay {
-  id: string;
-  type: string; //"expense" | "income";
-  category: ITransactionInner | null;
-  subcategory: string | null;
-  value: number;
-  description: string;
-  day: IDayShort;
-  dayId: string;
-}
+export type { ITransaction, ITransactionInner, RootState, ITransactionWithDay };
+export { staticTransactions, staticTransactionsWithDays };

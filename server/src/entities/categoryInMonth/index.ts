@@ -1,12 +1,5 @@
-export interface ICategoryInMonth {
-  id: string;
-  category: ICategoryInMonthInner | null;
-  goal: number | null;
-  readonly spent: number;
-  description: string;
-}
+import type { ICategoryInMonth, ICategoryInMonthInner } from "./types";
+import { staticCategoriesInMonths } from "./static";
 
-export interface ICategoryInMonthInner {
-  id: string;
-  name: string;
-}
+export type { ICategoryInMonth, ICategoryInMonthInner };
+export { staticCategoriesInMonths };
