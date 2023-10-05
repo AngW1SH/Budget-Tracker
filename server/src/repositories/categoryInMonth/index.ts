@@ -7,6 +7,7 @@ const categoryInMonthRepositoryFactory = () => {
     addEmpty,
     deleteById,
     edit,
+    changeSpentBy,
   });
 
   async function getByMonth(
@@ -116,6 +117,7 @@ const categoryInMonthRepositoryFactory = () => {
             name: true,
           },
         },
+        categoryId: true,
         goal: true,
         spent: true,
         description: true,
@@ -123,6 +125,51 @@ const categoryInMonthRepositoryFactory = () => {
     });
 
     return edited;
+  }
+
+  async function changeSpentBy(
+    amount: number,
+    id: string,
+    userId: string
+  ): Promise<ICategoryInMonth> {
+    const previous = await prisma.categoryInMonth.findFirst({
+      where: {
+        id: id,
+        userId: userId,
+      },
+      select: {
+        spent: true,
+      },
+    });
+
+    if (!previous)
+      throw new Error("Could not find the corresponding CategoryInMonth row");
+
+    if (previous.spent + amount < 0) throw new Error("Result less than 0");
+
+    const changed = await prisma.categoryInMonth.update({
+      where: {
+        id: id,
+        userId: userId,
+      },
+      data: {
+        spent: previous.spent + amount,
+      },
+      select: {
+        id: true,
+        category: {
+          select: {
+            id: true,
+            name: true,
+          },
+        },
+        goal: true,
+        spent: true,
+        description: true,
+      },
+    });
+
+    return changed;
   }
 };
 

@@ -1,4 +1,5 @@
 import { ITransaction } from "@/entities/transaction";
+import categoryInMonthRepository from "@/repositories/categoryInMonth";
 import dayRepository from "@/repositories/day";
 import transactionRepository from "@/repositories/transaction";
 
@@ -56,7 +57,21 @@ const transactionServiceFactory = () => {
   }
 
   async function edit(transaction: ITransaction, userId: string) {
+    const previous = await transactionRepository.findById(
+      transaction.id,
+      userId
+    );
+
+    if (!previous) throw new Error("Transaction not found");
+
     const edited = await transactionRepository.edit(transaction, userId);
+    const updatedCategoryInMonth =
+      await categoryInMonthRepository.changeSpentBy(
+        transaction.value - previous.value,
+        transaction.id,
+        userId
+      );
+
     return edited;
   }
 };

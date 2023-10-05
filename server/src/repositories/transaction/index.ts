@@ -8,6 +8,7 @@ const transactionRepositoryFactory = () => {
     addEmpty,
     deleteById,
     edit,
+    findById,
   });
 
   async function getByDay(
@@ -144,6 +145,34 @@ const transactionRepositoryFactory = () => {
     });
 
     return edited;
+  }
+
+  async function findById(
+    id: string,
+    userId: string
+  ): Promise<ITransaction | null> {
+    const found = await prisma.transaction.findFirst({
+      where: {
+        id: id,
+        userId: userId,
+      },
+      select: {
+        id: true,
+        type: true,
+        category: {
+          select: {
+            id: true,
+            name: true,
+          },
+        },
+        dayId: true,
+        subcategory: true,
+        value: true,
+        description: true,
+      },
+    });
+
+    return found;
   }
 };
 
