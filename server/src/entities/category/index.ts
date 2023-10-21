@@ -1,6 +1,5 @@
-export interface ICategory {
-  id: string;
-  name: string;
-  type: "expense" | "income";
-  userid: string;
-}
+import type { Category } from "./types/types";
+import { staticCategoryList } from "./static/staticCategory";
+
+export type { Category };
+export { staticCategoryList };
