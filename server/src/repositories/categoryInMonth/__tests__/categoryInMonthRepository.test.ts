@@ -1,12 +1,15 @@
 import { prismaApp as prisma } from "@/db/prisma-client";
 import { staticCategoriesInMonths } from "@/entities/categoryInMonth";
 import categoryInMonthRepository from "..";
+import { CategoryToCreate } from "@/entities/category";
+import { staticMonth } from "@/entities/month";
 
 jest.mock("@/db/prisma-client", () => ({
   prismaApp: {
     categoryInMonth: {
       findFirst: jest.fn(),
       update: jest.fn(),
+      create: jest.fn(),
     },
   },
 }));
@@ -79,6 +82,28 @@ describe("categoryInMonthRepository", () => {
 
       expect(prisma.categoryInMonth.update as jest.Mock).toHaveBeenCalledTimes(
         0
+      );
+    });
+  });
+
+  describe("add method", () => {
+    it("should add the provided category to the database", async () => {
+      (prisma.categoryInMonth.create as jest.Mock).mockResolvedValue(
+        staticCategoriesInMonths[0]
+      );
+
+      const { id, ...categoryToCreate } = staticCategoriesInMonths[0];
+      const month = staticMonth;
+      const userId = "test";
+
+      const result = await categoryInMonthRepository.add(
+        categoryToCreate,
+        month.id,
+        userId
+      );
+
+      expect(prisma.categoryInMonth.create as jest.Mock).toHaveBeenCalledTimes(
+        1
       );
     });
   });

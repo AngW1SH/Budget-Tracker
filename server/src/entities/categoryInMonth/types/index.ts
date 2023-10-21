@@ -1,12 +1,14 @@
-export interface ICategoryInMonth {
+export interface CategoryInMonth {
   id: string;
-  category: ICategoryInMonthInner | null;
+  category: CategoryInMonthInner | null;
   goal: number | null;
   readonly spent: number;
   description: string;
 }
 
-export interface ICategoryInMonthInner {
+export interface CategoryInMonthInner {
   id: string;
   name: string;
 }
+
+export type CategoryInMonthToCreate = Omit<CategoryInMonth, "id">;

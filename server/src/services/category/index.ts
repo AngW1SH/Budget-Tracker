@@ -1,3 +1,4 @@
+import { Category } from "@/entities/category";
 import categoryRepository from "@/repositories/category";
 
 const categoryServiceFactory = () => {
@@ -5,8 +6,8 @@ const categoryServiceFactory = () => {
     getAll,
   });
 
-  async function getAll(userId: string) {
-    const categories = await categoryRepository.getAll(userId);
+  async function getAll(userId: string): Promise<Category[]> {
+    const categories = (await categoryRepository.getAll(userId)) as Category[];
 
     return categories;
   }

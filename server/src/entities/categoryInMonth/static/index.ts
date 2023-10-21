@@ -1,6 +1,6 @@
-import { ICategoryInMonth } from "..";
+import { CategoryInMonth } from "..";
 
-export const staticCategoriesInMonths: ICategoryInMonth[] = [
+export const staticCategoriesInMonths: CategoryInMonth[] = [
   {
     id: "1",
     category: {

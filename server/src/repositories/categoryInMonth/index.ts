@@ -1,10 +1,12 @@
-import { ICategoryInMonth } from "@/entities/categoryInMonth";
+import { CategoryInMonth } from "@/entities/categoryInMonth";
 import { prismaApp as prisma } from "@/db/prisma-client";
+import { CategoryInMonthToCreate } from "@/entities/categoryInMonth/types";
 
 const categoryInMonthRepositoryFactory = () => {
   return Object.freeze({
     getByMonth,
     addEmpty,
+    add,
     deleteById,
     edit,
     changeSpentBy,
@@ -13,7 +15,7 @@ const categoryInMonthRepositoryFactory = () => {
   async function getByMonth(
     monthId: string,
     userId: string
-  ): Promise<ICategoryInMonth[]> {
+  ): Promise<CategoryInMonth[]> {
     const categories = await prisma.categoryInMonth.findMany({
       where: {
         monthId: monthId,
@@ -36,10 +38,41 @@ const categoryInMonthRepositoryFactory = () => {
     return categories;
   }
 
+  async function add(
+    categoryToCreate: CategoryInMonthToCreate,
+    monthId: string,
+    userId: string
+  ): Promise<CategoryInMonth> {
+    const { category, ...inlineData } = categoryToCreate;
+
+    const result = await prisma.categoryInMonth.create({
+      data: {
+        ...inlineData,
+        categoryId: category!.id,
+        monthId: monthId,
+        userId: userId,
+      },
+      select: {
+        id: true,
+        category: {
+          select: {
+            id: true,
+            name: true,
+          },
+        },
+        goal: true,
+        spent: true,
+        description: true,
+      },
+    });
+
+    return result;
+  }
+
   async function addEmpty(
     monthId: string,
     userId: string
-  ): Promise<ICategoryInMonth> {
+  ): Promise<CategoryInMonth> {
     const category = await prisma.categoryInMonth.create({
       data: {
         goal: 0,
@@ -68,7 +101,7 @@ const categoryInMonthRepositoryFactory = () => {
   async function deleteById(
     categoryInMonthId: string,
     userId: string
-  ): Promise<ICategoryInMonth> {
+  ): Promise<CategoryInMonth> {
     const deleted = await prisma.categoryInMonth.delete({
       where: {
         id: categoryInMonthId,
@@ -92,9 +125,9 @@ const categoryInMonthRepositoryFactory = () => {
   }
 
   async function edit(
-    categoryInMonth: ICategoryInMonth,
+    categoryInMonth: CategoryInMonth,
     userId: string
-  ): Promise<ICategoryInMonth> {
+  ): Promise<CategoryInMonth> {
     const edited = await prisma.categoryInMonth.update({
       where: {
         id: categoryInMonth.id,
@@ -131,7 +164,7 @@ const categoryInMonthRepositoryFactory = () => {
     amount: number,
     id: string,
     userId: string
-  ): Promise<ICategoryInMonth> {
+  ): Promise<CategoryInMonth> {
     const previous = await prisma.categoryInMonth.findFirst({
       where: {
         id: id,

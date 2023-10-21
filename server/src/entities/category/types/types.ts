@@ -4,3 +4,5 @@ export interface Category {
   type: "expense" | "income";
   userId: string;
 }
+
+export type CategoryToCreate = Omit<Category, "id">;

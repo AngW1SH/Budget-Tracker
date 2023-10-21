@@ -1,13 +1,5 @@
-export interface IMonth {
-  id: string;
-  date: Date;
-  goal: number;
-  spent: number;
-}
+import type { Month, MonthDTO } from "./types/types";
+import { staticMonth } from "./static/staticMonth";
 
-export interface IMonthDTO {
-  id: string;
-  date: string;
-  goal: number;
-  spent: number;
-}
+export type { Month, MonthDTO };
+export { staticMonth };
