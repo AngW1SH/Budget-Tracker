@@ -7,6 +7,7 @@ export interface ITransaction {
   subcategory: string | null;
   value: number;
   description: string;
+  dayId: string;
 }
 
 export interface ITransactionInner {

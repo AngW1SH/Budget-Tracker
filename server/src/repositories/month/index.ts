@@ -10,7 +10,9 @@ const monthRepositoryFactory = () => {
 
   async function getByDate(date: Date, userId: string): Promise<Month | null> {
     const nextDate = new Date(date);
+    date.setDate(1);
     nextDate.setMonth(nextDate.getMonth() + 1);
+    nextDate.setDate(1);
 
     const month = await prisma.month.findFirst({
       where: {

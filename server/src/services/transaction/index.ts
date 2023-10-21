@@ -1,6 +1,7 @@
 import { ITransaction } from "@/entities/transaction";
 import categoryInMonthRepository from "@/repositories/categoryInMonth";
 import dayRepository from "@/repositories/day";
+import monthRepository from "@/repositories/month";
 import transactionRepository from "@/repositories/transaction";
 
 const transactionServiceFactory = () => {
@@ -63,12 +64,22 @@ const transactionServiceFactory = () => {
     );
 
     if (!previous) throw new Error("Transaction not found");
+    if (!transaction.category)
+      throw new Error("No Category attached to a Transaction");
 
     const edited = await transactionRepository.edit(transaction, userId);
+
+    const day = await dayRepository.getById(previous.dayId);
+    if (!day) throw new Error("No Day attached to a Transaction");
+
+    const month = await monthRepository.getByDate(day.date, userId);
+    if (!month) throw new Error("No Month found for a Transaction");
+
     const updatedCategoryInMonth =
       await categoryInMonthRepository.changeSpentBy(
         transaction.value - previous.value,
-        transaction.id,
+        transaction.category.id,
+        month.id,
         userId
       );
 

@@ -8,6 +8,7 @@ const categoryInMonthRepositoryFactory = () => {
     addEmpty,
     add,
     deleteById,
+    findByCategoryAndMonth,
     edit,
     changeSpentBy,
   });
@@ -160,17 +161,50 @@ const categoryInMonthRepositoryFactory = () => {
     return edited;
   }
 
+  async function findByCategoryAndMonth(
+    categoryId: string,
+    monthId: string
+  ): Promise<CategoryInMonth | null> {
+    const result = await prisma.categoryInMonth.findFirst({
+      where: {
+        categoryId: categoryId,
+        monthId: monthId,
+      },
+      select: {
+        id: true,
+        category: {
+          select: {
+            id: true,
+            name: true,
+          },
+        },
+        categoryId: true,
+        goal: true,
+        spent: true,
+        description: true,
+      },
+    });
+
+    return result;
+  }
+
   async function changeSpentBy(
     amount: number,
-    id: string,
+    categoryId: string,
+    monthId: string,
     userId: string
   ): Promise<CategoryInMonth> {
+    console.log(categoryId);
+    console.log(monthId);
+
     const previous = await prisma.categoryInMonth.findFirst({
       where: {
-        id: id,
+        categoryId: categoryId,
+        monthId: monthId,
         userId: userId,
       },
       select: {
+        id: true,
         spent: true,
       },
     });
@@ -182,8 +216,7 @@ const categoryInMonthRepositoryFactory = () => {
 
     const changed = await prisma.categoryInMonth.update({
       where: {
-        id: id,
-        userId: userId,
+        id: previous.id,
       },
       data: {
         spent: previous.spent + amount,

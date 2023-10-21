@@ -5,6 +5,7 @@ const dayRepositoryFactory = () => {
   return Object.freeze({
     getByDate,
     create,
+    getById,
     getByDates,
     setActive,
     setInactive,
@@ -40,9 +41,25 @@ const dayRepositoryFactory = () => {
             subcategory: true,
             value: true,
             description: true,
+            dayId: true,
           },
         },
         userId: true,
+        date: true,
+        active: true,
+      },
+    });
+
+    return day;
+  }
+
+  async function getById(id: string): Promise<IDayShort | null> {
+    const day = await prisma.day.findFirst({
+      where: {
+        id: id,
+      },
+      select: {
+        id: true,
         date: true,
         active: true,
       },
@@ -72,6 +89,7 @@ const dayRepositoryFactory = () => {
             subcategory: true,
             value: true,
             description: true,
+            dayId: true,
           },
         },
         userId: true,
