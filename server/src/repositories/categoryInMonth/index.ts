@@ -194,9 +194,6 @@ const categoryInMonthRepositoryFactory = () => {
     monthId: string,
     userId: string
   ): Promise<CategoryInMonth> {
-    console.log(categoryId);
-    console.log(monthId);
-
     const previous = await prisma.categoryInMonth.findFirst({
       where: {
         categoryId: categoryId,

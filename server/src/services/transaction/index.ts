@@ -54,6 +54,20 @@ const transactionServiceFactory = () => {
     if (!count) {
       const updatedDay = dayRepository.setInactive(deleted.dayId, userId);
     }
+
+    if (!deleted.category) return deleted;
+
+    const month = await monthRepository.getByDate(deleted.day.date, userId);
+    if (!month) throw new Error("No Month found for a Day");
+
+    const updatedCategoryInMonth =
+      await categoryInMonthRepository.changeSpentBy(
+        -deleted.value,
+        deleted.category.id,
+        month.id,
+        userId
+      );
+
     return deleted;
   }
 
