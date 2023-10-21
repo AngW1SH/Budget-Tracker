@@ -1,4 +1,4 @@
-import { IMonth } from "@/entities/month";
+import { Month } from "@/entities/month";
 import { prismaApp as prisma } from "@/db/prisma-client";
 
 const monthRepositoryFactory = () => {
@@ -8,7 +8,7 @@ const monthRepositoryFactory = () => {
     edit,
   });
 
-  async function getByDate(date: Date, userId: string): Promise<IMonth | null> {
+  async function getByDate(date: Date, userId: string): Promise<Month | null> {
     const nextDate = new Date(date);
     nextDate.setMonth(nextDate.getMonth() + 1);
 
@@ -31,7 +31,7 @@ const monthRepositoryFactory = () => {
     return month;
   }
 
-  async function create(date: Date, userId: string): Promise<IMonth> {
+  async function create(date: Date, userId: string): Promise<Month> {
     const created = await prisma.month.create({
       data: {
         date: new Date(date),
@@ -48,7 +48,7 @@ const monthRepositoryFactory = () => {
     return created;
   }
 
-  async function edit(month: IMonth, userId: string): Promise<IMonth> {
+  async function edit(month: Month, userId: string): Promise<Month> {
     const edited = await prisma.month.update({
       where: {
         id: month.id,

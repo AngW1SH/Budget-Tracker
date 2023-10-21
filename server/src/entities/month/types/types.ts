@@ -1,6 +1,6 @@
 export interface Month {
   id: string;
-  date: string;
+  date: Date;
   goal: number;
   spent: number;
 }
