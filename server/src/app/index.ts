@@ -7,7 +7,11 @@ import passport from "../../passport/index";
 import path from "path";
 
 import userRouter from "../../router/auth/user-router";
-import appRouter from "../../router/app/app-router";
+import categoryRouter from "@/routes/category";
+import dayRouter from "@/routes/day";
+import monthRouter from "@/routes/month";
+import transactionRouter from "@/routes/transaction";
+import categoryInMonthRouter from "@/routes/categoryInMonth";
 
 const generateApp = (port?: number) => {
   const app = express();
@@ -29,7 +33,11 @@ const generateApp = (port?: number) => {
   app.use(passport.session());
 
   app.use("/api/user", userRouter);
-  app.use("/api/", appRouter);
+  app.use("/api/category", categoryRouter);
+  app.use("/api/day", dayRouter);
+  app.use("/api/month", monthRouter);
+  app.use("/api/transaction", transactionRouter);
+  app.use("/api/categoryinmonth", categoryInMonthRouter);
 
   app.use("/public", express.static(path.resolve(__dirname + "/../public")));
 
