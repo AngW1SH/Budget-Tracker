@@ -1,9 +1,6 @@
 import { describe, expect, test } from "vitest";
 import { mount } from "@vue/test-utils";
 import Header from "../ui/Header/Header.vue";
-import Logo from "../ui/Logo/Logo.vue";
-import Menu from "../ui/Menu/Menu.vue";
-import User from "../ui/User/User.vue";
 import { routes } from "@/app/main";
 import { createMemoryHistory, createRouter } from "vue-router";
 

@@ -1,6 +1,4 @@
-import { mount } from "@vue/test-utils";
-import { describe, expect, test } from "vitest";
-import { DayNavigate } from "../..";
+import { describe, test } from "vitest";
 
 describe("Day Navigate Widget UI", () => {
   test("temp", () => {});
