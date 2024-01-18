@@ -8,6 +8,7 @@ import { LogInPage } from "@/pages/signin";
 import { ResetPasswordPage } from "@/pages/resetpassword";
 import { Day } from "@/pages/day";
 import { Month } from "@/pages/month";
+import { Category } from "@/pages/category";
 
 export const routes = [
   { path: "/", component: Home },
@@ -15,6 +16,7 @@ export const routes = [
   { path: "/resetpassword/:token", component: ResetPasswordPage },
   { path: "/day/:date", component: Day },
   { path: "/month/:date", component: Month },
+  { path: "/categories", component: Category },
 ];
 
 const router = createRouter({ routes, history: createWebHistory() });
