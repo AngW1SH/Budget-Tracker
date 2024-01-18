@@ -66,7 +66,10 @@ const transactionControllerFactory = () => {
       if (!req.user || !req.user.id) return res.status(401).send();
       if (!req.body.transaction) return res.status(400).send();
 
-      const edited = transactionService.edit(req.body.transaction, req.user.id);
+      const edited = await transactionService.edit(
+        req.body.transaction,
+        req.user.id
+      );
 
       res.status(200).send(edited);
     } catch (err) {
