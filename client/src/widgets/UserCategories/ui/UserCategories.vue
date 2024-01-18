@@ -1,25 +1,20 @@
 <script setup lang="ts">
 import { Block } from "@/shared/ui";
-import { CategoryShort } from "@/entities/Category";
+import { CategoryShort, useCategoryStore } from "@/entities/Category";
 import { AddUserCategory } from "@/features/AddUserCategory";
+
+const categoryStore = useCategoryStore();
 </script>
 
 <template>
   <Block>
     <AddUserCategory />
     <div class="mt-5" />
-    <div class="flex justify-between">
+    <div class="flex gap-y-5 flex-wrap justify-between">
       <CategoryShort
+        v-for="category in categoryStore.categories"
         class="w-[32%]"
-        :category="{ id: '1', name: 'Food', type: 'expense', userid: '1' }"
-      />
-      <CategoryShort
-        class="w-[32%]"
-        :category="{ id: '1', name: 'Food', type: 'expense', userid: '1' }"
-      />
-      <CategoryShort
-        class="w-[32%]"
-        :category="{ id: '1', name: 'Food', type: 'expense', userid: '1' }"
+        :category="category"
       />
     </div>
   </Block>
