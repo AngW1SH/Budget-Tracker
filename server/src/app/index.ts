@@ -12,6 +12,8 @@ import dayRouter from "@/routes/day";
 import monthRouter from "@/routes/month";
 import transactionRouter from "@/routes/transaction";
 import categoryInMonthRouter from "@/routes/categoryInMonth";
+import errorLogger from "@/middleware/errors/ErrorLogger";
+import errorHandler from "@/middleware/errors/ErrorHandler";
 
 const generateApp = (port?: number) => {
   const app = express();
@@ -51,6 +53,9 @@ const generateApp = (port?: number) => {
     "/assets",
     express.static(path.resolve(__dirname + "/../client/dist/assets"))
   );
+
+  app.use(errorLogger);
+  app.use(errorHandler);
 
   return app;
 };

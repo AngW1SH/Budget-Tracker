@@ -1,5 +1,5 @@
 import transactionService from "@/services/transaction";
-import { Request, Response } from "express";
+import { NextFunction, Request, Response } from "express";
 
 const transactionControllerFactory = () => {
   return Object.freeze({
@@ -9,7 +9,7 @@ const transactionControllerFactory = () => {
     edit,
   });
 
-  async function getByDate(req: Request, res: Response) {
+  async function getByDate(req: Request, res: Response, next: NextFunction) {
     try {
       if (!req.user || !req.user.id) return res.status(401).send();
       if (!req.params.date) return res.status(400).send();
@@ -23,11 +23,11 @@ const transactionControllerFactory = () => {
 
       res.status(200).send(transactions);
     } catch (err) {
-      res.status(500).send();
+      next(err);
     }
   }
 
-  async function addEmpty(req: Request, res: Response) {
+  async function addEmpty(req: Request, res: Response, next: NextFunction) {
     try {
       if (!req.user || !req.user.id) return res.status(401).send();
       if (!req.params.date) return res.status(400).send();
@@ -41,11 +41,11 @@ const transactionControllerFactory = () => {
 
       res.status(200).send({ ...transaction, day: undefined });
     } catch (err) {
-      res.status(500).send(err);
+      next(err);
     }
   }
 
-  async function deleteById(req: Request, res: Response) {
+  async function deleteById(req: Request, res: Response, next: NextFunction) {
     try {
       if (!req.user || !req.user.id) return res.status(401).send();
       if (!req.params.id) return res.status(400).send();
@@ -57,11 +57,11 @@ const transactionControllerFactory = () => {
 
       res.status(200).send(deleted);
     } catch (err) {
-      res.status(500).send(err);
+      next(err);
     }
   }
 
-  async function edit(req: Request, res: Response) {
+  async function edit(req: Request, res: Response, next: NextFunction) {
     try {
       if (!req.user || !req.user.id) return res.status(401).send();
       if (!req.body.transaction) return res.status(400).send();
@@ -70,7 +70,7 @@ const transactionControllerFactory = () => {
 
       res.status(200).send(edited);
     } catch (err) {
-      res.status(500).send(err);
+      next(err);
     }
   }
 };

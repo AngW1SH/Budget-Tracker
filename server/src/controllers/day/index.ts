@@ -1,5 +1,5 @@
 import dayService from "@/services/day";
-import { Request, Response } from "express";
+import { NextFunction, Request, Response } from "express";
 
 const dayControllerFactory = () => {
   return Object.freeze({
@@ -7,7 +7,11 @@ const dayControllerFactory = () => {
     getByMonth,
   });
 
-  async function createIfNotExists(req: Request, res: Response) {
+  async function createIfNotExists(
+    req: Request,
+    res: Response,
+    next: NextFunction
+  ) {
     try {
       if (!req.user || !req.user.id) return res.status(401).send();
       if (!req.params.date) return res.status(400).send();
@@ -19,11 +23,11 @@ const dayControllerFactory = () => {
 
       res.status(200).send(day);
     } catch (err) {
-      res.status(500).send(err);
+      next(err);
     }
   }
 
-  async function getByMonth(req: Request, res: Response) {
+  async function getByMonth(req: Request, res: Response, next: NextFunction) {
     try {
       if (!req.user || !req.user.id) return res.status(401).send();
       if (!req.params.date) return res.status(400).send();
@@ -35,7 +39,7 @@ const dayControllerFactory = () => {
 
       res.status(200).send(days);
     } catch (err) {
-      res.status(500).send(err);
+      next(err);
     }
   }
 };
