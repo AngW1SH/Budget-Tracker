@@ -10,4 +10,22 @@ categoryRouter.get(
   categoryController.getAll
 );
 
+categoryRouter.post(
+  "/add",
+  passport.authenticate("jwt-authneticate", { session: false }),
+  categoryController.add
+);
+
+categoryRouter.put(
+  "/edit",
+  passport.authenticate("jwt-authneticate", { session: false }),
+  categoryController.edit
+);
+
+categoryRouter.delete(
+  "/delete",
+  passport.authenticate("jwt-authneticate", { session: false }),
+  categoryController.remove
+);
+
 export default categoryRouter;

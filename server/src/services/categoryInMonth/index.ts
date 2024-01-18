@@ -10,6 +10,7 @@ const categoryInMonthServiceFactory = () => {
     deleteById,
     initialize,
     edit,
+    deleteManyByCategory,
   });
 
   async function getByMonth(
@@ -26,6 +27,10 @@ const categoryInMonthServiceFactory = () => {
     );
 
     return categories;
+  }
+
+  async function deleteManyByCategory(categoryId: string, userId: string) {
+    return categoryInMonthRepository.deleteManyByCategory(categoryId, userId);
   }
 
   async function addEmpty(

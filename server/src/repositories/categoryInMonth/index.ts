@@ -11,6 +11,7 @@ const categoryInMonthRepositoryFactory = () => {
     findByCategoryAndMonth,
     edit,
     changeSpentBy,
+    deleteManyByCategory,
   });
 
   async function getByMonth(
@@ -119,6 +120,17 @@ const categoryInMonthRepositoryFactory = () => {
         goal: true,
         spent: true,
         description: true,
+      },
+    });
+
+    return deleted;
+  }
+
+  async function deleteManyByCategory(categoryId: string, userId: string) {
+    const deleted = await prisma.categoryInMonth.deleteMany({
+      where: {
+        categoryId: categoryId,
+        userId: userId,
       },
     });
 
