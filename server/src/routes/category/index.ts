@@ -12,19 +12,19 @@ categoryRouter.get(
 
 categoryRouter.post(
   "/add",
-  passport.authenticate("jwt-authneticate", { session: false }),
+  passport.authenticate("jwt-authenticate", { session: false }),
   categoryController.add
 );
 
 categoryRouter.put(
   "/edit",
-  passport.authenticate("jwt-authneticate", { session: false }),
+  passport.authenticate("jwt-authenticate", { session: false }),
   categoryController.edit
 );
 
 categoryRouter.delete(
-  "/delete",
-  passport.authenticate("jwt-authneticate", { session: false }),
+  "/delete/:category",
+  passport.authenticate("jwt-authenticate", { session: false }),
   categoryController.remove
 );
 
