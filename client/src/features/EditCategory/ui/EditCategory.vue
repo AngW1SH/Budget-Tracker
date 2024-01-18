@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { CategoryShort } from "@/entities/Category";
 import { useCategoryStore } from "@/entities/Category";
+import { Toggle } from "@/shared/ui";
 import { DashedInput, Button, ButtonAlt, Modal, Block } from "@/shared/ui";
 import { ref } from "vue";
 import { ICategory } from "@/entities/Category/types/types";
@@ -39,6 +40,7 @@ const onDelete = () => {
     <div>
       <CategoryShort :category="data" />
     </div>
+    <Toggle :options="['expense', 'income']" v-model="data.type" class="mt-8" />
     <div class="mt-5">
       <div
         class="flex items-center justify-between py-4 border-b border-title-200"
