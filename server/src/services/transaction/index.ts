@@ -3,6 +3,7 @@ import categoryInMonthRepository from "@/repositories/categoryInMonth";
 import dayRepository from "@/repositories/day";
 import monthRepository from "@/repositories/month";
 import transactionRepository from "@/repositories/transaction";
+import monthService from "../month";
 
 const transactionServiceFactory = () => {
   return Object.freeze({
@@ -57,8 +58,9 @@ const transactionServiceFactory = () => {
 
     if (!deleted.category) return deleted;
 
-    const month = await monthRepository.getByDate(deleted.day.date, userId);
-    if (!month) throw new Error("No Month found for a Day");
+    const month =
+      (await monthRepository.getByDate(deleted.day.date, userId)) ||
+      (await monthService.createIfNotExists(deleted.day.date, userId));
 
     const updatedCategoryInMonth =
       await categoryInMonthRepository.changeSpentBy(
@@ -86,8 +88,9 @@ const transactionServiceFactory = () => {
     const day = await dayRepository.getById(previous.dayId);
     if (!day) throw new Error("No Day attached to a Transaction");
 
-    const month = await monthRepository.getByDate(day.date, userId);
-    if (!month) throw new Error("No Month found for a Transaction");
+    const month =
+      (await monthRepository.getByDate(day.date, userId)) ||
+      (await monthService.createIfNotExists(day.date, userId));
 
     const updatedCategoryInMonth =
       await categoryInMonthRepository.changeSpentBy(
