@@ -13,5 +13,7 @@ export const useCategoryStore = defineStore("category", {
     async getData() {
       this.categories = await fetchCategories();
     },
+    async removeCategory(category: ICategory) {},
+    async editCategory(category: ICategory) {},
   },
 });
