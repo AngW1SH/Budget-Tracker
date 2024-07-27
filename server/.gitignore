@@ -6,3 +6,5 @@ dist/
 app.js
 prisma/app-db/client
 prisma/auth-db/client
+src/db/app/client
+src/db/auth/client
